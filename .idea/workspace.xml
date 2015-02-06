@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4cc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/games/quizspin/assets/img/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/games/cavemandilema/assets/img/button_false.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/games/cavemandilema/assets/img/button_true.png" />
+    </list>
+    <ignored path="CGStar.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CGStar" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="adaptor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/adaptor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8805" max-vertical-offset="12135">
+              <caret line="587" column="29" selection-start-line="587" selection-start-column="29" selection-end-line="587" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="story-page.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/story-page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8981" max-vertical-offset="10140">
+              <caret line="612" column="1" selection-start-line="612" selection-start-column="1" selection-end-line="612" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coe-style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/css/coe-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6105">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="690">
+              <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="660">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="675">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="millionaire-config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0" vertical-offset="765" max-vertical-offset="3255">
+              <caret line="58" column="23" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="millionaire.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="6.2" vertical-offset="1027" max-vertical-offset="5370">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#initTheme#0" expanded="false" />
+                <element signature="n#!!block;n#runGlobalObservers#0" expanded="false" />
+                <element signature="n#!!block;n#showStartPage#0" expanded="false" />
+                <element signature="n#!!block;n#showInstructions#0" expanded="false" />
+                <element signature="n#!!block;n#answerHover#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adaptor.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.24399261" vertical-offset="7707" max-vertical-offset="9930">
+              <caret line="505" column="26" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!block;n#showDeck#0" expanded="false" />
+                <element signature="n#!!block;n#HideDialog#0" expanded="false" />
+                <element signature="n#!!block;n#showGame#0" expanded="false" />
+                <element signature="n#!!block;n#showVideo#0" expanded="false" />
+                <element signature="n#!!block;n#vidplay#0" expanded="false" />
+                <element signature="n#!!block;n#restart#0" expanded="false" />
+                <marker date="1423210533227" expanded="false" signature="2801:2831" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="3404:3417" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="7827:7840" placeholder="..." />
+                <marker date="1423210533227" expanded="true" signature="21390:21402" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="21515:21527" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="21923:21935" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="22384:22396" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="22519:22531" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="24123:24135" placeholder="..." />
+                <marker date="1423210533227" expanded="true" signature="24484:24492" placeholder="..." />
+                <marker date="1423210533227" expanded="false" signature="26557:26569" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coe-style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/css/coe-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="5415">
+              <caret line="270" column="1" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/games/yeti/integration.js" />
+        <option value="$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css" />
+        <option value="$PROJECT_DIR$/games/cavemandilema/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" />
+        <option value="$PROJECT_DIR$/games/hunt/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" />
+        <option value="$PROJECT_DIR$/games/quizspin/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" />
+        <option value="$PROJECT_DIR$/games/hunt/assets/css/coe-style.css" />
+        <option value="$PROJECT_DIR$/games/cavemandilema/assets/js/coe-config.js" />
+        <option value="$PROJECT_DIR$/games/cavemandilema/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/games/icyterror/millionaire.js" />
+        <option value="$PROJECT_DIR$/games/securitypost/millionaire.js" />
+        <option value="$PROJECT_DIR$/games/yeti/millionaire.js" />
+        <option value="$PROJECT_DIR$/games/hunt/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/games/quizspin/assets/css/quizspin.css" />
+        <option value="$PROJECT_DIR$/css/story-page.css" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/js/adaptor.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/cavemandilema/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/hunt/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/icyterror/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/quizspin/assets/js/quizspin.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/securitypost/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/yeti/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/js/adaptor.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/cavemandilema/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/hunt/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/icyterror/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/quizspin/assets/js/quizspin.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/securitypost/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/yeti/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/coe-main.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/quizspin.js" />
+        <option value="$PROJECT_DIR$/sco_api.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/sco_api.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/modules/howto/jquery-ui-1.9.2.custom/jquery-ui-1.9.2.custom.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/cavemandilema/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_2/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/cavemandilema/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_3/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/games/quizspin/assets/js/quizspin.js" />
+        <option value="$PROJECT_DIR$/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
+        <option value="$PROJECT_DIR$/js/adaptor.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGCopies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGCopies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGCopies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Trap" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ptotem\Desktop\CGStar-vandana_ie\games\quizspin\assets\img" />
+      <recent name="C:\Users\Ptotem\Desktop\CGStar-vandana_ie\img" />
+      <recent name="C:\Users\Ptotem\Desktop\CGStar-vandana_ie\games\cavemandilema\assets\img" />
+      <recent name="C:\Users\Ptotem\Desktop\CGStar-vandana_ie" />
+      <recent name="D:\123\cgnew\games\yeti\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ptotem\Desktop\CGStar\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="" />
+      <created>1421674154135</created>
+      <updated>1421674154135</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38939393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34772727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_3/games/securitypost/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.314285" vertical-offset="6644" max-vertical-offset="7185">
+          <caret line="467" column="0" selection-start-line="467" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_3/games/yeti/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.314285" vertical-offset="6284" max-vertical-offset="6825">
+          <caret line="443" column="0" selection-start-line="443" selection-start-column="0" selection-end-line="443" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_3/js/adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="10605" max-vertical-offset="12075">
+          <caret line="728" column="9" selection-start-line="728" selection-start-column="9" selection-end-line="728" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_3/sco_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.857142" vertical-offset="13785" max-vertical-offset="18885">
+          <caret line="942" column="2" selection-start-line="942" selection-start-column="2" selection-end-line="942" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/cavemandilema/assets/js/coe-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.028571" vertical-offset="2804" max-vertical-offset="3345">
+          <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/hunt/assets/js/coe-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.6" vertical-offset="2879" max-vertical-offset="3420">
+          <caret line="212" column="17" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/icyterror/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.314285" vertical-offset="6164" max-vertical-offset="6705">
+          <caret line="435" column="12" selection-start-line="435" selection-start-column="12" selection-end-line="435" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/quizspin/assets/js/quizspin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.142857" vertical-offset="5025" max-vertical-offset="6390">
+          <caret line="347" column="7" selection-start-line="347" selection-start-column="7" selection-end-line="347" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/securitypost/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.314285" vertical-offset="6644" max-vertical-offset="7185">
+          <caret line="467" column="13" selection-start-line="467" selection-start-column="13" selection-end-line="467" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/yeti/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.314285" vertical-offset="6284" max-vertical-offset="6825">
+          <caret line="443" column="10" selection-start-line="443" selection-start-column="10" selection-end-line="443" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/js/adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.142858" vertical-offset="10605" max-vertical-offset="12075">
+          <caret line="726" column="14" selection-start-line="726" selection-start-column="14" selection-end-line="726" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/coe-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.6" vertical-offset="2879" max-vertical-offset="3420">
+          <caret line="212" column="6" selection-start-line="212" selection-start-column="6" selection-end-line="212" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.314285" vertical-offset="6164" max-vertical-offset="6705">
+          <caret line="435" column="8" selection-start-line="435" selection-start-column="8" selection-end-line="435" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/quizspin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4285715" vertical-offset="5025" max-vertical-offset="6390">
+          <caret line="343" column="30" selection-start-line="343" selection-start-column="30" selection-end-line="343" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1714287" vertical-offset="5439" max-vertical-offset="6825">
+          <caret line="370" column="28" selection-start-line="370" selection-start-column="28" selection-end-line="370" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sco_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13739" max-vertical-offset="18765">
+          <caret line="929" column="20" selection-start-line="929" selection-start-column="20" selection-end-line="929" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/sco_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13619" max-vertical-offset="18765">
+          <caret line="929" column="16" selection-start-line="929" selection-start-column="16" selection-end-line="929" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/standardLoad/jquery-migrate-1.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="505" selection-start-line="1" selection-start-column="505" selection-end-line="1" selection-end-column="505" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.142857" vertical-offset="1660" max-vertical-offset="5475">
+          <caret line="118" column="21" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/standardLoad/jquery-migrate-1.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="520" selection-start-line="1" selection-start-column="520" selection-end-line="1" selection-end-column="520" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/modules/howto/jquery-ui-1.9.2.custom/jquery-ui-1.9.2.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="98197" max-vertical-offset="223230">
+          <caret line="6563" column="30" selection-start-line="6563" selection-start-column="30" selection-end-line="6563" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/standardLoad/ptotemy-game-adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1987" max-vertical-offset="10620">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/standardLoad/jquery.slotmachine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5820" max-vertical-offset="8520">
+          <caret line="401" column="8" selection-start-line="401" selection-start-column="8" selection-end-line="401" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/standardLoad/adaptor/ptotemy-game-adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1987" max-vertical-offset="10620">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1657" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/howto/jquery-ui-1.9.2.custom/jquery-ui-1.9.2.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="98287" max-vertical-offset="223230">
+          <caret line="6563" column="12" selection-start-line="6563" selection-start-column="12" selection-end-line="6563" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/standardLoad/ptotemy-game-adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1972" max-vertical-offset="10620">
+          <caret line="139" column="6" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/cavemandilema/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1657" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1657" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_2/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1657" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_3/games/cavemandilema/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1657" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_3/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_3/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="5475">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/hunt/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="5475">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/quizspin/assets/js/quizspin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5084" max-vertical-offset="6420">
+          <caret line="348" column="7" selection-start-line="348" selection-start-column="7" selection-end-line="348" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="5475">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3810">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3345">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1319" max-vertical-offset="1860">
+          <caret line="109" column="166" selection-start-line="109" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1230">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5670" max-vertical-offset="9210">
+          <caret line="587" column="29" selection-start-line="587" selection-start-column="29" selection-end-line="587" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/story-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8981" max-vertical-offset="10140">
+          <caret line="612" column="1" selection-start-line="612" selection-start-column="1" selection-end-line="612" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/css/coe-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="690">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/css/coe-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="5415">
+          <caret line="270" column="1" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="660">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="675">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="765" max-vertical-offset="3255">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.2" vertical-offset="1027" max-vertical-offset="5370">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#initTheme#0" expanded="false" />
+            <element signature="n#!!block;n#runGlobalObservers#0" expanded="false" />
+            <element signature="n#!!block;n#showStartPage#0" expanded="false" />
+            <element signature="n#!!block;n#showInstructions#0" expanded="false" />
+            <element signature="n#!!block;n#answerHover#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.24399261" vertical-offset="7707" max-vertical-offset="9930">
+          <caret line="505" column="26" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!block;n#showDeck#0" expanded="false" />
+            <element signature="n#!!block;n#HideDialog#0" expanded="false" />
+            <element signature="n#!!block;n#showGame#0" expanded="false" />
+            <element signature="n#!!block;n#showVideo#0" expanded="false" />
+            <element signature="n#!!block;n#vidplay#0" expanded="false" />
+            <element signature="n#!!block;n#restart#0" expanded="false" />
+            <marker date="1423210533227" expanded="false" signature="2801:2831" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="3404:3417" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="7827:7840" placeholder="..." />
+            <marker date="1423210533227" expanded="true" signature="21390:21402" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="21515:21527" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="21923:21935" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="22384:22396" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="22519:22531" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="24123:24135" placeholder="..." />
+            <marker date="1423210533227" expanded="true" signature="24484:24492" placeholder="..." />
+            <marker date="1423210533227" expanded="false" signature="26557:26569" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
