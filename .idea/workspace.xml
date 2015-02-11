@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/CGStar_1.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/img/a2.png" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/img/a2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/img/d2.png" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/img/d2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/css/all-ie-only.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/css/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/css/all-ie-only.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/css/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/css/all-ie-only.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/css/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/all-ie-only.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/all-ie-only.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/all-ie-only.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-config.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/coe-config.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/coe-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-main.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/coe-main.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/coe-main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/css/coe-style.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/css/coe-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/css/coe-style.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/css/coe-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/modules/howto/jquery-ui-1.9.2.custom/jquery-ui-1.9.2.custom.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/modules/howto/jquery-ui-1.9.2.custom/jquery-ui-1.9.2.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/millionaire.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/millionaire.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/millionaire.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/millionaire.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/modules/quiz/quiz.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/modules/quiz/quiz.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/modules/quiz/quiz.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/modules/quiz/quiz.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/quizspin/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CGStar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,8 +89,8 @@
       <file leaf-file-name="adaptor.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4990758" vertical-offset="1920" max-vertical-offset="5760">
-              <caret line="245" column="46" selection-start-line="245" selection-start-column="46" selection-end-line="245" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.91497225" vertical-offset="1650" max-vertical-offset="5760">
+              <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
               <folding>
                 <element signature="n#!!block;n#initBackpack#0" expanded="false" />
                 <element signature="n#!!block;n#getSubSlide#0" expanded="false" />
@@ -128,7 +101,7 @@
                 <element signature="n#!!block;n#getSequence#0" expanded="false" />
                 <element signature="n#!!block;n#checkNodeInclusion#0" expanded="false" />
                 <element signature="n#!!block;n#checkNodeCompletion#0" expanded="false" />
-                <element signature="e#24141#24413#0" expanded="false" />
+                <element signature="e#24145#24417#0" expanded="false" />
                 <element signature="n#!!block;n#ShowDialog#0" expanded="false" />
                 <element signature="n#!!block;n#showGame#0" expanded="false" />
                 <element signature="n#!!block;n#showVideo#0" expanded="false" />
@@ -142,20 +115,20 @@
                 <element signature="n#!!block;n#appendTime#0" expanded="false" />
                 <element signature="n#!!block;n#modale_last#0" expanded="false" />
                 <element signature="n#!!block;n#openbackPack#0" expanded="false" />
-                <marker date="1423635888460" expanded="true" signature="3533:3563" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="4136:4149" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="8581:8594" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="10289:10302" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="10442:10456" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="22539:22551" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="22664:22676" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="23072:23084" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="23533:23545" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="23668:23680" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="25272:25284" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="25633:25641" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="27706:27718" placeholder="..." />
-                <marker date="1423635888460" expanded="true" signature="31096:31126" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="3533:3563" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="4136:4149" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="8581:8594" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="10291:10304" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="10446:10460" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="22543:22555" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="22668:22680" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="23076:23088" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="23537:23549" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="23672:23684" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="25276:25288" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="25637:25645" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="27710:27722" placeholder="..." />
+                <marker date="1423636605456" expanded="true" signature="31100:31130" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -925,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4990758" vertical-offset="1920" max-vertical-offset="5760">
-          <caret line="245" column="46" selection-start-line="245" selection-start-column="46" selection-end-line="245" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.91497225" vertical-offset="1650" max-vertical-offset="5760">
+          <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
           <folding>
             <element signature="n#!!block;n#initBackpack#0" expanded="false" />
             <element signature="n#!!block;n#getSubSlide#0" expanded="false" />
@@ -937,7 +910,7 @@
             <element signature="n#!!block;n#getSequence#0" expanded="false" />
             <element signature="n#!!block;n#checkNodeInclusion#0" expanded="false" />
             <element signature="n#!!block;n#checkNodeCompletion#0" expanded="false" />
-            <element signature="e#24141#24413#0" expanded="false" />
+            <element signature="e#24145#24417#0" expanded="false" />
             <element signature="n#!!block;n#ShowDialog#0" expanded="false" />
             <element signature="n#!!block;n#showGame#0" expanded="false" />
             <element signature="n#!!block;n#showVideo#0" expanded="false" />
@@ -951,20 +924,20 @@
             <element signature="n#!!block;n#appendTime#0" expanded="false" />
             <element signature="n#!!block;n#modale_last#0" expanded="false" />
             <element signature="n#!!block;n#openbackPack#0" expanded="false" />
-            <marker date="1423635888460" expanded="true" signature="3533:3563" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="4136:4149" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="8581:8594" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="10289:10302" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="10442:10456" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="22539:22551" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="22664:22676" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="23072:23084" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="23533:23545" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="23668:23680" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="25272:25284" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="25633:25641" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="27706:27718" placeholder="..." />
-            <marker date="1423635888460" expanded="true" signature="31096:31126" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="3533:3563" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="4136:4149" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="8581:8594" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="10291:10304" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="10446:10460" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="22543:22555" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="22668:22680" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="23076:23088" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="23537:23549" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="23672:23684" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="25276:25288" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="25637:25645" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="27710:27722" placeholder="..." />
+            <marker date="1423636605456" expanded="true" signature="31100:31130" placeholder="..." />
           </folding>
         </state>
       </provider>

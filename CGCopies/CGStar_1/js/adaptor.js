@@ -237,8 +237,8 @@ function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons'></table>");
     $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/back_pack.png' id='back_pack_img'/></td></tr>");
     $("#sideiconpanel").append("<tr><td class='side-icon-text'>Backpack</td></tr>");
-    $("#sideiconpanel").append("<tr><td class='side-icon-image' style='display: none'><img src='img/instructions.png' id='instruction_img'/></td></tr>");
-    $("#sideiconpanel").append("<tr><td class='side-icon-text' style='display: none;'>How to Play</td></tr>");
+//    $("#sideiconpanel").append("<tr><td class='side-icon-image' style='display: none'><img src='img/instructions.png' id='instruction_img'/></td></tr>");
+//    $("#sideiconpanel").append("<tr><td class='side-icon-text' style='display: none;'>How to Play</td></tr>");
 
 //    On BackPack Click
     $("#back_pack_img").unbind('click').on('click', function (){
