@@ -5,6 +5,7 @@ var completedNode=[];
 var e;
 var time=0;
 var currentNode = -1;
+//var nodename=0;
 
 function initPage() {
     initCommunications();
@@ -56,12 +57,17 @@ function startPagebtn(){
 
     $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
 //    $("#story-wrapper").append("<div id='start_instruction' class=' start_button'></div>");
+    $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
+
+
     $("#start_button").append("<img src='img/start_button.png' id='start_first' />");
     $("#start_button").append("<img src='img/hop.png' id='instruction_first' />");
 
+
     $("#start_first").click(function (e){
-
-
+//        console.log(nodename);
+        $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
+        $("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_first' />");
         initBackpack();
         if(score === 0)
             scoredisp = 0;
@@ -77,7 +83,11 @@ function startPagebtn(){
         $("#start_button").css("display","none");
         $("#story-compass").css("display","none");
         $("#story-nodes").css("display","block");
+//        console.log(parseInt(scormGetValue("cmi.objectives.0.id")));
+//        $("#score_node_name" ).html(storyConfig.nodes[parseInt(scormGetValue("cmi.objectives.0.id"))].name);
         $("#score_node_name" ).html(storyConfig.nodes[0].name);
+
+//        nodename++;
 
         if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "")
             changeNodeState();
@@ -205,6 +215,7 @@ function getSubSlide(sub_slide_id,slide_id){
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
 }
 
+
 function initInstructions(){
 //    alert('hello');
     $("#story-wrapper").append('<div class="instruction_content"  style="display: none" id="instruction_table">' +
@@ -287,8 +298,12 @@ function addNodes() {
                 }
             }
             $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
+
             $("#story-node-1 img").attr("src", 'img/1.png');
             $( "#story-node-1" ).addClass("click-active" );
+            $( "#story-node-1" ).click(function(){
+                $("#arrow_first").css('display','none');
+            })
 
 
         }

@@ -119,6 +119,7 @@ body.story-page {
 
 .story-zone-photo {
     position: absolute;
+    /*z-index: 2;*/
 }
 
 .story-zone-name {
@@ -312,22 +313,26 @@ a.zone-button:visited{
 
 
 #start_first {
-    width: 46%;
+    width: 32%;
     /*height: 76px;*/
-    margin-left: 68%;
-    background: url(../img/start_button.png);
+    margin-left: 74%;
+    /*background: url(../img/start_button.png);*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
 }
 #instruction_first {
-    width: 46%;
+    width: 32%;
     /*height: 80px;*/
-    margin-left: 68%;
-    background: url(../img/start_button.png);
+    margin-left: 74%;
+    /*background: url(../img/start_button.png);*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
+}
+#mountain_first{
+    width: 31%;
+    margin-left: 78%;
 }
 #img_first {
     width: 74px;
@@ -335,6 +340,13 @@ a.zone-button:visited{
     background: url(../img/back_pack.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+#arrow_first{
+    width: 3%;
+    position: absolute;
+    left: 56%;
+    top: 66%;
+    z-index: 1;
 }
 #img_second {
     width: 74px;
@@ -488,7 +500,7 @@ a.zone-button:visited{
 }
 .start_button
 {
-    top: 37%;
+    top: 18%;
     width: 50%;
     cursor: pointer;
     position: absolute;
@@ -655,8 +667,8 @@ a.zone-button:visited{
     text-align: left;
     height: auto;
     position: relative;
-    top: 30%;
-    left: 9%;
+    top: 27%;
+    left: 21%;
     z-index: 2;
     padding: 5px 5px 15px 5px;
     padding-left: 1%;
@@ -681,8 +693,6 @@ a.zone-button:visited{
     position: absolute;
     right: 0;
     cursor: pointer;
-
-
 }
 .header-modale{
     background-color: #4B72D5;

@@ -240,6 +240,7 @@ img {
     text-align: center;
     cursor: pointer;
     z-index: 1;
+    display: none;
     /*background: rgba(1, 1, 1, 0.5);*/
 }
 

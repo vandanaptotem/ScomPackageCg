@@ -9,7 +9,7 @@ config.base = {
 //            {name: "default", representation: "<img src='" + getImg("kbc-logo") + "' />"}
 //        ]},
         {name: "help", states: [
-            {name: "default", representation: "<img /><span>Help</span>"}
+            {name: "default", representation: "<img /><span >Help</span>"}
         ]}
     ]
 };

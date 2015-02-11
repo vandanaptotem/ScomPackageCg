@@ -1,6 +1,7 @@
 var storyConfig = {
     name: "Ptotemy",
-    background: "background.jpg",
+    background: "background1.jpg",
+    background1: "background2.jpg",
     zone: {
         px:18,
         py:8,
@@ -24,9 +25,9 @@ var storyConfig = {
 
     compass: {
         image: "compass.png",
-        px: 16,
-        py: 83,
-        width: 9
+        px: 13,
+        py: 76,
+        width: 12
     },
     scoreboard: {
         image: "scoreboard.png",

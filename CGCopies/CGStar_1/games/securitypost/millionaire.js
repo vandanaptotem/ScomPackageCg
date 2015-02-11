@@ -228,6 +228,8 @@ function playGame() {
             if(player.location().name == "ladder3")
             gameOn = false;
             if (data.correct == "true") {
+                $('#question').append('<div>Correct</div>')
+//                console.log('correct');
 //                parent.markQuestionAttemptCorrect();
                 $(data.$this).find('img').attr('src', getImg("kbc-answer-correct-back"));
                 setTimeout(function() {
