@@ -260,7 +260,7 @@ img {
 #qholder {
     height: 25%;
     left: 2.5%;
-    top: 24.3%;
+    top: 4.3%;
     width: 71%;
     background: rgba(75, 150, 203, 0.4);
     border-radius: 7px;
@@ -274,7 +274,7 @@ img {
 
 #ladder {
     background: rgba(255, 255, 255, 0.1);
-    height: 60%;
+    height: 25%;
     left: 76%;
     top: 4%;
     width: 21%;
@@ -296,6 +296,8 @@ img {
     overflow:hidden;
     text-overflow:ellipsis;
     display: table;
+    line-height: 2;
+    padding-top: 4%;
 }
 
 #ladder .location span {

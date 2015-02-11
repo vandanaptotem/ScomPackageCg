@@ -323,10 +323,10 @@ ul
     color: white;
     font-weight: bold;
     font-size: 20px;
-    top: 46%;
-    left: 30%;
+    /*top: 46%;*/
+    /*left: 30%;*/
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 10%;
 
 }
@@ -335,11 +335,15 @@ ul
     font-size: 21px;
     background-image: url('../img/start_button.png');
     background: #99664f;
-    width: 47%;
-    height: 100%;
+    height: auto;
+    padding: 7px;
     border: none;
-    margin-top: 5%;
     color: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin-top: 7px;
+    width: 40%;
+    margin-left: 25%;
 }
 .won_txt_span{
     color: whitesmoke;

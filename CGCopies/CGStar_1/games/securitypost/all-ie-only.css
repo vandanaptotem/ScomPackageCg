@@ -22,3 +22,7 @@
 .lifeline-panel{
     background: rgb(255, 255, 255);
 }
+#ladder .location {
+    height: 20%;
+
+}

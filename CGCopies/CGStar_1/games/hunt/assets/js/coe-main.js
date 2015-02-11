@@ -132,8 +132,12 @@ function playQuiz() {
         {
             count++;
             if(count==3) {
-                $("#victoryState").show();
-                victoryState.setState("default");
+//                victoryState.setState("default");
+                setTimeout(function() {
+                    $("#victoryState").fadeIn();
+                    victoryState.setState("default");
+                    $(".victory-txt").center(true);
+                }, 3000);
                 $("#switches").addClass("no-click");
                 window.parent.setNodeCompleted(node);
                 var timr=gameTimer('stop');

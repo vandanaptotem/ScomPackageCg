@@ -7,7 +7,7 @@
 #question{
     height: 21%;
     width: 66%;
-    top: 26%;
+    top: 6%;
     left: 17%;
     color: white;
     position: absolute;
@@ -23,9 +23,9 @@
 }
 
 #options {
-    height: 45%;
+    height: 56%;
     left: 2%;
-    top: 51%;
+    top: 35%;
     width: 96%;
 
 }
@@ -33,11 +33,11 @@
 .answer-block {
     display: inline-block;
     margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 4%;
     cursor: pointer;
     color: white;
     width: 47%;
-    height: 23%;
+    height: 26%;
     position: relative;
 
     /*background: rgba(1, 1, 1, 0.5);*/

@@ -274,26 +274,27 @@ ul
     color: white;
     font-weight: bold;
     font-size: 20px;
-    top: 41%;
-    left: 25%;
+    /*top: 41%;*/
+    /*left: 25%;*/
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 10%;
 
 }
 
 .btn-ok{
-    margin-top: 5%;
     font-size: 21px;
-    top: 70%;
-    left: 45%;
     background-image: url('../img/start_button1.png');
     background: #99664f;
-    width: 46%;
-    height: 100%;
+    height: auto;
+    padding: 7px;
     border: none;
     color: white;
-
+    cursor: pointer;
+    display: block;
+    margin-top: 7px;
+    width: 40%;
+    margin-left: 25%;
 }
 .won_txt_span{
     color: whitesmoke;

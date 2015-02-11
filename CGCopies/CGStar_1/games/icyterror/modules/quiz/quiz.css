@@ -7,14 +7,14 @@
 #question{
     height: 21%;
     width: 66%;
-    top: 26%;
+    top: 6%;
     left: 17%;
     color: white;
     position: absolute;
     font-size: 1em;
     overflow: auto;
-    overflow: auto;
     display: table;
+    text-align: center;
     /*text-align: center;*/
 }
 
@@ -24,9 +24,9 @@
 }
 
 #options {
-    height: 45%;
+    height: 56%;
     left: 2%;
-    top: 51%;
+    top: 35%;
     width: 96%;
 
 }

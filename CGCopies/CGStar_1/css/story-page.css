@@ -320,6 +320,15 @@ a.zone-button:visited{
     background-size: 100% 100%;
 
 }
+#instruction_first {
+    width: 46%;
+    height: 76px;
+    margin-left: 68%;
+    background: url(../img/start_button.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
 #img_first {
     width: 74px;
     height: 74px;
@@ -495,34 +504,34 @@ a.zone-button:visited{
     font-weight: bold;
     position: absolute;
     left: 8%;
-    top: 66%;
+    top: 66.5%;
 
 }
 .score_hurdle-name{
     color: #000000;
-    /*font-size: 13px;*/
-    font:bold 10px;
-    /*font-weight: bold;*/
+    font-size: 13px;
+    /* font: bold 10px; */
+    /* font-weight: bold; */
     position: absolute;
-    left: 10%;
-    top: 74%;
+    left: 11%;
+    top: 74.5%;
 
 }
 .score_hurdle-time{
     color:#000000;
     position: absolute;
-    top:81%;
-    left:11%;
-    font-size: 20px;
-    font: bold;
+    top:81.5%;
+    left:12%;
+    font-size: 13px;
+    /*font: bold;*/
 }
 .score_hurdle-score{
-    color:#000000;
+    color: #000000;
     position: absolute;
-    top:87%;
-    left:12%;
-    font-size: 24px;
-    font: bold;
+    top: 88%;
+    left: 13%;
+    font-size: 14px;
+    /*font: bold;*/
 }
 /*Style for Reset Game Module*/
 
@@ -598,7 +607,7 @@ a.zone-button:visited{
     background-color: white;
     font-size: 0.9em;
     left: 30%;
-    padding: 1%;
+    /*padding: 1%;*/
     position: absolute;
     top: 22%;
     width: 38%;
@@ -606,22 +615,27 @@ a.zone-button:visited{
 .modal-text
 {
     text-align: left;
-    padding: 2%;
+    /*padding: 2%;*/
 
 }
 .ack-btn-box
 {
     align-content: center;
     padding-left: 35%;
+    padding-bottom: 2%;
+    color: white;
 }
 .ack-btn
 {
+    background-color: #4B72D5;
+    border: 0px;
     width: 40%;
+    padding: 2%;
 }
 .modal-text p
 {
-    text-align: justify;
-
+    text-align: left;
+    padding: 0 4%;
 }
 #left_slide_btn{
     /*background-image: ;*/
@@ -640,7 +654,7 @@ a.zone-button:visited{
     text-align: left;
     height: auto;
     position: relative;
-    top: -13%;
+    top: 30%;
     left: 9%;
     z-index: 1;
     padding: 5px 5px 15px 5px;
@@ -668,4 +682,12 @@ a.zone-button:visited{
     cursor: pointer;
 
 
+}
+.header-modale{
+    background-color: #4B72D5;
+    width: 100%;
+    height: 20%;
+    padding: 2%;
+    margin-bottom: 1%;
+    color: white;
 }

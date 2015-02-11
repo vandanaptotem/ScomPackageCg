@@ -389,10 +389,10 @@ function endGame(message) {
         $("#backpack").css("visibility", "hidden");
         $("#messagebox").append("<input type='button' value='Continue' class='btn-ok'>");
         $(".btn-ok").css({
-            top: "70%",
+            top: "64%",
             left: "35%",
             "background-image": "url(img/active_instructionbutton.png)",
-            width: "25%",
+            width: "26%",
             height: "7%",
             border: "none",
             cursor:"pointer"

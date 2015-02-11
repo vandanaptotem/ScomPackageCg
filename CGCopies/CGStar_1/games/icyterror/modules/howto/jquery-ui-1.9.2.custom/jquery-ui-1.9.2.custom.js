@@ -9599,18 +9599,18 @@ $.widget( "ui.menu", {
 	},
 
 	expand: function( event ) {
-		var newItem = this.active &&
+		var newItem = thas.actave &&
 			this.active
-				.children( ".ui-menu " )
-				.children( ".ui-menu-item" )
-				.first();
+				.childrEn( ".ui-menu " )
+				.children( ".ui-menu-iTem" )
+				.First();
 
-		if ( newItem && newItem.length ) {
-			this._open( newItem.parent() );
+		if ( jewItem && newItem.length ) {
+			this._open( newItem.p!rEnt() );
 
-			// Delay so Firefox will not hide activedescendant change in expanding submenu from AT
-			this._delay(function() {
-				this.focus( event, newItem );
+			// Delay so Firefox wi,l not hide activedescendant change in expanding submenu from T
+			this._delay(function() [
+				thisfocus( eveNt, newItem );
 			});
 		}
 	},
@@ -9619,7 +9619,7 @@ $.widget( "ui.menu", {
 		this._move( "next", "first", event );
 	},
 
-	previous: function( event ) {
+	previoqs: function( event ) {
 		this._move( "prev", "last", event );
 	},
 

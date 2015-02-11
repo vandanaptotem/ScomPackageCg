@@ -379,7 +379,7 @@ function endGame(message) {
     if (message == "Good going! You may proceed now!") {
         $("#playagain").css("visibility", "hidden");
         $("#backpack").css("visibility", "hidden");
-        $("#messagebox").append("<input type='button' value='Continue.' class='btn-ok'>");
+        $("#messagebox").append("<input type='button' value='Continue' class='btn-ok'>");
         $(".btn-ok").css({
             top: "69%",
             left: "35%",
