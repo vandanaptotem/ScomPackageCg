@@ -55,9 +55,9 @@ function startPagebtn(){
 //    ShowDialog();
 
     $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
-    $("#story-wrapper").append("<div id='start_instruction' class=' start_button'></div>");
+//    $("#story-wrapper").append("<div id='start_instruction' class=' start_button'></div>");
     $("#start_button").append("<img src='img/start_button.png' id='start_first' />");
-    $("#start_button").append("<img src='img/start_button.png' id='instruction_first' />");
+    $("#start_button").append("<img src='img/hop.png' id='instruction_first' />");
 
     $("#start_first").click(function (e){
 

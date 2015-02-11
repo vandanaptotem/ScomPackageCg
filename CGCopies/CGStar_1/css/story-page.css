@@ -313,7 +313,7 @@ a.zone-button:visited{
 
 #start_first {
     width: 46%;
-    height: 76px;
+    /*height: 76px;*/
     margin-left: 68%;
     background: url(../img/start_button.png);
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ a.zone-button:visited{
 }
 #instruction_first {
     width: 46%;
-    height: 76px;
+    /*height: 80px;*/
     margin-left: 68%;
     background: url(../img/start_button.png);
     background-repeat: no-repeat;
@@ -488,10 +488,11 @@ a.zone-button:visited{
 }
 .start_button
 {
-    padding-top: 19%;
+    top: 37%;
     width: 50%;
     cursor: pointer;
-    /*background: url(../img/start_button.png);*/
+    position: absolute;
+    /* background: url(../img/start_button.png); */
     z-index: 1;
 }
 .score_card_view
@@ -656,7 +657,7 @@ a.zone-button:visited{
     position: relative;
     top: 30%;
     left: 9%;
-    z-index: 1;
+    z-index: 2;
     padding: 5px 5px 15px 5px;
     padding-left: 1%;
 }

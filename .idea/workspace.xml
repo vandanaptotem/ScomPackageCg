@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/img/hop.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CGStar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adaptor.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="adaptor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91497225" vertical-offset="1650" max-vertical-offset="5760">
-              <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
+            <state vertical-scroll-proportion="-4.714286" vertical-offset="705" max-vertical-offset="5760">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
               <folding>
                 <element signature="n#!!block;n#initBackpack#0" expanded="false" />
                 <element signature="n#!!block;n#getSubSlide#0" expanded="false" />
@@ -101,7 +104,7 @@
                 <element signature="n#!!block;n#getSequence#0" expanded="false" />
                 <element signature="n#!!block;n#checkNodeInclusion#0" expanded="false" />
                 <element signature="n#!!block;n#checkNodeCompletion#0" expanded="false" />
-                <element signature="e#24145#24417#0" expanded="false" />
+                <element signature="e#24138#24410#0" expanded="false" />
                 <element signature="n#!!block;n#ShowDialog#0" expanded="false" />
                 <element signature="n#!!block;n#showGame#0" expanded="false" />
                 <element signature="n#!!block;n#showVideo#0" expanded="false" />
@@ -115,30 +118,30 @@
                 <element signature="n#!!block;n#appendTime#0" expanded="false" />
                 <element signature="n#!!block;n#modale_last#0" expanded="false" />
                 <element signature="n#!!block;n#openbackPack#0" expanded="false" />
-                <marker date="1423636605456" expanded="true" signature="3533:3563" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="4136:4149" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="8581:8594" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="10291:10304" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="10446:10460" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="22543:22555" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="22668:22680" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="23076:23088" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="23537:23549" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="23672:23684" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="25276:25288" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="25637:25645" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="27710:27722" placeholder="..." />
-                <marker date="1423636605456" expanded="true" signature="31100:31130" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="3526:3556" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="4129:4142" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="8574:8587" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="10284:10297" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="10439:10453" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="22536:22548" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="22661:22673" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="23069:23081" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="23530:23542" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="23665:23677" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="25269:25281" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="25630:25638" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="27703:27715" placeholder="..." />
+                <marker date="1423638536992" expanded="true" signature="31093:31123" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="story-page.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="story-page.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.9714284" vertical-offset="4511" max-vertical-offset="10470">
-              <caret line="317" column="45" selection-start-line="317" selection-start-column="45" selection-end-line="317" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.1696751" vertical-offset="4646" max-vertical-offset="10485">
+              <caret line="316" column="13" selection-start-line="316" selection-start-column="13" selection-end-line="316" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -231,8 +234,8 @@
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/css/coe-style.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/assets/js/coe-main.js" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/hunt/assets/js/coe-main.js" />
-        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css" />
       </list>
     </option>
   </component>
@@ -352,29 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGStar-vandana_ie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGCopies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGStar_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -888,18 +869,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.9714284" vertical-offset="4511" max-vertical-offset="10470">
-          <caret line="317" column="45" selection-start-line="317" selection-start-column="45" selection-end-line="317" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91497225" vertical-offset="1650" max-vertical-offset="5760">
-          <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
+        <state vertical-scroll-proportion="-4.714286" vertical-offset="705" max-vertical-offset="5760">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
           <folding>
             <element signature="n#!!block;n#initBackpack#0" expanded="false" />
             <element signature="n#!!block;n#getSubSlide#0" expanded="false" />
@@ -910,7 +883,7 @@
             <element signature="n#!!block;n#getSequence#0" expanded="false" />
             <element signature="n#!!block;n#checkNodeInclusion#0" expanded="false" />
             <element signature="n#!!block;n#checkNodeCompletion#0" expanded="false" />
-            <element signature="e#24145#24417#0" expanded="false" />
+            <element signature="e#24138#24410#0" expanded="false" />
             <element signature="n#!!block;n#ShowDialog#0" expanded="false" />
             <element signature="n#!!block;n#showGame#0" expanded="false" />
             <element signature="n#!!block;n#showVideo#0" expanded="false" />
@@ -924,21 +897,29 @@
             <element signature="n#!!block;n#appendTime#0" expanded="false" />
             <element signature="n#!!block;n#modale_last#0" expanded="false" />
             <element signature="n#!!block;n#openbackPack#0" expanded="false" />
-            <marker date="1423636605456" expanded="true" signature="3533:3563" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="4136:4149" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="8581:8594" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="10291:10304" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="10446:10460" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="22543:22555" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="22668:22680" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="23076:23088" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="23537:23549" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="23672:23684" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="25276:25288" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="25637:25645" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="27710:27722" placeholder="..." />
-            <marker date="1423636605456" expanded="true" signature="31100:31130" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="3526:3556" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="4129:4142" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="8574:8587" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="10284:10297" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="10439:10453" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="22536:22548" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="22661:22673" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="23069:23081" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="23530:23542" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="23665:23677" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="25269:25281" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="25630:25638" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="27703:27715" placeholder="..." />
+            <marker date="1423638536992" expanded="true" signature="31093:31123" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1696751" vertical-offset="4646" max-vertical-offset="10485">
+          <caret line="316" column="13" selection-start-line="316" selection-start-column="13" selection-end-line="316" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
