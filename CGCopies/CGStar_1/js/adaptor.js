@@ -67,7 +67,7 @@ function startPagebtn(){
     $("#start_first").click(function (e){
 //        console.log(nodename);
         $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
-        $("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_first' />");
+
         initBackpack();
         if(score === 0)
             scoredisp = 0;
@@ -298,12 +298,12 @@ function addNodes() {
                 }
             }
             $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
-
+            $("#story-nodes").append("<img src='img/arrow.gif' id='arrow_first' />");
             $("#story-node-1 img").attr("src", 'img/1.png');
             $( "#story-node-1" ).addClass("click-active" );
-            $( "#story-node-1" ).click(function(){
-                $("#arrow_first").css('display','none');
-            })
+//            $( "#story-node-1" ).click(function(){
+//                $("#arrow_first").css('display','none');
+//            })
 
 
         }
