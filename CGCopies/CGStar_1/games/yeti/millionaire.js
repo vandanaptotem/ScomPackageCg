@@ -15,7 +15,7 @@ var pointsEarned;
 var answered;
 var e;
 var quesbank=[];
-
+var correctmessage;
 $(function () {
     window.ondragstart = function() {return false}
     initVariables();
@@ -32,7 +32,7 @@ function initVariables() {
     lifelines = new Environment("lifelines");
 
     player = new Entity("player");
-
+    correctmessage = new Environment("correctmessage");
     initTheme();
 }
 
@@ -49,7 +49,7 @@ function initTheme() {
     loadConfig(lifelines);
 
     loadConfig(messagebox);
-
+    loadConfig(correctmessage);
     runGlobalObservers();
 
 
@@ -105,9 +105,11 @@ function initGame() {
 //}
 
 function showStartPage() {
-    messagebox.setState('startpage');
-    $("#messagebox").show();
+//    messagebox.setState('startpage');
+//    $("#messagebox").show();
+    messagebox.setState('instructions');
 
+    showInstructions();
     $("#startgame").mouseover(function() {
         $(this).find('img').attr('src', getImg("kbc-button-start-hover"));
     });
@@ -151,6 +153,7 @@ function showInstructions() {
         $(this).find('img').attr('src', getImg("kbc-button-start"))
     });
     $("#startgame-inst").unbind('click').on('click', function() {
+        $( "#kbc-back" ).attr( "src", getImg("kbc-background1"));
         messagebox.setState('default');
         $("#messagebox").fadeOut();
 //        parent.setGameAttempt(parent.currentIntegratedGame,parent.currentUid);
@@ -207,6 +210,7 @@ function playGame() {
             gameOn = false;
             if (data.correct == "true") {
 //                parent.markQuestionAttemptCorrect();
+                $("#correctmessage").fadeIn(500).delay(2000).fadeOut(500);
                 $(data.$this).find('img').attr('src', getImg("kbc-answer-correct-back"));
                 setTimeout(function() {
                     player.location(ladder.nextLocation(player.location()));
@@ -395,7 +399,10 @@ function endGame(message) {
             width: "26%",
             height: "7%",
             border: "none",
-            cursor:"pointer"
+            cursor:"pointer",
+            color:"white",
+            "font-size":"20px"
+//            font-size:"24px"
         });
         $(".btn-ok").unbind('click').on('click', function () {
             parent.$("#story-zone-close").trigger('click').trigger('click');

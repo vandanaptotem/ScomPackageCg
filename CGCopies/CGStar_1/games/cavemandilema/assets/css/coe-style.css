@@ -165,15 +165,21 @@ img {
     background: #99664f;
     border: 2px solid #ffffff;
     cursor: pointer;
-    display: block;
+    display: table;
     font-size: 0.9em;
     height: 14%;
     opacity: 0.8;
-    padding-left: 12%;
+    padding: 1%;
+    /*padding-left: 12%;*/
     /* padding-top: 10%; */
     position: static;
     width: 86%;
     margin-top: 2%;
+    text-align: center;
+}
+#options span{
+    display: table-cell;
+    vertical-align:middle;
 }
 
 #switch1,

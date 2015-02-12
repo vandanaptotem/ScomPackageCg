@@ -44,11 +44,12 @@ img {
     height: 480px;
     display: none;
     z-index: 10;
+    color: white;
 }
 
 #messagebox * {
     position: absolute;
-    color: white;
+
 }
 
 #game-back {
@@ -76,7 +77,7 @@ img {
 
     height: 7.5%;
     width: 30%;
-
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -111,25 +112,25 @@ img {
 }
 
 #instructions {
-    height: 250px;
-    width: 89%;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    text-shadow: 1px 1px 1px rgba(1, 1, 1, 1);
-
-    top: 27%;
-    left: 5%;
-
+    height: 169px;
+    width: 68%;
+    background: url('img/ins_board.png');
+    color: black;
+    top: 38%;
+    left: 14%;
     display: table;
+    background-repeat:no-repeat ;
+
 }
+
 
 #inst-header{
     position: absolute;
     font-weight: bold;
-    font-size: 2em;
-    top: 3%;
-    left: 38%;
+    font-size: 1.7em;
+    top: 6%;
+    left: 2.7%;
+    width: 100%;
 }
 
 #inst-content{
@@ -155,8 +156,8 @@ img {
 }
 
 #startgame-inst {
-    top: 85%;
-    left: 65%;
+    top: 76%;
+    left: 32%;
 }
 
 #start-game {
@@ -205,6 +206,7 @@ img {
     text-align: center;
     cursor: pointer;
     z-index: 1;
+    display: none;
     /*background: rgba(1, 1, 1, 0.5);*/
 }
 
@@ -227,7 +229,7 @@ img {
     left: 2.5%;
     top: 4.3%;
     width: 71%;
-    background: rgba(202,195,179, 0.8);
+    background: rgba(191,140,28, 0.4);
     border-radius: 7px;
 }
 
@@ -407,7 +409,7 @@ img {
     text-align: center;
     height: 7.5%;
     width: 30%;
-
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -424,4 +426,15 @@ img {
     display: table-cell;
     vertical-align: middle;
     position: relative !important;
+}
+#correctmessage
+{
+    /*background-color: red;*/
+    /*width: 50%;*/
+    /*height: 50%;*/
+    z-index: 3;
+    display: none;
+}
+#startgame-inst span {
+    font-size: 24px;
 }

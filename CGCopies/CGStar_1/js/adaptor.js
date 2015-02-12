@@ -51,21 +51,26 @@ function initPage() {
     startPagebtn();
 
 }
+// for gif image
+function addArrow(){
+    $("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_first' />");
+}
 function startPagebtn(){
 //    modale_last();
 //    ShowDialog();
 
     $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
-//    $("#story-wrapper").append("<div id='start_instruction' class=' start_button'></div>");
     $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
 
 
-    $("#start_button").append("<img src='img/start_button.png' id='start_first' />");
+
     $("#start_button").append("<img src='img/hop.png' id='instruction_first' />");
+    $("#start_button").append("<img src='img/start_button.png' id='start_first' />");
 
 
     $("#start_first").click(function (e){
-//        console.log(nodename);
+        addArrow();
+        $('#sideiconpanel').css('display','block');
         $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
         initBackpack();
@@ -83,18 +88,17 @@ function startPagebtn(){
         $("#start_button").css("display","none");
         $("#story-compass").css("display","none");
         $("#story-nodes").css("display","block");
-//        console.log(parseInt(scormGetValue("cmi.objectives.0.id")));
 //        $("#score_node_name" ).html(storyConfig.nodes[parseInt(scormGetValue("cmi.objectives.0.id"))].name);
         $("#score_node_name" ).html(storyConfig.nodes[0].name);
-
-//        nodename++;
 
         if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "")
             changeNodeState();
     });
+    instruction_click();
 
+}
+function instruction_click(){
     $("#instruction_first").click(function (e){
-//        console.log('hello');
         var display_status_header=$('#instruction_table').css('display');
         if(display_status_header=='none') {
             $("#instruction_table").fadeIn(200);
@@ -103,15 +107,9 @@ function startPagebtn(){
         {
             $("#instruction_table").fadeOut(200);
         }
-//            $("#backpack-icon-wrapper").fadeIn(200).css('display','none');
-//            $("#back_pack_table").fadeIn(200).css('display','none');
-//    });
-
 
     });
-
 }
-
 function initBackpack() {
     $("#story-wrapper").append("<table id='backpack-icon-wrapper' style='display: none;margin-top:10px;'></table>");
     $("#backpack-icon-wrapper").append("<tr></tr><tr></tr>");
@@ -217,10 +215,10 @@ function getSubSlide(sub_slide_id,slide_id){
 
 
 function initInstructions(){
-//    alert('hello');
     $("#story-wrapper").append('<div class="instruction_content"  style="display: none" id="instruction_table">' +
         '<div class="inst_content">' +
             '<b>GAMEPLAY:</b>' +
+//        '<h4>'+You are in for an adventure! You start at the base of the Mount Everest and may your way up to the top.There would be obstacles to stop you or snowstorm to leave you stranded. But don't worry! You will have a backpack to help you throughout the journey. Use it well! +'</h4>
                 '<ul>' +
                     '<li>You start at the base of the mountain.</li>' +
                     '<li>Click on the checkpoints to play the mini-game</li>' +
@@ -245,7 +243,7 @@ function initInstructions(){
     });
 }
 function initSideIcons() {
-    $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons'></table>");
+    $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
     $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/back_pack.png' id='back_pack_img'/></td></tr>");
     $("#sideiconpanel").append("<tr><td class='side-icon-text'>Backpack</td></tr>");
 //    $("#sideiconpanel").append("<tr><td class='side-icon-image' style='display: none'><img src='img/instructions.png' id='instruction_img'/></td></tr>");
@@ -262,18 +260,18 @@ function initSideIcons() {
             }
              $("#back_pack_table").fadeIn(200).css('display','none');
     });
-    $("#instruction_img").click(function (e){
-        var display_status_header=$('#instruction_table').css('display');
-        if(display_status_header=='none') {
-            $("#instruction_table").fadeIn(200);
-        }
-        else
-        {
-            $("#instruction_table").fadeOut(200);
-        }
-//            $("#backpack-icon-wrapper").fadeIn(200).css('display','none');
-//            $("#back_pack_table").fadeIn(200).css('display','none');
-    });
+//    $("#instruction_img").click(function (e){
+//        var display_status_header=$('#instruction_table').css('display');
+//        if(display_status_header=='none') {
+//            $("#instruction_table").fadeIn(200);
+//        }
+//        else
+//        {
+//            $("#instruction_table").fadeOut(200);
+//        }
+////            $("#backpack-icon-wrapper").fadeIn(200).css('display','none');
+////            $("#back_pack_table").fadeIn(200).css('display','none');
+//    });
 }
 
 function addNodes() {
@@ -297,13 +295,15 @@ function addNodes() {
                     nodeClass = "incomplete-node";
                 }
             }
+//            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a><img style="display: none" src="img/arrow.gif"  id="arrow_first_'+(parseInt(i) + 1)+'"  />');
             $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
-            $("#story-nodes").append("<img src='img/arrow.gif' id='arrow_first' />");
+//            $("#story-nodes").append("<img src='img/arrow.gif' id='arrow_first' />");
             $("#story-node-1 img").attr("src", 'img/1.png');
+//            $("#story-node-1 img").attr("src", 'img/arrow.gif');
             $( "#story-node-1" ).addClass("click-active" );
-//            $( "#story-node-1" ).click(function(){
-//                $("#arrow_first").css('display','none');
-//            })
+            $( "#story-node-1" ).click(function(){
+                $("#arrow_first").css('display','none');
+            })
 
 
         }
@@ -660,7 +660,7 @@ function showGame(gameId) {
         $('#story-wrapper').fadeOut();
         $('#full-wrapper').slideDown(function () {
             var $fullProjector = $('<div class="fullprojector fullprojection"></div>').appendTo($(this));
-            $fullProjector.append(' <iframe src="games/' + thisGame.name + '/index.html" width="1080px" height="640px"></iframe>')
+            $fullProjector.append(' <iframe style:"border:none" src="games/' + thisGame.name + '/index.html" width="1080px" height="640px" ></iframe>')
 
             var $fullCloser = $('<div class="fullcloser fullprojection"><button type="button" class="btn btn-danger btn-lg" style="color: black"> Close </button></div>').appendTo($(this));
             $fullCloser.on('click', function () {
@@ -685,7 +685,7 @@ function showGame(gameId) {
                 $("#story-zone").fadeOut();
             });
         });
-        $projector.append(' <iframe src="games/' + thisGame.name + '/index.html" width="640" height="480"></iframe>')
+        $projector.append(' <iframe style="border:none"; src="games/' + thisGame.name + '/index.html" width="640" height="480"></iframe>')
     }
 
 

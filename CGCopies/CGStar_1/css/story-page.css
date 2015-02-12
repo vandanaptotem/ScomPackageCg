@@ -104,9 +104,10 @@ body.story-page {
 
 #story-zone-close {
     position: absolute;
-    right: -30px;
-    top: -30px;
+    left: 83%;
+    top: 11%;
     width: 10%;
+    z-index: 1;
 }
 
 #story-zone-close img {
@@ -216,6 +217,7 @@ body.story-page {
     font-size: 1.5em;
     background: url(../img/projector-texture.jpg);
     color: white;
+    z-index: 1;
 }
 
 .projector-nav {
@@ -313,26 +315,27 @@ a.zone-button:visited{
 
 
 #start_first {
-    width: 32%;
-    /*height: 76px;*/
-    margin-left: 74%;
-    /*background: url(../img/start_button.png);*/
+    width: 26%;
+    /* height: 76px; */
+    margin-left: 82%;
+    /* background: url(../img/start_button.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
 }
 #instruction_first {
-    width: 32%;
-    /*height: 80px;*/
-    margin-left: 74%;
-    /*background: url(../img/start_button.png);*/
+    width: 26%;
+    /* height: 80px; */
+    margin-left: 82%;
+    /* background: url(../img/start_button.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 7%;
 
 }
 #mountain_first{
-    width: 31%;
-    margin-left: 78%;
+    width: 29%;
+    margin-left: 79%;
 }
 #img_first {
     width: 74px;
@@ -348,6 +351,20 @@ a.zone-button:visited{
     top: 66%;
     z-index: 1;
 }
+#arrow_first_2{
+    width: 3%;
+    position: absolute;
+    left: 66%;
+    top: 66%;
+    z-index: 1;
+}
+#arrow_first_3{
+    width: 3%;
+    position: absolute;
+    left: 76%;
+    top: 66%;
+    z-index: 1;
+}
 #img_second {
     width: 74px;
     height: 74px;
@@ -356,18 +373,18 @@ a.zone-button:visited{
     background-size: 100% 100%;
 }
 
+
 #story-scoreboard-container{
-    /*margin-left: 0%;*/
-    /*margin-top: -1%;*/
-    position: absolute;
+    margin-left: 0%;
+    /* margin-top: -1%; */
+position: absolute;
     bottom: 0%;
-    left:2%;
-    width: 19%;
-    height: 35%;
-    /*background: url(../img/scoreboard.png);*/
+    left: 2%;
+    width: 21%;
+    /* height: 35%; */
+    /* background: url(../img/scoreboard.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /*padding-top: 1%;*/
 }
 
 .back-pack-default{
@@ -500,7 +517,7 @@ a.zone-button:visited{
 }
 .start_button
 {
-    top: 18%;
+    top: 17%;
     width: 50%;
     cursor: pointer;
     position: absolute;
@@ -516,9 +533,8 @@ a.zone-button:visited{
     color: #ffffff;
     font-weight: bold;
     position: absolute;
-    left: 8%;
-    top: 66.5%;
-
+    left: 9%;
+    top: 60.5%;
 }
 .score_hurdle-name{
     color: #000000;
@@ -526,24 +542,35 @@ a.zone-button:visited{
     /* font: bold 10px; */
     /* font-weight: bold; */
     position: absolute;
-    left: 11%;
-    top: 74.5%;
+    left: 10%;
+    top: 69.5%;
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 10%;
 
 }
 .score_hurdle-time{
     color:#000000;
+    color: #000000;
     position: absolute;
-    top:81.5%;
-    left:12%;
+    top: 78.5%;
+    left: 10%;
     font-size: 13px;
-    /*font: bold;*/
+    width: 10%;
+    /* font: bold; */
+    /*border: 1px solid red;*/
+    text-align: center;
 }
 .score_hurdle-score{
     color: #000000;
     position: absolute;
-    top: 88%;
-    left: 13%;
+    top: 86%;
+    left: 10%;
     font-size: 14px;
+    /* font: bold; */
+    width: 10%;
+    /*border: solid 1px red;*/
+    text-align: center;
     /*font: bold;*/
 }
 /*Style for Reset Game Module*/
@@ -688,11 +715,12 @@ a.zone-button:visited{
 }
 .close_instruction
 {
-    width: 10%;
+    width: 7%;
     top: 0px;
     position: absolute;
     right: 0;
     cursor: pointer;
+    padding: 1%;
 }
 .header-modale{
     background-color: #4B72D5;

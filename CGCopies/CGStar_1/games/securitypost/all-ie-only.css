@@ -3,11 +3,8 @@
     left: 2.5%;
     top: 24.3%;
     width: 71%;
-    /*background: white;*/
-    /*background: rgba(75, 150, 203, 0.4);*/
     background: rgb(75, 150, 201);
     filter: alpha(opacity=40);
-
     border-radius: 7px;
 }
 .answer-block {
@@ -24,5 +21,7 @@
 }
 #ladder .location {
     height: 20%;
-
+}
+#endmessage {
+    width: 90% !important;
 }

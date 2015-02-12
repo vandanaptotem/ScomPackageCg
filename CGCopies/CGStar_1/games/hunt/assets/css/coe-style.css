@@ -160,16 +160,20 @@ img {
     border: 2px solid #ffffff;
     color: #000000;
     cursor: pointer;
-    display: block;
+    display: table;
     font-size: 15px;
-    height: 12%;
-    padding: 3%;
+    height: 15%;
+    padding: 2%;
     position: static;
     list-style-type: none;
     margin-top: 2%;
+    width: 94%;
 
 }
-
+#options span{
+    display: table-cell;
+    vertical-align: middle;
+}
 #switch1,
 #switch2,#switch3,#switch4,#switch5,#switch6
 {
