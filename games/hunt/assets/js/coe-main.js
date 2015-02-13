@@ -71,7 +71,6 @@ function initGame() {
 }
 
 function paneldisplay() {
-//    console.log("Init tome!");
     $("#leftPanel").show();
     $("#statements").show();
     $("#switches").show();
@@ -113,10 +112,8 @@ function playQuiz() {
 
         var cagemargin=$("#smokes img").css("marginTop");
         cagemargin=parseInt(cagemargin.split('px')[0]);
-//        console.log(cagemargin);
 
         var switchobj = switches["switch" + (data.optionId+1)];
-//        console.log("Data correct: " + data.correct + " | Switch obj getState: " + switchobj.getState());
         if(switchobj.getState() == (data.correct).toString()) {
 
             cagemargin+=33.20 ;
@@ -134,10 +131,13 @@ function playQuiz() {
         if(dataset1.join()==dataset2.join())
         {
             count++;
-//            console.log(count);
             if(count==3) {
-                $("#victoryState").show();
-                victoryState.setState("default");
+//                victoryState.setState("default");
+                setTimeout(function() {
+                    $("#victoryState").fadeIn();
+                    victoryState.setState("default");
+                    $(".victory-txt").center(true);
+                }, 3000);
                 $("#switches").addClass("no-click");
                 window.parent.setNodeCompleted(node);
                 var timr=gameTimer('stop');
@@ -160,7 +160,6 @@ function playQuiz() {
                                 start: playQuiz,
                                 complete: function() {
                                         $("#switches").removeClass("no-click");
-//                                        console.log("no-click removed!");
 
 
                                 },
@@ -175,7 +174,6 @@ function playQuiz() {
 //    if (count==3)
 //    {
 //       $("#switches").addClass("no-click");
-//       console.log("no-click-2")
 //    }
 
     $("#switches div").unbind('click').on("click",function(){
@@ -216,7 +214,6 @@ function gameTimer(n){
     if(n=="start"){
         e=setInterval(function(){
             time++
-//            console.log(time);
         }, 1000);
     }
     else{

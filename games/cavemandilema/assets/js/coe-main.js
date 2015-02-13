@@ -132,9 +132,13 @@ function playQuiz() {
         {
             count++;
             if(count==3) {
+                setTimeout(function() {
+                    $("#victoryState").fadeIn();
+                    victoryState.setState("default");
+                    $(".victory-txt").center(true);
+                }, 3000);
 
-                $("#victoryState").show();
-                victoryState.setState("default");
+
                 $("#switches").addClass("no-click");
                 window.parent.setNodeCompleted(node);
                 var timr=gameTimer('stop');
@@ -206,7 +210,6 @@ function gameTimer(n){
     if(n=="start"){
         e=setInterval(function(){
             time++
-//            console.log(time);
         }, 1000);
     }
     else{

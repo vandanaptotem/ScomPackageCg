@@ -44,11 +44,12 @@ img {
     height: 480px;
     display: none;
     z-index: 10;
+    color: white;
 }
 
 #messagebox * {
     position: absolute;
-    color: white;
+
 }
 
 #game-back {
@@ -75,7 +76,7 @@ img {
     text-align: center;
     height: 7.5%;
     width: 30%;
-
+    font-size: 20px;
     cursor: pointer;
 }
 /*.startpage-button {*/
@@ -116,7 +117,7 @@ img {
     text-align: center;
     height: 7.5%;
     width: 30%;
-
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -140,27 +141,25 @@ img {
     left: 40%;
     top: 3%;
 }
-
 #instructions {
-    height: 250px;
-    width: 89%;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    text-shadow: 1px 1px 1px rgba(1, 1, 1, 1);
-
-    top: 27%;
-    left: 5%;
-
+    height: 169px;
+    width: 68%;
+    background: url('img/ins_board.png');
+    color: black;
+    top: 38%;
+    left: 14%;
     display: table;
+    background-size: 100%;
 }
+
 
 #inst-header{
     position: absolute;
     font-weight: bold;
-    font-size: 2em;
-    top: 3%;
-    left: 38%;
+    font-size: 1.7em;
+    top: 6%;
+    left: 2.7%;
+    width: 100%;
 }
 
 #inst-content{
@@ -186,8 +185,8 @@ img {
 }
 
 #startgame-inst {
-    top: 85%;
-    left: 65%;
+    top: 77%;
+    left: 31%;
 }
 
 #start-game {
@@ -197,6 +196,7 @@ img {
     width: 125px;
     float: right;
     cursor: pointer;
+    font-size: 20px;
 }
 
 #endmessage {
@@ -216,12 +216,12 @@ img {
 
 
 #playagain {
-    top: 70%;
+    top: 63%;
     left: 35%;
 }
 
 #backpack {
-    top: 80%;
+    top: 73%;
     left: 35%;
 }
 
@@ -241,6 +241,7 @@ img {
     text-align: center;
     cursor: pointer;
     z-index: 1;
+    display: none;
     /*background: rgba(1, 1, 1, 0.5);*/
 }
 
@@ -260,12 +261,13 @@ img {
 
 #qholder {
     height: 25%;
-    left: 2.5%;
-    top: 24.3%;
-    width: 71%;
+    left: 3.5%;
+    top: 7.3%;
+    width: 91%;
     background: rgba(75, 150, 203, 0.4);
     border-radius: 7px;
 }
+
 
 #character {
     width: 34%;
@@ -275,13 +277,13 @@ img {
 
 #ladder {
     background: rgba(255, 255, 255, 0.1);
-    height: 60%;
+    height: 25%;
     left: 76%;
     top: 4%;
     width: 21%;
     /*padding-top: 1%;border: 2px solid white;*/
     border-radius: 4px;
-    /*display: none;*/
+    display: none;
 }
 
 #ladder .location {
@@ -297,6 +299,7 @@ img {
     overflow:hidden;
     text-overflow:ellipsis;
     display: table;
+    line-height: 2;
 }
 
 #ladder .location span {
@@ -322,10 +325,11 @@ img {
 
 #lifelines {
     height: 10%;
-    left: 72.5%;
-    top: 83%;
-    width: 25%;
+    left: 60.5%;
+    top: 84%;
+    width: 25%
 }
+
 
 #lifelines div {
     position: relative;
@@ -369,24 +373,24 @@ img {
 #ll3 {
     left: 19%;
 }
-
 #lifelinepanel {
     height: auto;
-    left: 75%;
+    left: 8%;
     bottom: 19% !important;
-    top: auto;
-    width: 22%;
+    top: 85%;
+    width: 54%;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     display: table;
     padding: 0.5%;
     z-index: 3;
-}
 
+}
 #lifelinepanel * {
     display: inline-block;
     vertical-align: bottom;
     padding: 2%;
+    /*color:#709bb5;*/
     /*height: auto;*/
     /*display: block;*/
 }
@@ -429,4 +433,15 @@ img {
     display: none;
     margin-bottom: 5%;
     pointer-events: none;
+}
+#correctmessage
+{
+    /*background-color: red;*/
+    /*width: 50%;*/
+    /*height: 50%;*/
+    z-index: 3;
+    display: none;
+}
+#startgame-inst span {
+    font-size: 24px;
 }

@@ -1,2 +1,1 @@
 # CGStar
-# ScomPackageCg

@@ -25,7 +25,12 @@ config.qholder = {
         ]}
     ]
 };
-
+config.correctmessage = {
+    type: "environment",
+    states: [
+        {name: "default", representation: "<img src='img/correctmess.jpg'/>"}
+    ]
+};
 
 config.messagebox = {
     type: "environment",
@@ -53,11 +58,11 @@ config.messagebox = {
                 '</div>' +
                 '<div id="startgame-inst" class="startpage-button">' +
                     '<img src="'+getImg("kbc-button-start")+'" />' +
-                    '<span>Start</span>' +
+                    '<span>START</span>' +
                 '</div>'},
 
         {name: "endgame", representation:
-            "<div id='game-back'><img src='"+getImg("kbc-background")+"' /></div>" +
+            "<div id='game-back'><img src='"+getImg("kbc-background1")+"' /></div>" +
             "<div id='endmessage'></div>" +
             "<div id='playagain' class='startpage-button'>" +
             "<img src='"+getImg("kbc-button-play-again")+"' />" +

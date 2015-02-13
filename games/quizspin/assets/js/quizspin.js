@@ -229,7 +229,7 @@ function playQuiz() {
                 $("#messageBox").html("<p>Correct! You have won 1 free spin!</p>" +
                     "<p>The <img src='assets/img/slotitems/7.png' /> gives you 50 bonus per slot!</p>");
                 $("#messages").fadeIn(500);
-                setTimeout(function() { $("#messages").fadeOut(500);}, 5000);
+                setTimeout(function() { $("#messages").fadeIn(500);}, 5000);
             }
         }
         else {
@@ -345,7 +345,6 @@ function handleIcons() {
 
     $("#botPanel img").eq(0).unbind('click').on('click', function() {
         initPayOffTable();
-//        console.log("CLICKED!");
     });
     $("#botPanel img").eq(1).unbind('click').on('click', function() {
         $("#payoffs h3").text("Instructions");
@@ -419,5 +418,4 @@ function sendTime() {
 
 function getMessage() {
     parent.$("#story-zone-close").trigger('click').trigger('click');
-    parent.$(".modal-main").fadeIn();
 }

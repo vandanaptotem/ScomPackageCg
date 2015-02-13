@@ -99,7 +99,7 @@ Question.showQuizPanel = function (obj, question) {
         $('#question-image').empty().html("<img src='" + question.image + "' />");
     }
     for (var i in question.options) {
-        $('#options ul').append('<li class="option-block" id="option-block-' + i + '">' + question.options[i].name + '</li>');
+        $('#options ul').append('<li class="option-block" id="option-block-' + i + '">' +'<span>'+ question.options[i].name +'</span>' +'</li>');
     }
     $('.option-block').unbind('click').on('click', function () {
         $this = $(this);

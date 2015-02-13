@@ -1,21 +1,21 @@
 #quiz {
-    width: 76%;
+    width: 99%;
     overflow: hidden;
 
 }
 
 #question{
     height: 21%;
-    width: 66%;
-    top: 26%;
-    left: 17%;
+    width: 87%;
+    top: 9.5%;
+    left: 7.5%;
     color: white;
     position: absolute;
     font-size: 1em;
     overflow: auto;
-    overflow: auto;
     display: table;
-    /*text-align: center;*/
+    text-align: center;
+    /*background-color: red;*/
 }
 
 #question span{
@@ -24,9 +24,9 @@
 }
 
 #options {
-    height: 45%;
+    height: 56%;
     left: 2%;
-    top: 51%;
+    top: 35%;
     width: 96%;
 
 }

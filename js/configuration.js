@@ -1,7 +1,7 @@
 var storyConfig = {
     name: "Ptotemy",
-//    background: "background.jpg",
-//    background1: "compass.png",
+    background: "background1.jpg",
+    background1: "background2.jpg",
     zone: {
         px:18,
         py:8,
@@ -11,29 +11,29 @@ var storyConfig = {
     },
     presenter: {
         image: "character.png",
-        px: 77,
-        py: 8,
-        width: 18
+        px: 67,
+        py: 3,
+        width: 20
     },
     nameplate: {
         image: "sign_board.png",
-        px: 84,
-        py: 73,
-        width: 13
+        px: 80,
+        py: 64,
+        width: 17
     },
 
 
     compass: {
         image: "compass.png",
-        px: 16,
-        py: 83,
-        width: 9
+        px: 11,
+        py: 71,
+        width: 14
     },
     scoreboard: {
         image: "scoreboard.png",
         px: 16,
         py: 83,
-        width: 13
+        width: 21
     },
     nodepics: {
         incomplete: "node-complete.png",

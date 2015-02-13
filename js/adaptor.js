@@ -5,11 +5,11 @@ var completedNode=[];
 var e;
 var time=0;
 var currentNode = -1;
+//var nodename=0;
 
 function initPage() {
     initCommunications();
-    modale_last();
-    $(".modal-main").hide();
+    initInstructions();
     score = getScore()*100;
     time = parseInt(getSuspendData());
     if(isNaN(time))
@@ -49,14 +49,33 @@ function initPage() {
 
     initSideIcons();
     startPagebtn();
-    initInstructions();
+
 }
+// for gif image
+function addArrow(){
+    var pos = $(".click-active").position();
+    console.log(pos);
+    $("#arrow_pointer").css({top: (pos.top - 60), left: pos.left});
+}
+
 function startPagebtn(){
+//    modale_last();
+    ShowDialog();
 
     $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
+    $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
+
+
+
+    $("#start_button").append("<img src='img/hop.png' id='instruction_first' />");
     $("#start_button").append("<img src='img/start_button.png' id='start_first' />");
 
+
     $("#start_first").click(function (e){
+        $("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_pointer' />");
+        $('#sideiconpanel').css('display','block');
+        $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
+
         initBackpack();
         if(score === 0)
             scoredisp = 0;
@@ -68,17 +87,32 @@ function startPagebtn(){
         else
             timedisp = formatTime(time)
 
-        $("#story-wrapper").append("<img src='img/scoreboard.png' id='story-scoreboard-container'/><span class='score_heading'>SCORE BOARD</span><span class='score_hurdle-name' id='score_node_name'></span><span class='score_hurdle-time' id='score_node_time'>" + timedisp + "</span><span class='score_hurdle-score' id='score_node'><b>"+scoredisp+"</b></span>");
-        $("#start_first").css("display","none");
+        $("#story-wrapper").append("<img src='img/scoreboard.png' id='story-scoreboard-container'/><span class='score_heading'>SCORE BOARD</span><span class='score_hurdle-name' id='score_node_name'></span><span class='score_hurdle-time' id='score_node_time'>" + timedisp + "</span><span class='score_hurdle-score' id='score_node'>"+scoredisp+"</span>");
+        $("#start_button").css("display","none");
         $("#story-compass").css("display","none");
         $("#story-nodes").css("display","block");
+//        $("#score_node_name" ).html(storyConfig.nodes[parseInt(scormGetValue("cmi.objectives.0.id"))].name);
         $("#score_node_name" ).html(storyConfig.nodes[0].name);
 
         if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "")
             changeNodeState();
     });
-}
+    instruction_click();
 
+}
+function instruction_click(){
+    $("#instruction_first").click(function (e){
+        var display_status_header=$('#instruction_table').css('display');
+        if(display_status_header=='none') {
+            $("#instruction_table").fadeIn(200);
+        }
+        else
+        {
+            $("#instruction_table").fadeOut(200);
+        }
+
+    });
+}
 function initBackpack() {
     $("#story-wrapper").append("<table id='backpack-icon-wrapper' style='display: none;margin-top:10px;'></table>");
     $("#backpack-icon-wrapper").append("<tr></tr><tr></tr>");
@@ -93,7 +127,6 @@ function initBackpack() {
         '<div class="right-slide"><div class="right-content"><img src="img/circle_next_arrow.png" width="25px" height="25px" id="right_slide_btn" class="slide_btn"></div></div>' +
         '</div>')
     $(".back-pack-icon").unbind('click').on('click', function() {
-//        console.log($(this).parent().index());Fcons
         $(".side-icon-image:first-child").addClass('no-click');
         $("#back_pack_table").fadeIn(200).css('display','block');
         var slidid = parseInt($(this).attr("currid"));
@@ -124,10 +157,8 @@ function initBackpack() {
 
         $("#left_slide_btn").unbind('click').on('click', function() {
             var slideid = parseInt($(this).attr("slide_id"));
-//            console.log(slideid);
             var subslideid = parseInt($(this).attr("sub_slide_id"));
             if(subslideid>1){
-//                console.log(subslideid)
                 $('.left-slide').css('visibility', 'visible');
             }
             else{
@@ -148,7 +179,6 @@ function initBackpack() {
             var subslideid = parseInt($(this).attr("sub_slide_id"));
             $("#right_slide_btn").attr("sub_slide_id",subslideid+1);
             $("#left_slide_btn").attr("sub_slide_id",subslideid-1);
-//            console.log(subslideid);
             if(subslideid>1){
                 $('.left-slide').css('visibility', 'visible');
             }
@@ -186,20 +216,41 @@ function getSubSlide(sub_slide_id,slide_id){
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
 }
 
+
 function initInstructions(){
     $("#story-wrapper").append('<div class="instruction_content"  style="display: none" id="instruction_table">' +
-        '<div class="inst_content"><b>GAMEPLAY:</b><ul><li>You start at the base of the mountain.</li><li>Click on the checkpoints to play the mini-game</li><li>Complete the mini-game to move on to the next checkpoint</li><li>Click on "Backpack" if you need any help</li><li>Once you surpass the last checkpoint, you will get an acknowledgement.</li><li>Click "Ok" to register your score</li></ul><b>SCORING:</b><ul><li>Your score will be displayed on the bottom left corner along with the time</li><li>The faster you play, The more you score!</li><li>Earn bonus points by referring to the Backpack while playing a mini-game</li></ul><div class="close_instruction"><img src="img/close_grey.png" width="60%"></div></div></div>' +
+        '<div class="inst_content">' +
+            '<b>GAMEPLAY:</b>' +
+//        '<h4>'+You are in for an adventure! You start at the base of the Mount Everest and may your way up to the top.There would be obstacles to stop you or snowstorm to leave you stranded. But don't worry! You will have a backpack to help you throughout the journey. Use it well! +'</h4>
+                '<ul>' +
+                    '<li>You start at the base of the mountain.</li>' +
+                    '<li>Click on the checkpoints to play the mini-game</li>' +
+                    '<li>Complete the mini-game to move on to the next checkpoint</li>' +
+                    '<li>Click on "Backpack" if you need any help</li>' +
+                    '<li>Once you surpass the last checkpoint, you will get an acknowledgement.</li>' +
+                    '<li>Click "Ok" to register your score</li>' +
+                '</ul>' +
+            '<b>SCORING:</b>' +
+                '<ul>' +
+                '<li>Your score will be displayed on the bottom left corner along with the time</li>' +
+                '<li>The faster you play, The more you score!</li>' +
+                '<li>Earn bonus points by referring to the Backpack while playing a mini-game</li>' +
+                '</ul>' +
+            '<div class="close_instruction">' +
+                '<img src="img/close_grey.png" width="60%" />' +
+            '</div>' +
+        '</div>' +
         '</div>');
     $(".close_instruction").unbind('click').on('click', function() {
         $("#instruction_table").fadeOut(200);
     });
 }
 function initSideIcons() {
-    $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons'></table>");
+    $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
     $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/back_pack.png' id='back_pack_img'/></td></tr>");
     $("#sideiconpanel").append("<tr><td class='side-icon-text'>Backpack</td></tr>");
-    $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/instructions.png' id='instruction_img'/></td></tr>");
-    $("#sideiconpanel").append("<tr><td class='side-icon-text'>How to Play</td></tr>");
+//    $("#sideiconpanel").append("<tr><td class='side-icon-image' style='display: none'><img src='img/instructions.png' id='instruction_img'/></td></tr>");
+//    $("#sideiconpanel").append("<tr><td class='side-icon-text' style='display: none;'>How to Play</td></tr>");
 
 //    On BackPack Click
     $("#back_pack_img").unbind('click').on('click', function (){
@@ -212,18 +263,18 @@ function initSideIcons() {
             }
              $("#back_pack_table").fadeIn(200).css('display','none');
     });
-    $("#instruction_img").click(function (e){
-        var display_status_header=$('#instruction_table').css('display');
-        if(display_status_header=='none') {
-            $("#instruction_table").fadeIn(200).css('display', 'table');
-        }
-        else
-        {
-            $("#instruction_table").fadeIn(200).css('display','none');
-        }
-//            $("#backpack-icon-wrapper").fadeIn(200).css('display','none');
-//            $("#back_pack_table").fadeIn(200).css('display','none');
-    });
+//    $("#instruction_img").click(function (e){
+//        var display_status_header=$('#instruction_table').css('display');
+//        if(display_status_header=='none') {
+//            $("#instruction_table").fadeIn(200);
+//        }
+//        else
+//        {
+//            $("#instruction_table").fadeOut(200);
+//        }
+////            $("#backpack-icon-wrapper").fadeIn(200).css('display','none');
+////            $("#back_pack_table").fadeIn(200).css('display','none');
+//    });
 }
 
 function addNodes() {
@@ -247,9 +298,15 @@ function addNodes() {
                     nodeClass = "incomplete-node";
                 }
             }
+//            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a><img style="display: none" src="img/arrow.gif"  id="arrow_first_'+(parseInt(i) + 1)+'"  />');
             $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
+//            $("#story-nodes").append("<img src='img/arrow.gif' id='arrow_first' />");
             $("#story-node-1 img").attr("src", 'img/1.png');
+//            $("#story-node-1 img").attr("src", 'img/arrow.gif');
             $( "#story-node-1" ).addClass("click-active" );
+            $( "#story-node-1" ).click(function(){
+                $("#arrow_first").css('display','none');
+            })
 
 
         }
@@ -606,7 +663,7 @@ function showGame(gameId) {
         $('#story-wrapper').fadeOut();
         $('#full-wrapper').slideDown(function () {
             var $fullProjector = $('<div class="fullprojector fullprojection"></div>').appendTo($(this));
-            $fullProjector.append(' <iframe src="games/' + thisGame.name + '/index.html" width="1080px" height="640px"></iframe>')
+            $fullProjector.append(' <iframe style:"border:none" src="games/' + thisGame.name + '/index.html" width="1080px" height="640px" ></iframe>')
 
             var $fullCloser = $('<div class="fullcloser fullprojection"><button type="button" class="btn btn-danger btn-lg" style="color: black"> Close </button></div>').appendTo($(this));
             $fullCloser.on('click', function () {
@@ -614,8 +671,6 @@ function showGame(gameId) {
                 $('#story-wrapper').fadeIn();
                 $('.fullprojection').remove();
             })
-
-
         });
     }
     else {
@@ -633,7 +688,7 @@ function showGame(gameId) {
                 $("#story-zone").fadeOut();
             });
         });
-        $projector.append(' <iframe src="games/' + thisGame.name + '/index.html" width="640" height="480"></iframe>')
+        $projector.append(' <iframe style="border:none"; src="games/' + thisGame.name + '/index.html" width="640" height="480"></iframe>')
     }
 
 
@@ -715,7 +770,7 @@ function setNodeCompleted(n){
 }
 
 function changeNodeState(){
-
+    addArrow();;
     if(currentNode === -1)
         var curCompleteNode = parseInt(scormGetValue("cmi.objectives.0.id"));
     else
@@ -723,13 +778,15 @@ function changeNodeState(){
 
     for(var i=1;i<=curCompleteNode;i++){
         var nodeData = storyConfig.nodes[i-1];
-//        console.log(nodeData.icon_complete);
         $("#story-node-"+ i +" img").attr("src",'img/'+ nodeData.icon_complete);
         $("#story-node-"+ i).removeClass( "incomplete-node").addClass("complete-node");
         if(i<6) {
             var curnode = storyConfig.nodes[i];
             $("#story-node-" + (i + 1) + " img").attr("src", 'img/' + curnode.icon_active);
             $("#story-node-" + (i + 1)).removeClass("incomplete-node").addClass("click-active");
+        }
+        else {
+            modale_last();
         }
     }
 
@@ -780,24 +837,29 @@ function modale_last()
     var date= d.toLocaleDateString()
     $("#story-wrapper").append('<div class="modal-main"></div>');
     $(".modal-main").append('<div class="modal-text">'+
-        '<h4>'+'Acknowledgement' +'</h4>'+'<p>'
-        +'“I have received a copy of STAR India BU’s Corporate Governance Policies and Procedures. These ' +
-    'Policies and Procedures outline certain responsibilities that I have to the Company.  These Policies and ' +
-    'Procedures are not intended to cover every situation that may arise during my work for STAR INDIA; I ' +
-    'may consult with the Company’s Corporate Governance committee if any questions arise.' +'</p>'+'<p>'+
 
+        '<div class="header-modale"><h4 style="margin: 0px;padding-left: 2px;">'+'Acknowledgement' +'</h4></div> '+'<p>'
+        +'"I have received a copy of STAR India BU’s Corporate Governance Policies and Procedures.'+
+        'These Policies and Procedures outline certain responsibilities that I have to STAR INDIA while performing ' +
+        'the services to them. These Policies and Procedures are not intended to cover every situation that may ' +
+        'arise during performance of my services to STAR INDIA; I will consult with the Corporate Governance ' +
+        'committee of STAR INDIA if any questions arise.' +'</p>'+'<p>'+
         'I will familiarize myself with the contents of the policies and procedures and comply with them.”' +'</p><p>'+
-        date+'</p></div>'+'<div class="ack-btn-box">'+'<input type="button" class="ack-btn" value="ok">'+'</div>');
+        date+'</p></div>'+'<div class="ack-btn-box">'+'<input type="button" class="ack-btn" value="OK">'+'</div>');
 
     $(".ack-btn").unbind('click').on('click', function() {
-        $(".modal-main").fadeIn(500);
+        $(".modal-main").fadeOut(500);
         setCompletionStatus("completed");
         scormCommit();
     });
 }
 
-function openbackPack(n){
+function openbackPack(n,sub){
     $("#back_pack_img").trigger('click');
     $(".back-pack-icon").eq(n-1).trigger('click');
+    $("#right_slide_btn").attr("sub_slide_id",sub);
+    $("#right_slide_btn").trigger('click');
+
+
 
 }

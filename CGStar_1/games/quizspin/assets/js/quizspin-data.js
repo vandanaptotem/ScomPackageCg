@@ -1,7 +1,0 @@
-
-quizspin = {};
-
-quizspin.combo = [
-
-
-]

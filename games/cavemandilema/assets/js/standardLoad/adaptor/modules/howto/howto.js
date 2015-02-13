@@ -116,7 +116,7 @@ function loadHowtoTheme() {
 function howtoStart() {
     var divId = ("#"+howtoData[howtoFlag].loc);
     if($(divId).attr("id") == undefined) {
-        console.log("Location-"+howtoData[howtoFlag].loc+" does not exist!")
+//        console.log("Location-"+howtoData[howtoFlag].loc+" does not exist!")
         howtoRedo();
     } else {
         var loc = howtoSetLoc(divId);

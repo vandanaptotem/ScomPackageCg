@@ -107,7 +107,8 @@ config.victoryState = {
     states: [
         {
             name: "default",
-            representation: "<div class='victory-txt'><span>Thank you! You may enter now!</span><input type='button' value='Continue' class='btn-ok' onclick='getMessage();'></div>"
+//            representation: "<div class='victory-txt'><span>Thank you! You may enter now!</span><input type='button' value='Continue' class='btn-ok' onclick='getMessage();'></div>"
+            representation: "<div class='victory-txt'><span>Thank you! You may enter now!</span><span type='button' class='btn-ok' onclick='getMessage();'>Continue</span></div>"
 //            representation: "<div class='victory-txt'><img src='assets/img/start_button.png' id='end_game' onclick='alert('hi') '><span class='won_txt_span'>You Won<span></span></div>"
         }
     ]

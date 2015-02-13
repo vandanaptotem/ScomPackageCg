@@ -38,3 +38,29 @@
     width: 8%;
     display: none;
 }
+.victory-txt
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    /*top: 46%;*/
+    /*left: 30%;*/
+    position: absolute;
+    width: 60%;
+    height: 10%;
+
+}
+
+.btn-ok{
+    font-size: 21px;
+    background-image: url('../img/start_button.png');
+    background: #99664f;
+    height: auto;
+    padding: 7px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin-top: 7px;
+    width: 40%;
+}

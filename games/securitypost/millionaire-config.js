@@ -9,7 +9,7 @@ config.base = {
 //            {name: "default", representation: "<img src='" + getImg("kbc-logo") + "' />"}
 //        ]},
         {name: "help", states: [
-            {name: "default", representation: "<img /><span>Help</span>"}
+            {name: "default", representation: "<img /><span >Help</span>"}
         ]}
     ]
 };
@@ -25,7 +25,12 @@ config.qholder = {
         ]}
     ]
 };
-
+config.correctmessage = {
+    type: "environment",
+    states: [
+        {name: "default", representation: "<img src='img/correctmess.jpg'/>"}
+    ]
+};
 
 config.messagebox = {
     type: "environment",
@@ -40,7 +45,8 @@ config.messagebox = {
             "<div id='showinst' class='startpage-button'>" +
                 "<img src='"+getImg("kbc-button-instruction")+"' />" +
                 "<span>Instructions</span>" +
-            "</div>"},
+            "</div>"
+        },
 
         {name: "instruction", representation:
             '<div id="game-back"><img src='+getImg("kbc-background")+' /></div>' +
@@ -53,11 +59,11 @@ config.messagebox = {
                 '</div>' +
                 '<div id="startgame-inst" class="startpage-button">' +
                     '<img src="'+getImg("kbc-button-start")+'" />' +
-                    '<span>Start</span>' +
+                    '<span>START</span>' +
                 '</div>'},
 
         {name: "endgame", representation:
-            "<div id='game-back'><img src='"+getImg("kbc-background")+"' /></div>" +
+            "<div id='game-back'><img src='img/backgroundend.jpg' /></div>" +
             "<div id='endmessage'></div>" +
             "<div id='playagain' class='startpage-button'>" +
                 "<img src='"+getImg("kbc-button-play-again")+"' />" +
@@ -209,3 +215,4 @@ config.howtoData = [
     {loc: "ladder", description: "<span>These are the levels you need to cross to win the game.</span>", sequence: 4},
     {loc: "player", description: "<span>This is your current position.</span>", sequence: 5}
 ]
+
