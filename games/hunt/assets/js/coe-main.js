@@ -16,7 +16,8 @@ jQuery.fn.center = function(parent) {
     });
     return this;
 };
-var launchpad, mainPage,leftPanel, switches, opacityState= 1,quesbank=[],count= 0,victoryState;
+var launchpad, mainPage,leftPanel, switches, opacityState= 1,quesbank=[],count= 0,victoryState,instruction;
+var correctmessage;
 $(function(){
 
    initGame();
@@ -29,7 +30,7 @@ function initGame() {
     leftPanel = new Environment("leftPanel");
     switches = new Environment("switches");
     victoryState = new Environment("victoryState");
-
+    correctmessage = new Environment("correctmessage");
 
     loadConfig(launchpad);
     loadConfig(instruction);
@@ -37,8 +38,9 @@ function initGame() {
     loadConfig(leftPanel);
     loadConfig(switches);
     loadConfig(victoryState);
+    loadConfig(correctmessage);
     initQuiz();
-
+//    $('#instructions').show();
 
     $("img").mousedown(function(){
         return false;
@@ -130,13 +132,15 @@ function playQuiz() {
 
         if(dataset1.join()==dataset2.join())
         {
+            $("#correctmessage").fadeIn(500).delay(1000).fadeOut(500);
             count++;
             if(count==3) {
+
 //                victoryState.setState("default");
                 setTimeout(function() {
                     $("#victoryState").fadeIn();
                     victoryState.setState("default");
-                    $(".victory-txt").center(true);
+//                    $(".victory-txt").center(true);
                 }, 3000);
                 $("#switches").addClass("no-click");
                 window.parent.setNodeCompleted(node);

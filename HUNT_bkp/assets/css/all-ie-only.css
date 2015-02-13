@@ -1,0 +1,66 @@
+#options li{
+    background:#99664f;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    height: 50px;
+    opacity: 0.8;
+    /*padding: 5%;*/
+    margin-top: 9%;
+    padding-left: 2%;
+    overflow-y: auto;
+    padding-top: 2%;
+    position: static;
+    width: 100%;
+    list-style-type: none;
+    left: 0px;
+}
+#options ul
+{
+    margin: 0;
+    padding: 0;
+}
+#switch1,
+#switch2,#switch3,#switch4,#switch5,#switch6
+{
+    display: block;
+    height: 13%;
+    margin-top: 22%;
+    padding: 0;
+    position: static;
+}
+#switches
+{
+    height: 96%;
+    left: 55%;
+    top: 30%;
+    width: 8%;
+    display: none;
+}
+.victory-txt
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    /*top: 41%;*/
+    /*left: 25%;*/
+    position: absolute;
+    width: 60%;
+    height: 10%;
+
+}
+
+.btn-ok{
+    font-size: 21px;
+    background-image: url('../img/start_button1.png');
+    background: #99664f;
+    height: auto;
+    padding: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin-top: 7px;
+    width: 40%;
+}

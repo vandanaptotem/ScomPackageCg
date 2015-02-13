@@ -10,6 +10,9 @@ config.base = {
 //        ]},
         {name: "help", states: [
             {name: "default", representation: "<img /><span>Help</span>"}
+        ]},
+        {name: "textboxdisplay", states: [
+            {name: "default", representation: "Choose any of these lifelines to help you win the game:"}
         ]}
     ]
 };
@@ -54,7 +57,7 @@ config.messagebox = {
                 '<div id="instructions">' +
                     '<div id="inst-header"><span>'+getText("kbc-text-instruction-header")+'</span></div>' +
                     '<div id="inst-content" >' +
-                        '<span class="content mCustomScrollbar">' + getText("kbc-text-instructions") + '</span>' +
+                        '<span class="content">' + getText("kbc-text-instructions") + '</span>' +
                     '</div>' +
                 '</div>' +
                 '<div id="startgame-inst" class="startpage-button">' +
@@ -163,7 +166,7 @@ config.lifelinepanel = {
                                                 "<div id='cancel' class='button'>Cancel</div>" +
                                                 "<div id='close' class='button'>Close</div>" +
                                             "</div>"},
-        {name: "default", representation: "<div id='default'>Choose any of the Lifeline to help you win the game.</div>"}
+        {name: "default", representation: ""}
     ],
     locations: []
 };

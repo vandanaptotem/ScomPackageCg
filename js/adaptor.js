@@ -5,7 +5,6 @@ var completedNode=[];
 var e;
 var time=0;
 var currentNode = -1;
-//var nodename=0;
 
 function initPage() {
     initCommunications();
@@ -53,14 +52,12 @@ function initPage() {
 }
 // for gif image
 function addArrow(){
-    var pos = $(".click-active").position();
-    console.log(pos);
+    var pos = $(".this-node").position();
     $("#arrow_pointer").css({top: (pos.top - 60), left: pos.left});
 }
 
 function startPagebtn(){
 //    modale_last();
-    ShowDialog();
 
     $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
     $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
@@ -87,16 +84,18 @@ function startPagebtn(){
         else
             timedisp = formatTime(time)
 
-        $("#story-wrapper").append("<img src='img/scoreboard.png' id='story-scoreboard-container'/><span class='score_heading'>SCORE BOARD</span><span class='score_hurdle-name' id='score_node_name'></span><span class='score_hurdle-time' id='score_node_time'>" + timedisp + "</span><span class='score_hurdle-score' id='score_node'>"+scoredisp+"</span>");
+        $("#story-wrapper").append("<div id='story-scoreboard-container'><img src='img/scoreboard.png' /><span class='score_heading'>SCORE BOARD</span><span class='score_hurdle-name' id='score_node_name'></span><span class='score_hurdle-time' id='score_node_time'>" + timedisp + "</span><span class='score_hurdle-score' id='score_node'>"+scoredisp+"</span></div>");
         $("#start_button").css("display","none");
         $("#story-compass").css("display","none");
         $("#story-nodes").css("display","block");
 //        $("#score_node_name" ).html(storyConfig.nodes[parseInt(scormGetValue("cmi.objectives.0.id"))].name);
-        $("#score_node_name" ).html(storyConfig.nodes[0].name);
 
         if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "")
             changeNodeState();
+        else
+            $("#score_node_name" ).html(storyConfig.nodes[0].name);
     });
+
     instruction_click();
 
 }
@@ -303,7 +302,7 @@ function addNodes() {
 //            $("#story-nodes").append("<img src='img/arrow.gif' id='arrow_first' />");
             $("#story-node-1 img").attr("src", 'img/1.png');
 //            $("#story-node-1 img").attr("src", 'img/arrow.gif');
-            $( "#story-node-1" ).addClass("click-active" );
+            $( "#story-node-1" ).addClass("click-active this-node" );
             $( "#story-node-1" ).click(function(){
                 $("#arrow_first").css('display','none');
             })
@@ -770,7 +769,7 @@ function setNodeCompleted(n){
 }
 
 function changeNodeState(){
-    addArrow();;
+    addArrow();
     if(currentNode === -1)
         var curCompleteNode = parseInt(scormGetValue("cmi.objectives.0.id"));
     else
@@ -779,16 +778,18 @@ function changeNodeState(){
     for(var i=1;i<=curCompleteNode;i++){
         var nodeData = storyConfig.nodes[i-1];
         $("#story-node-"+ i +" img").attr("src",'img/'+ nodeData.icon_complete);
-        $("#story-node-"+ i).removeClass( "incomplete-node").addClass("complete-node");
+        $("#story-node-"+ i).removeClass( "incomplete-node this-node").addClass("complete-node");
         if(i<6) {
             var curnode = storyConfig.nodes[i];
             $("#story-node-" + (i + 1) + " img").attr("src", 'img/' + curnode.icon_active);
-            $("#story-node-" + (i + 1)).removeClass("incomplete-node").addClass("click-active");
+            $("#story-node-" + (i + 1)).removeClass("incomplete-node").addClass("click-active this-node");
         }
         else {
             modale_last();
         }
     }
+
+
 
     bindToNodes("click1", "click-active");
     bindToNodes("click2", "complete-node");

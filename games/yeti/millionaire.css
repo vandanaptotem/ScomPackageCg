@@ -141,14 +141,17 @@ img {
     left: 40%;
     top: 3%;
 }
+
 #instructions {
-    height: 169px;
-    width: 68%;
+    height: 200px;
+    width: 87%;
     background: url('img/ins_board.png');
     color: black;
     top: 38%;
-    left: 14%;
+    left: 6%;
     display: table;
+    background-repeat: no-repeat;
+    font-size: 0.9em;
     background-size: 100%;
 }
 
@@ -166,7 +169,7 @@ img {
     position: absolute;
     height: 75%;
     width: 94%;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
     text-align: justify;
     line-height: 20px;
     top: 19%;
@@ -185,7 +188,7 @@ img {
 }
 
 #startgame-inst {
-    top: 77%;
+    top: 85%;
     left: 31%;
 }
 
@@ -327,7 +330,8 @@ img {
     height: 10%;
     left: 60.5%;
     top: 84%;
-    width: 25%
+    width: 25%;
+    z-index:2;
 }
 
 
@@ -373,19 +377,20 @@ img {
 #ll3 {
     left: 19%;
 }
-#lifelinepanel {
-    height: auto;
-    left: 8%;
-    bottom: 19% !important;
-    top: 85%;
-    width: 54%;
-    color: white;
-    /* text-align: center; */
-    display: table;
-    padding: 0.5%;
-    z-index: 3;
 
+#lifelinepanel {
+    color: white;
+    display: table;
+    height: 30%;
+    left: 58%;
+    padding: 0.5%;
+    text-align: center;
+    top: 52%;
+    width: 31%;
+    z-index: 3;
+    display:none;
 }
+
 #lifelinepanel * {
     display: inline-block;
     vertical-align: bottom;
@@ -444,4 +449,12 @@ img {
 }
 #startgame-inst span {
     font-size: 24px;
+}
+
+#textboxdisplay {
+    color: #594008;
+    height: auto;
+    left: 6%;
+    top: 86.5%;
+    width: 60%;
 }

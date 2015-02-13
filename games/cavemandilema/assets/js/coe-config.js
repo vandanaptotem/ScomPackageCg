@@ -9,11 +9,12 @@ config.launchpad = {
         {name: "default", representation: "<img src='assets/img/background_pg01.jpg'/>"}
     ],
     locations: [
-        {name: "instructions", states: [
-            {name: "start-btn", representation: "<img src='assets/img/start_button.png'><span>Instructions</span>"}
+        {name: "inst-txt", states: [
+            {name: "inst-btn", representation: "<div id='game-back'><img src='assests/img/background_page01.jpg'/>"}
         ]},
+
         {name: "start", states: [
-            {name: "start-btn", representation: "<img src='assets/img/start_button.png'><span>Start</span>"}
+            {name: "start-btn", representation: "<img src='assets/img/start_button.png'><span>START</span>"}
         ]}
     ]
 };
@@ -26,7 +27,11 @@ config.instruction= {
     ],
     locations: [
         {name: "inst-txt", states: [
-            {name: "inst-btn", representation: "<span>Objective: Answer the questions correctly to clear the snow.<br> Read the questions and try to answer them correctly to complete the game. Click on the buttons to turn off the wrong answers. Once you select the correct answer, the next question will appear.</span>"}
+            {name: "inst-btn", representation: "<div id='inst-header'>HOW TO PLAY</div>" +
+                "<div id='inst-content' class='mCustomScrollbar'>" +
+                "<p class='content'>To save yourself, you will have to trap the beast.</p>" +
+                "<p class='content'>Turn off the 3 wrong options to bring down the trap.</p>" +
+                "<p class='content'>You need to answer all the 3 questions correctly to get away safely.</div>"}
         ]},
         {name: "inst-btn", states: [
             {name: "inst-btn", representation: "<img src='assets/img/start_button.png'><span class='inst-btn-txt'>Start Game</span>"}
@@ -37,6 +42,13 @@ config.instruction= {
 
 };
 
+
+config.correctmessage = {
+    type: "environment",
+    states: [
+        {name: "default", representation: "<img src='assets/img/correctmess.jpg'/>"}
+    ]
+};
 config.mainPage = {
     type: "environment",
     states: [
@@ -108,7 +120,7 @@ config.victoryState = {
         {
             name: "default",
 //            representation: "<div class='victory-txt'><span>Thank you! You may enter now!</span><input type='button' value='Continue' class='btn-ok' onclick='getMessage();'></div>"
-            representation: "<div class='victory-txt'><span>Thank you! You may enter now!</span><span type='button' class='btn-ok' onclick='getMessage();'>Continue</span></div>"
+            representation: "<div class='victory-txt'><span class='header'>Thank you! You may enter now! Make yourself at home!</span><span type='button' class='btn-ok' onclick='getMessage();'>Continue</span></div>"
 //            representation: "<div class='victory-txt'><img src='assets/img/start_button.png' id='end_game' onclick='alert('hi') '><span class='won_txt_span'>You Won<span></span></div>"
         }
     ]

@@ -9,15 +9,18 @@ config.launchpad = {
         {name: "default", representation: "<img src='assets/img/background_page01.jpg'/>"}
     ],
     locations: [
-        {name: "instructions", states: [
-            {name: "start-btn", representation: "<img src='assets/img/start_button1.png'><span>Instructions</span>"}
+        {name: "inst-txt", states: [
+            {name: "inst-btn", representation: "<div id='game-back'><img src='assests/img/background_page01.jpg'/>"}
         ]},
+        {name: "inst-btn", states: [
+            {name: "inst-btn", representation: "<img src='assets/img/start_button1.png'><span class='inst-btn-txt'>Start Game</span>"}
+        ]},
+
         {name: "start", states: [
             {name: "start-btn", representation: "<img src='assets/img/start_button1.png'><span>Start</span>"}
         ]}
     ]
 };
-
 config.mainPage = {
     type: "environment",
     states: [
@@ -27,6 +30,7 @@ config.mainPage = {
         }
     ]
 };
+
 config.instruction= {
     type: "environment",
     states: [
@@ -34,7 +38,9 @@ config.instruction= {
     ],
     locations: [
         {name: "inst-txt", states: [
-            {name: "inst-btn", representation: "<span>Objective: Answer the questions correctly to trap the snow leopard.<br> Read the questions and try to answer them correctly to complete the game. Click on the buttons to turn off the wrong answers. Once you select the correct answer, the next question will appear.</span>"}
+            {name: "inst-btn", representation: "<div id='inst-header'>HOW TO PLAY</div><div id='inst-content'><p>To save yourself, you will have to trap the beast.</p>" +
+                "<p>Turn off the 3 wrong options to bring down the trap.</p>" +
+                "<p '>You need to answer all the 3 questions correctly to get away safely.</div>"}
         ]},
         {name: "inst-btn", states: [
             {name: "inst-btn", representation: "<img src='assets/img/start_button1.png'><span class='inst-btn-txt'>Start Game</span>"}
@@ -44,7 +50,12 @@ config.instruction= {
     ]
 
 };
-
+config.correctmessage = {
+    type: "environment",
+    states: [
+        {name: "default", representation: "<img src='assets/img/correctmess.jpg'/>"}
+    ]
+};
 config.leftPanel = {
     type: "environment",
     states: [
@@ -97,7 +108,7 @@ config.victoryState = {
     states: [
         {
             name: "default",
-            representation: "<div class='victory-txt'><span>Bravo! You may proceed now!</span><span type='button' class='btn-ok' onclick='getMessage();'>Continue</span></div>"
+            representation: "<div class='victory-txt'><span class='header'>Bravo! You may proceed now! And be careful!</span><span type='button' class='btn-ok' onclick='getMessage();'>Continue</span></div>"
         }
     ]
 

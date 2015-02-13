@@ -148,7 +148,7 @@ function showStartPage() {
 
     $("#startgame").unbind('click').on('click', function() {
 
-        gameTimer('start');
+
         messagebox.setState('default');
         $("#messagebox").fadeOut();
 //        parent.setGameAttempt(parent.currentIntegratedGame,parent.currentUid);
@@ -165,7 +165,6 @@ function showStartPage() {
 
 function showInstructions() {
     messagebox.setState('instruction');
-    $(".content").mCustomScrollbar();
     $("#messagebox").show();
 
     $("#startgame-inst").unbind('mouseover').on('mouseover', function() {
@@ -178,7 +177,7 @@ function showInstructions() {
         $( "#kbc-back" ).attr( "src", getImg("kbc-background1"));
         messagebox.setState('default');
         $("#messagebox").fadeOut();
-//        parent.setGameAttempt(parent.currentIntegratedGame,parent.currentUid);
+        gameTimer('start');
         playGame();
     });
 } 
@@ -218,7 +217,6 @@ function playGame() {
     lifelinepanel.setState('default');
     $("#lifelines .location").css({'pointer-events': "auto", 'cursor': "pointer"});
     var  question=quesbank.pop();
-    console.log(question);
 
     $('#quiz').fadeIn(function () {
         Question.showQuizPanel(quiz, question);
@@ -277,6 +275,7 @@ function playGame() {
 
     $("#lifeline1img").unbind('click').on('click', function () {
         if(pollSelected == false) {
+            $("#lifelinepanel").fadeIn();
             lifelinepanel.setState('lifeline1');
             $("#close").hide();
 
@@ -304,6 +303,7 @@ function playGame() {
 
     $("#lifeline2img").unbind('click').on('click', function () {
         if(halfSelected == false) {
+            $("#lifelinepanel").fadeIn();
             lifelinepanel.setState('lifeline2');
 
             $("#ok").unbind('click').on('click', function() {
@@ -322,6 +322,7 @@ function playGame() {
 
     $("#lifeline3img").unbind('click').on('click', function () {
         if(changeSelected == false) {
+            $("#lifelinepanel").fadeIn();
             lifelinepanel.setState('lifeline3');
 
             $("#ok").unbind('click').on('click', function() {

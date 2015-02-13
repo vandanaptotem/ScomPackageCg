@@ -143,7 +143,6 @@ function showStartPage() {
 
 function showInstructions() {
     messagebox.setState('instruction');
-    $(".content").mCustomScrollbar();
     $("#messagebox").show();
 
     $("#startgame-inst").unbind('mouseover').on('mouseover', function() {
@@ -156,7 +155,7 @@ function showInstructions() {
         $( "#kbc-back" ).attr( "src", getImg("kbc-background1"));
         messagebox.setState('default');
         $("#messagebox").fadeOut();
-//        parent.setGameAttempt(parent.currentIntegratedGame,parent.currentUid);
+        gameTimer('start');
         playGame();
     });
 } 
@@ -220,7 +219,8 @@ function playGame() {
                         playGame();
                     else {
 
-                        endGame("Good going! You may proceed now!", question);
+                        endGame("I am very pleased. You did not make the wrong choice even though you needed my help. I am happy to" +
+                            " direct you now. Go Forward!", question);
                         window.parent.setNodeCompleted(node);
                         var timr=gameTimer('stop');
                         window.parent.appendScore(sendScore());
@@ -252,6 +252,7 @@ function playGame() {
 
     $("#lifeline1img").unbind('click').on('click', function () {
         if(pollSelected == false) {
+            $("#lifelinepanel").fadeIn();
             lifelinepanel.setState('lifeline1');
             $("#close").hide();
 
@@ -263,7 +264,7 @@ function playGame() {
                 $("#close").show();
                 lifelines.lifeline1img.setState('complete');
                 $("#lifelines .location").css({'pointer-events': "none", 'cursor': "default"});
-                usePoll();
+                usePoll(question);
             });
 
             $("#cancel").unbind('click').on('click', function() {
@@ -279,11 +280,12 @@ function playGame() {
 
     $("#lifeline2img").unbind('click').on('click', function () {
         if(halfSelected == false) {
+            $("#lifelinepanel").fadeIn();
             lifelinepanel.setState('lifeline2');
 
             $("#ok").unbind('click').on('click', function() {
                 halfSelected = true;
-                useHalf();
+                useHalf(question);
                 lifelines.lifeline2img.setState('complete');
 //                $("#lifelines .location").css({'pointer-events': "auto", 'cursor': "pointer"});
                 lifelinepanel.setState('default');
@@ -297,6 +299,7 @@ function playGame() {
 
     $("#lifeline3img").unbind('click').on('click', function () {
         if(changeSelected == false) {
+            $("#lifelinepanel").fadeIn();
             lifelinepanel.setState('lifeline3');
 
             $("#ok").unbind('click').on('click', function() {
@@ -323,7 +326,7 @@ function incFlag() {
 
 }
 
-function usePoll() {
+function usePoll(question) {
     var sum = 0;
     var ctx = $("#poll-chart").get(0).getContext("2d");
     var data = {
@@ -370,7 +373,7 @@ function usePoll() {
     });
 }
 
-function useHalf() {
+function useHalf(question) {
     while(true) {
         var random1 = randBetween(0,100)%4;
         var random2 = randBetween(0,100)%4;
@@ -414,14 +417,17 @@ function endGame(message, question) {
     $("#playagain").unbind('mouseover').on('mouseover', function() {
         $(this).find('img').attr('src', getImg("kbc-button-play-again-hover"));
     });
+
     $("#playagain").unbind('mouseout').on('mouseout', function() {
         $(this).find('img').attr('src', getImg("kbc-button-play-again"))
     });
+
     $("#playagain").unbind('click').on('click', function() {
         messagebox.setState('default');
         $("#messagebox").hide();
         initVariables();
     });
+
     $("#backpack").unbind('click').on('click', function() {
         window.parent.openbackPack(question.slide, question.subslide);
         parent.$("#story-zone-close").trigger('click').trigger('click');

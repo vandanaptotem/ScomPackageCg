@@ -42,7 +42,7 @@ function loadQuestionBank() {
             options.push(optiones);
             optiones = {}
         }
-        new Question(q.name, q.image, q.weight, options, q.help, q.slide, q.subslide);
+        new Question(q.name, q.image, q.weight, options, q.help, q.slide_id, q.id);
     }
     return true;
 }
@@ -50,14 +50,12 @@ function loadQuestionBank() {
 
 var Question = Fiber.extend(function () {
     return {
-        init: function (name, image, weight, options, help, slide, subslide) {
+        init: function (name, image, weight, options, help) {
             this.name = name;
             this.image = image;
             this.weight = weight || 1;
             this.options = options;
             this.help = help;
-            this.slide = slide;
-            this.subslide = subslide;
             Question.all.push(this);
             log.add('Question: ' + name + ' created')
         },
@@ -101,7 +99,7 @@ Question.showQuizPanel = function (obj, question) {
         $('#question-image').empty().html("<img src='" + question.image + "' />");
     }
     for (var i in question.options) {
-        $('#options ul').append('<li class="option-block" id="option-block-' + i + '">'+'<span>' + question.options[i].name +'</span>'+ '</li>');
+        $('#options ul').append('<li class="option-block" id="option-block-' + i + '">' +'<span>'+ question.options[i].name +'</span>' +'</li>');
     }
     $('.option-block').unbind('click').on('click', function () {
         $this = $(this);

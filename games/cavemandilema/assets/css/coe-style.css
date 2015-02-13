@@ -78,9 +78,10 @@ img {
 {
     height: 12%;
     left: 40%;
-    top: 75%;
-    width: 23%;
+    top: 80%;
+    width: 25%;
     cursor: pointer;
+    height: 9%;
 
 }
 
@@ -173,7 +174,7 @@ img {
     /*padding-left: 12%;*/
     /* padding-top: 10%; */
     position: static;
-    width: 86%;
+    width: 96%;
     margin-top: 2%;
     text-align: center;
 }
@@ -192,10 +193,10 @@ img {
 }
 #switches
 {
-    height: 96%;
-    left: 55%;
-    top: 33%;
-    width: 8%;
+    height: 104%;
+    left: 54%;
+    top: 31%;
+    width: 10%;
     display: none;
 }
 .opacity3
@@ -301,6 +302,7 @@ img {
 ul
 {
     padding-left: 0px !important;
+    margin: 0;
 }
 #quiz
 {
@@ -318,8 +320,8 @@ ul
 
 #victoryState
 {
-    background-color:#000000;
-    opacity: 0.8;
+    background-image: url('../img/endgame.jpg');
+    /*opacity: 0.8;*/
     display: none;
     z-index: 1;
     text-align: center;
@@ -329,27 +331,31 @@ ul
     color: white;
     font-weight: bold;
     font-size: 20px;
-    /*top: 46%;*/
-    /*left: 30%;*/
+    /* top: 41%; */
+    /* left: 25%; */
     position: absolute;
-    width: 60%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
 
 }
-
 .btn-ok{
+    position: absolute;
     font-size: 21px;
     background-image: url('../img/start_button.png');
-    background: #99664f;
+    /* background-repeat: no-repeat; */
+    /* background: #99664f; */
     height: auto;
     padding: 7px;
     border: none;
-    color: #ffffff;
+    color: white;
     cursor: pointer;
     display: block;
-    margin-top: 7px;
+    /* margin-top: 7px; */
     width: 40%;
-    margin-left: 25%;
+    /* margin-left: 25%; */
+    top: 66%;
+    left: 34%;
+    width: 30%;
 }
 .won_txt_span{
     color: whitesmoke;
@@ -384,11 +390,13 @@ ul
 }
 #inst-txt
 {
-    height: 70%;
-    left: 15%;
-    overflow-y: auto;
-    top: 10%;
+    background: url('../img/ins_board.png');
+    height: 42%;
+    left: 16%;
+    /*overflow-y: auto;*/
+    top: 36%;
     width: 70%;
+    background-repeat:no-repeat;
 }
 .inst-start
 {
@@ -409,4 +417,39 @@ ul
     position: absolute;
     top: 22%;
 
+}
+#correctmessage
+{
+    /*background-color: red;*/
+    /*width: 50%;*/
+    /*height: 50%;*/
+    z-index: 3;
+    display: none;
+}
+#inst-header {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.3em;
+    top: 2%;
+    left: 3%;
+    width: 100%;
+}
+#inst-content{
+    position: absolute;
+    height: 75%;
+    width: 94%;
+    overflow-y: auto;
+    text-align: justify;
+    line-height: 20px;
+    top: 19%;
+    left: 3%;
+}
+#inst-content p{
+    font-size: 1em;
+    /*padding: 10px;*/
+}
+.header{
+    position: absolute;
+    top: 25%;
+    left: 28%;
 }
