@@ -53,11 +53,14 @@ function initPage() {
 }
 // for gif image
 function addArrow(){
-    $("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_first' />");
+    var pos = $(".click-active").position();
+    console.log(pos);
+    $("#arrow_pointer").css({top: (pos.top - 60), left: pos.left});
 }
+
 function startPagebtn(){
 //    modale_last();
-//    ShowDialog();
+    ShowDialog();
 
     $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
     $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
@@ -69,7 +72,7 @@ function startPagebtn(){
 
 
     $("#start_first").click(function (e){
-        addArrow();
+        $("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_pointer' />");
         $('#sideiconpanel').css('display','block');
         $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
@@ -767,7 +770,7 @@ function setNodeCompleted(n){
 }
 
 function changeNodeState(){
-
+    addArrow();;
     if(currentNode === -1)
         var curCompleteNode = parseInt(scormGetValue("cmi.objectives.0.id"));
     else
@@ -851,10 +854,10 @@ function modale_last()
     });
 }
 
-function openbackPack(n){
+function openbackPack(n,sub){
     $("#back_pack_img").trigger('click');
     $(".back-pack-icon").eq(n-1).trigger('click');
-    $("#right_slide_btn").attr("sub_slide_id",5);
+    $("#right_slide_btn").attr("sub_slide_id",sub);
     $("#right_slide_btn").trigger('click');
 
 

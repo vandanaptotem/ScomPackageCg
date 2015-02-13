@@ -344,13 +344,13 @@ a.zone-button:visited{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-#arrow_first{
+#arrow_pointer{
     width: 3%;
     position: absolute;
-    left: 56%;
-    top: 66%;
-    z-index: 1;
+    padding-left: 5px;
+    z-index: 0;
 }
+
 #arrow_first_2{
     width: 3%;
     position: absolute;
