@@ -329,7 +329,7 @@ img {
     height: 10%;
     left: 60.5%;
     top: 84%;
-    width: 25%;
+    width: 25%
 }
 
 #lifelines div {
@@ -377,12 +377,12 @@ img {
 
 #lifelinepanel {
     height: auto;
-    left: 31%;
+    left: 8%;
     bottom: 19% !important;
-    top: 76%;
-    width: 22%;
+    top: 85%;
+    width: 54%;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     display: table;
     padding: 0.5%;
     z-index: 3;

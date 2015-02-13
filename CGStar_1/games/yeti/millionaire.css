@@ -261,12 +261,13 @@ img {
 
 #qholder {
     height: 25%;
-    left: 2.5%;
-    top: 4.3%;
-    width: 71%;
+    left: 3.5%;
+    top: 7.3%;
+    width: 91%;
     background: rgba(75, 150, 203, 0.4);
     border-radius: 7px;
 }
+
 
 #character {
     width: 34%;
@@ -282,7 +283,7 @@ img {
     width: 21%;
     /*padding-top: 1%;border: 2px solid white;*/
     border-radius: 4px;
-    /*display: none;*/
+    display: none;
 }
 
 #ladder .location {
@@ -324,10 +325,11 @@ img {
 
 #lifelines {
     height: 10%;
-    left: 72.5%;
-    top: 83%;
-    width: 25%;
+    left: 60.5%;
+    top: 84%;
+    width: 25%
 }
+
 
 #lifelines div {
     position: relative;
@@ -371,24 +373,24 @@ img {
 #ll3 {
     left: 19%;
 }
-
 #lifelinepanel {
     height: auto;
-    left: 75%;
+    left: 8%;
     bottom: 19% !important;
-    top: auto;
-    width: 22%;
+    top: 85%;
+    width: 54%;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     display: table;
     padding: 0.5%;
     z-index: 3;
-}
 
+}
 #lifelinepanel * {
     display: inline-block;
     vertical-align: bottom;
     padding: 2%;
+    /*color:#709bb5;*/
     /*height: auto;*/
     /*display: block;*/
 }
