@@ -100,6 +100,7 @@ body.story-page {
     background-size: 100% 100%;
     display: none;
     padding: 48px 50px 50px 40px;
+    z-index:1;
 }
 
 #story-zone-close {
@@ -135,19 +136,19 @@ body.story-page {
 }
 
 .story-zone-tale {
-    position: absolute;
-    padding: 20px;
-    display: table;
-    top: 38%;
-    left: 47px;
-    font-size: 0.9em;
-    background: white;
-    border-top-right-radius: 10px;
+    background: none repeat scroll 0 0 white;
     border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     color: black;
-    width: 50%;
+    display: table;
+    font-size: 0.9em;
     height: 25%;
+    left: 15.5%;
     opacity: 0.8;
+    padding: 20px;
+    position: absolute;
+    top: 38%;
+    width: 44%;
 }
 
 .story-zone-tale span {
@@ -157,11 +158,10 @@ body.story-page {
 }
 
 #button-bank {
+    left: 15.25%;
     position: absolute;
-    width: 50%;
     top: 65%;
-    left: 47px;
-    /*opacity: 0.8;*/
+    width: 44%;
 }
 
 .zone-button {
@@ -530,12 +530,17 @@ position: absolute;
 }
 
 .score_heading{
+    background: none repeat scroll 0 0;
     color: #ffffff;
     font-weight: bold;
+    left: 8%;
+    padding: 5px;
     position: absolute;
-    left: 9%;
-    top: 60.5%;
+    text-align: center;
+    top: 57.5%;
+    width: 9%;
 }
+
 .score_hurdle-name{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #000000;

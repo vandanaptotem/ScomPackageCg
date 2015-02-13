@@ -212,7 +212,7 @@ function playGame() {
                         playGame();
                     else {
 
-                        endGame("Good going! You may proceed now!");
+                        endGame("Good going! You may proceed now!", question);
                         window.parent.setNodeCompleted(node);
                         var timr=gameTimer('stop');
                         window.parent.appendScore(sendScore());
@@ -234,7 +234,7 @@ function playGame() {
     });
 
     $(player.lives).unbind('min').on('min', function () {
-        endGame("Nah! You aren't ready. Please use the Carabiners in your backpack.");
+        endGame("Nah! You aren't ready. Please use the Carabiners in your backpack.", question);
         var timr=gameTimer('stop');
     });
 
@@ -378,7 +378,7 @@ function useHalf() {
     }
 }
 
-function endGame(message) {
+function endGame(message, question) {
     messagebox.setState('endgame');
     if (message == "Good going! You may proceed now!") {
         $("#playagain").css("visibility", "hidden");
@@ -414,7 +414,8 @@ function endGame(message) {
         initVariables();
     });
     $("#backpack").unbind('click').on('click', function() {
-        window.parent.openbackPack(3);
+        window.parent.openbackPack(question.slide, question.subslide);
+        parent.$("#story-zone-close").trigger('click').trigger('click');
     });
 }
 

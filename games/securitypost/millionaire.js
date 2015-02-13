@@ -218,6 +218,7 @@ function playGame() {
     lifelinepanel.setState('default');
     $("#lifelines .location").css({'pointer-events': "auto", 'cursor': "pointer"});
     var  question=quesbank.pop();
+    console.log(question);
 
     $('#quiz').fadeIn(function () {
         Question.showQuizPanel(quiz, question);
@@ -244,7 +245,7 @@ function playGame() {
                         playGame();
                     else {
 
-                        endGame("Good going! You may proceed now to the next checkpoint!");
+                        endGame("Good going! You may proceed now to the next checkpoint!", question);
                         window.parent.setNodeCompleted(node);
                         var timr=gameTimer('stop');
                         window.parent.appendScore(sendScore());
@@ -266,7 +267,7 @@ function playGame() {
     });
 
     $(player.lives).unbind('min').on('min', function () {
-        endGame("Nah! That was incorrect! You aren't ready yet. Please refer to the backpack and try again!");
+        endGame("Nah! That was incorrect! You aren't ready yet. Please refer to the backpack and try again!", question);
         var timr=gameTimer('stop');
     });
 
@@ -410,7 +411,8 @@ function useHalf(question) {
     }
 }
 
-function endGame(message) {
+function endGame(message, question) {
+    console.log(question);
     messagebox.setState('endgame');
     if (message == "Good going! You may proceed now to the next checkpoint!") {
         $("#playagain").css("visibility", "hidden");
@@ -447,7 +449,8 @@ function endGame(message) {
         initVariables();
     });
     $("#backpack").unbind('click').on('click', function() {
-        window.parent.openbackPack(0);
+        window.parent.openbackPack(question.slide, question.subslide);
+        parent.$("#story-zone-close").trigger('click').trigger('click');
     });
 }
 

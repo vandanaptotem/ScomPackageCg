@@ -20,7 +20,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:1,
+        subslide:1
     },
     {
         name: "You know that a colleague has accepted an Omega watch as a gift from a vendor. What should you do?",
@@ -42,7 +43,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:3
     },
     {
         name: "Which of these would be considered as a Government Official?",
@@ -64,7 +66,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:1,
+        subslide:5
     },
     {
         name: "Which of these would be considered as a Government Official?",
@@ -86,7 +89,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:5
     },
     {
         name: "Which of these ethical concerns should you report?",
@@ -108,7 +112,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:3
     },
     {
         name: "What are the different policies one must keep in mind?",
@@ -130,7 +135,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:1,
+        subslide:2
     },
 
     {
@@ -153,7 +159,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:2
     },
 
 
@@ -178,7 +185,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:5
     },
 
     {
@@ -201,7 +209,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:1
     },
 
     {
@@ -224,7 +233,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:1,
+        subslide:1
     },
 
     {
@@ -247,7 +257,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:3,
+        subslide:1
     },
     {
         name: "Which of these is not considered as a 'gift'?",
@@ -269,7 +280,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:1
     },
 
 
@@ -294,7 +306,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:7
     },
 
     {
@@ -317,7 +330,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:7
     },
     {
         name: "What action will Star India take if an employee reports a violation in good faith but it turns out to be false?",
@@ -339,7 +353,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:4
     },
 
 
@@ -363,7 +378,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:7
     },
     {
         name: "For what reason can the caveman give the tickets to his wife?",
@@ -385,7 +401,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:5,
+        subslide:2
     },
     {
         name: "For what reason can the caveman give the tickets to his friend?",
@@ -407,7 +424,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:2
     },
     {
         name: "What is the step taken to give the tickets to the client?",
@@ -429,7 +447,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:6
     },
     {
         name: "What can the caveman take in return from the friend in lieu of giving the tickets?",
@@ -451,7 +470,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:3
     },
     {
         name: "The employee accompanies the client for the match. Can he book this as entertainment?",
@@ -461,7 +481,7 @@ questionbank.questions = [
         optacorrect: "true",
         optapoints: "10",
 
-        optb: "No, the caveman must book it as a gift.",
+        optb: "No, the caveman must book it as a gift",
         optbcorrect: "false",
         optbpoints: "0",
 
@@ -473,7 +493,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:5
     },
     {
         name: "What is the right way of giving the tickets to the army man?",
@@ -495,7 +516,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:7
     },
     {
         name: "Can an employee sponsor the stay of an army man?",
@@ -517,7 +539,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:5
     },
     {
         name: "The client requests sponsorship of stay. What is to be done?",
@@ -539,7 +562,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:5
     },
     {
         name: "What is the protocol for gifting to Government Officials?",
@@ -561,7 +585,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:3,
+        subslide:5
     },
     {
         name: "Pre-paid gift cards are a great convenience. Are employees of Star allowed to gift them?",
@@ -583,7 +608,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:3
     },
     {
         name: "When are tickets considered to be a 'gift' to the client?",
@@ -605,7 +631,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:5
     },
     {
         name: "For festivals, what is the maximum value of Star branded products that can be gifted?",
@@ -627,7 +654,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:3
     },
     {
         name: "What protocol is to be followed if a gift in excess of Rs. 6000 is to be presented to any non-governmental third party?",
@@ -649,7 +677,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:5
     },
     {
         name: "Can an employee receive gifts from government officials?",
@@ -671,7 +700,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:6
     },
     {
         name: "What is the protocol of receiving gifts worth less than Rs. 6000 from a non-government third party?",
@@ -693,7 +723,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:6
     },
     {
         name: "What is the protocol of receiving gifts valued more than 6,000 from a non-governmental third party?",
@@ -715,7 +746,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:6
     },
     {
         name: "While working with Star, an employee can serve as a Director of another company, only if ...",
@@ -737,7 +769,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:2,
+        subslide:2
     },
     {
         name: "If Goodwill Ltd. is a supplier of Star, then an employee cannot ...",
@@ -759,7 +792,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:2,
+        subslide:2
     },
     {
         name: "While working with Star, accepting a position with another company is ...",
@@ -781,7 +815,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:2,
+        subslide:2
     },
     {
         name: "The act of giving or receiving anything of value with the intention of influencing the recipient in some way favourable to the party who is giving is termed as a",
@@ -803,7 +838,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:2,
+        subslide:6
     },
     {
         name: "Which of the following could be perceived as a bribe?",
@@ -825,7 +861,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:2,
+        subslide:6
     },
     {
         name: "Which of the following is not a violation of the CG code?",
@@ -847,7 +884,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:2,
+        subslide:2
     },
     {
         name: "Which of the following is a factor for the form and cost of acceptable business entertainment or hospitality?",
@@ -869,7 +907,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:4,
+        subslide:1
     },
 
     {
@@ -892,7 +931,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:4,
+        subslide:1
     },
 
 
@@ -916,7 +956,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:4,
+        subslide:1
     },
     {
         name: "Who should pay the bill in a business hospitality function organised by Star?",
@@ -938,7 +979,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:4,
+        subslide:3
     },
     {
         name: "What is not permitted under Star's business/hospitality policy?",
@@ -960,7 +1002,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:4,
+        subslide:2
     },
     {
         name: "Under Star's business entertainment policy, what is the maximum amount per attendee per meal that a private commercial employee may spend?",
@@ -982,7 +1025,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:4,
+        subslide:3
     },
     {
         name: "Which of the following could be perceived as a bribe?",
@@ -1004,7 +1048,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:2,
+        subslide:6
     },
     {
         name: "Bribery, in the context of Star India may be completely defined as?",
@@ -1026,7 +1071,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:2,
+        subslide:6
     },
     {
         name: "Which of the following is not a violation of the CG code?",
@@ -1048,7 +1094,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:2,
+        subslide:2
     },
     {
         name: "When would a set of tickets be considered entertainment?",
@@ -1070,7 +1117,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:5
     },
     {
         name: "What is the cumulative value of gifts to a single person that can be given in a financial year?",
@@ -1092,7 +1140,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:4
     },
     {
         name: "Whose approval is needed in the case of prizes, cash or its equivalents?",
@@ -1114,7 +1163,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:4
     },
     {
         name: "Star acquires a set of complimentary tickets as part of the broadcaster agreement which is being gifted to a third party. No value for these tickets have been provided. What is the value to be assigned?",
@@ -1136,7 +1186,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:6
     },
     {
         name: "Which of these is an instruction for Star provided tickets?",
@@ -1158,7 +1209,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:5,
+        subslide:2
     },
 
 
@@ -1183,7 +1235,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:6
     },
 
 
@@ -1208,7 +1261,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:3,
+        subslide:6
     },
 
 
@@ -1233,7 +1287,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide_id:321
+        slide:3,
+        subslide:3
     },
 
     {
@@ -1257,7 +1312,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:5,
+        subslide:6
     },
 
     {
@@ -1280,7 +1336,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:7
     },
 
     {
@@ -1303,7 +1360,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:7
     },
     {
         name: "What action will Star India take if an employee reports a violation in good faith but it turns out to be false?",
@@ -1325,7 +1383,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:4
     },
     {
         name: "Star has to sponsor the travel of a government official for an event. Which of these is a must?",
@@ -1347,9 +1406,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide_id:321
+        slide:1,
+        subslide:7
     }
 
 ];
-
-//questionbank.questions=parent.getQuestionsFromBank(parent.currentIntegratedGame);

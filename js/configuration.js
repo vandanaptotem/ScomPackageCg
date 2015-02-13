@@ -49,8 +49,8 @@ var storyConfig = {
             photo: "1sherpa.png",
             description: "You are at the Base Camp! Time for a security check!",
             sequence: 1,
-            px: 55.5,
-            py: 75
+            px: 52,
+            py: 78
         },
         {
             name: "Caveman Dilemma",
@@ -71,7 +71,7 @@ var storyConfig = {
             photo: "3snow_leopard.png",
             description: "Oh, look! There's a snow leopard ready to pounce!",
             sequence: 3,
-            px: 52,
+            px: 47,
             py: 58
         },
         {
@@ -82,8 +82,8 @@ var storyConfig = {
             photo: "5avalanche.png",
             description: "A few minutes ago, an avalanche just flowed down and shattered everything at this camp.",
             sequence: 4,
-            px: 42.8,
-            py: 43.5
+            px: 39,
+            py: 46.5
         },
         {
             name: "Hunger Game",
@@ -93,7 +93,7 @@ var storyConfig = {
             photo: "4yeti.png",
             description: "This guy is always hungry! BEWARE!",
             sequence: 5,
-            px: 34,
+            px: 33,
             py: 34
         },
         {
@@ -104,8 +104,8 @@ var storyConfig = {
             photo: "6spirit.png",
             description: "Only the righteous shall pass through.",
             sequence: 6,
-            px: 41,
-            py: 19
+            px: 38,
+            py: 18
         }
     ]
 };

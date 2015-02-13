@@ -42,7 +42,7 @@ function loadQuestionBank() {
             options.push(optiones);
             optiones = {}
         }
-        new Question(q.name, q.image, q.weight, options, q.help, q.slide_id, q.id);
+        new Question(q.name, q.image, q.weight, options, q.help, q.slide, q.subslide);
     }
     return true;
 }
@@ -50,12 +50,14 @@ function loadQuestionBank() {
 
 var Question = Fiber.extend(function () {
     return {
-        init: function (name, image, weight, options, help) {
+        init: function (name, image, weight, options, help, slide, subslide) {
             this.name = name;
             this.image = image;
             this.weight = weight || 1;
             this.options = options;
             this.help = help;
+            this.slide = slide;
+            this.subslide = subslide;
             Question.all.push(this);
             log.add('Question: ' + name + ' created')
         },
