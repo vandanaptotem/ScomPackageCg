@@ -1,0 +1,27 @@
+#qholder {
+    height: 25%;
+    left: 2.5%;
+    top: 24.3%;
+    width: 71%;
+    /*background: white;*/
+    background: rgb(202,195,179);
+    filter: alpha(opacity=80);
+
+    border-radius: 7px;
+}
+.answer-block {
+    float: left;
+}
+#knowmore {
+    display: none;
+}
+#lifelines div{
+    float: left;
+}
+.lifeline-panel{
+    background: rgb(255, 255, 255);
+}
+#ladder .location {
+    height: 20%;
+
+}
