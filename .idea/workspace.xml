@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1.zip" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configuration.js" afterPath="$PROJECT_DIR$/js/configuration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css" afterPath="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CGStar.iws" />
@@ -80,10 +81,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="integration.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="millionaire.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25090253" vertical-offset="4826" max-vertical-offset="6765">
+              <caret line="331" column="15" selection-start-line="331" selection-start-column="15" selection-end-line="331" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.571428" vertical-offset="0" max-vertical-offset="1785">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="integration.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/integration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6434635" vertical-offset="566" max-vertical-offset="1155">
+            <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1155">
               <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
               <folding />
             </state>
@@ -113,8 +134,8 @@
       <file leaf-file-name="millionaire.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5142856" vertical-offset="6557" max-vertical-offset="7320">
-              <caret line="450" column="36" selection-start-line="450" selection-start-column="36" selection-end-line="450" selection-end-column="36" />
+            <state vertical-scroll-proportion="-5.257143" vertical-offset="431" max-vertical-offset="7305">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -165,7 +186,6 @@
         <option value="$PROJECT_DIR$/games/quizspin/assets/js/quizspin.js" />
         <option value="$PROJECT_DIR$/games/quizspin/assets/js/standardLoad/adaptor/modules/howto/howto.js" />
         <option value="$PROJECT_DIR$/js/adaptor.js" />
-        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/modules/quiz/quiz.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/modules/quiz/quiz.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/all-ie-only.css" />
@@ -185,7 +205,6 @@
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire-config.js" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/index.html" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/integration.js" />
-        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/yeti/millionaire-config.js" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/css/all-ie-only.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/all-ie-only.css" />
@@ -195,10 +214,12 @@
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire-config.js" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.js" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/millionaire.css" />
-        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/js/adaptor.js" />
         <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/integration.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js" />
+        <option value="$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css" />
       </list>
     </option>
   </component>
@@ -357,6 +378,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGCopies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="games" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="securitypost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGCopies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="games" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="securitypost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -511,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.2285714" vertical-offset="182" max-vertical-offset="1785">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2006">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -695,6 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0" vertical-offset="780" max-vertical-offset="3330">
           <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,14 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3360">
           <caret line="64" column="19" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3101" max-vertical-offset="6750">
-          <caret line="219" column="10" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -810,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.085714" vertical-offset="4967" max-vertical-offset="11055">
-          <caret line="350" column="15" selection-start-line="350" selection-start-column="15" selection-end-line="350" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/cavemandilema/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.958333" vertical-offset="76" max-vertical-offset="690">
@@ -864,14 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5142856" vertical-offset="6557" max-vertical-offset="7320">
-          <caret line="450" column="36" selection-start-line="450" selection-start-column="36" selection-end-line="450" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.833333" vertical-offset="61" max-vertical-offset="675">
@@ -890,8 +945,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/integration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6434635" vertical-offset="566" max-vertical-offset="1155">
+        <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1155">
           <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/css/story-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.085714" vertical-offset="4967" max-vertical-offset="11055">
+          <caret line="350" column="15" selection-start-line="350" selection-start-column="15" selection-end-line="350" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/modules/quiz/quiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.571428" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.257143" vertical-offset="431" max-vertical-offset="7305">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGCopies/CGStar_1/games/securitypost/millionaire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25090253" vertical-offset="4826" max-vertical-offset="6765">
+          <caret line="331" column="15" selection-start-line="331" selection-start-column="15" selection-end-line="331" selection-end-column="15" />
           <folding />
         </state>
       </provider>
