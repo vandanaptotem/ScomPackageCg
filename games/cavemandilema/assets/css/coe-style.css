@@ -179,9 +179,9 @@ img {
     text-align: center;
 }
 #options span{
-    display: table-cell;
-    vertical-align:middle;
-}
+     display: table-cell;
+     vertical-align:middle;
+ }
 
 #switch1,
 #switch2,#switch3,#switch4,#switch5,#switch6
@@ -324,7 +324,7 @@ ul
     /*opacity: 0.8;*/
     display: none;
     z-index: 1;
-    text-align: center;
+    /*text-align: center;*/
 }
 .victory-txt
 {

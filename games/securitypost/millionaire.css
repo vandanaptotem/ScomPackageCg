@@ -215,7 +215,7 @@ img {
 }
 
 #endmessage span {
-    position: static !important;
+    position: absolute;
     display: table-cell !important;
     padding: 0% 2%;
 }
