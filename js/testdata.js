@@ -93,7 +93,7 @@ var games = [
         id: '1',
         title: "The Final Test",
         html: "Click here to play the game!",
-        name: "quizspin",
+        name: "hangman",
         fullscreen: false
     },
     {
