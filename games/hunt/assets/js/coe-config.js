@@ -66,16 +66,14 @@ config.leftPanel = {
     ],
     locations: [
         {name: "statusPanel", states: [
-            {name: "default", representation: "<img src='assets/img/about_task.png'><span>Can you see the snow leopard over there? He's ready to pounce on you. But you can save your self and there's only one way to do that. Trap him!Answer the Questions correctly to trap the leopard!.</span>"}
+            {name: "default", representation: "<img src='assets/img/about_task.png'><span>Can you see the snow leopard over there? He's ready to pounce on you. But you can save your self and there's only one way to do that. Trap him! Answer the Questions correctly to trap the leopard!.</span>"}
 
         ]},
         {name: "gameDisplay", states: [
             {name: "default", representation: "<img src='assets/img/snow_leopard_bg.png'>"}
         ]},
         {name: "smokes", states: [
-            {name: "default", representation: "<img id='cageimg' src='assets/img/cage.png'>"},
-
-
+            {name: "default", representation: "<img id='cageimg' src='assets/img/cage.png'>"}
         ]}
 
     ]

@@ -248,7 +248,7 @@ function playGame() {
                         var timr=gameTimer('stop');
                         window.parent.appendScore(sendScore());
                         window.parent.appendTime(sendTime());
-
+                        window.parent.changeNodeState();
                         window.parent.scormCommit();
                     }
 
@@ -296,6 +296,7 @@ function playGame() {
 
             $("#close").unbind('click').on('click', function() {
                 lifelinepanel.setState('default');
+                $("#lifelinepanel").hide();
                 $("#lifelines .location").css({'pointer-events': "auto", 'cursor': "pointer"});
             });
         }
@@ -344,7 +345,6 @@ function incFlag() {
     flag++;
     if(flag == Question.all.length){
         flag = 0;
-//        quizShuffle();
     }
 
 }
@@ -366,6 +366,8 @@ function usePoll(question) {
         ]
     };
 
+    var pollData = [];
+
     for(var i = 0; i < question.options.length; i++) {
         if(i != question.options.length-1) {
 
@@ -375,6 +377,7 @@ function usePoll(question) {
                     random -= ((sum+random)-100);
                 sum += random;
                 data.datasets[0].data.push(random);
+                pollData.push(random);
 //                data.labels[i] = data.labels[i]+" - "+random+"%";
             } else {
                 var random = randBetween(0, 25);
@@ -382,11 +385,13 @@ function usePoll(question) {
                     random -= ((sum+random)-100);
                 sum += random;
                 data.datasets[0].data.push(random);
+                pollData.push(random);
 //                data.labels[i] = data.labels[i]+" - "+random+"%";
             }
         } else {
             random = (100-sum);
             data.datasets[0].data.push(random);
+            pollData.push(random);
 //            data.labels[i] = data.labels[i]+" - "+random+"%";
         }
     }
@@ -413,7 +418,6 @@ function useHalf(question) {
 }
 
 function endGame(message, question) {
-    console.log(question);
     messagebox.setState('endgame');
     if (message == "Good going! You may proceed now to the next checkpoint!") {
         $("#playagain").css("visibility", "hidden");

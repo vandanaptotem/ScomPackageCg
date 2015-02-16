@@ -146,7 +146,7 @@ function playQuiz() {
                 var timr=gameTimer('stop');
                 window.parent.appendScore(sendScore());
                 window.parent.appendTime(sendTime());
-
+                window.parent.changeNodeState();
                 window.parent.scormCommit();
                 leftPanel.statuspanel.setState("victory");
                 $("#switches").addClass("no-click");
