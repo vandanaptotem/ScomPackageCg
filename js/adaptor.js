@@ -4,7 +4,7 @@ var nodeId;
 var completedNode=[];
 var e;
 var time=0;
-var currentNode = -1;
+var currentNode = 0;
 
 function initPage() {
     initCommunications();
@@ -67,7 +67,6 @@ function startPagebtn(){
     $("#start_button").append("<img src='img/hop.png' id='instruction_first' />");
     $("#start_button").append("<img src='img/start_button.png' id='start_first' />");
 
-
     $("#start_first").click(function (e){
         $("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_pointer' />");
         $('#sideiconpanel').css('display','block');
@@ -89,11 +88,9 @@ function startPagebtn(){
         $("#story-compass").css("display","none");
         $("#story-nodes").css("display","block");
 //        $("#score_node_name" ).html(storyConfig.nodes[parseInt(scormGetValue("cmi.objectives.0.id"))].name);
-
+        $("#score_node_name" ).html(storyConfig.nodes[0].name);
         if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "")
             changeNodeState();
-        else
-            $("#score_node_name" ).html(storyConfig.nodes[0].name);
     });
 
     instruction_click();
@@ -769,8 +766,8 @@ function setNodeCompleted(n){
 }
 
 function changeNodeState(){
-    addArrow();
-    if(currentNode === -1)
+//    currentNode++;
+    if(currentNode === 0)
         var curCompleteNode = parseInt(scormGetValue("cmi.objectives.0.id"));
     else
         var curCompleteNode = currentNode;
@@ -789,7 +786,9 @@ function changeNodeState(){
         }
     }
 
-
+    currentNode++;
+    addArrow();
+    $("#score_node_name" ).html(storyConfig.nodes[currentNode-1].name);
 
     bindToNodes("click1", "click-active");
     bindToNodes("click2", "complete-node");

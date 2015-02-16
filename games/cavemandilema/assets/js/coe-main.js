@@ -138,7 +138,7 @@ function playQuiz() {
                     $("#victoryState").fadeIn();
                     victoryState.setState("default");
 //                    $(".victory-txt").center(true);
-                }, 3000);
+                }, 1500);
 
 
                 $("#switches").addClass("no-click");

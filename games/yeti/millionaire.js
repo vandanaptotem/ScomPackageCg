@@ -52,8 +52,6 @@ function initTheme() {
     loadConfig(correctmessage);
     runGlobalObservers();
 
-
-//    player.setState('1');
     player.location(ladder.ladder1);
     var lives = new Currency("lives");
     player.createWallet(lives, 0, 1, 1);
@@ -91,22 +89,12 @@ function initGame() {
     pointsEarned = 0;
     answered = false;
     gameOn = true;
-//    quizShuffle();
     showStartPage();
     quesbank=Question.getAllByWeight(5, 4);
 
 }
 
-//function quizShuffle() {
-//    for(var i in Question.all)  {
-//        Question.all[i].options = shuffle(Question.all[i].options);
-//    }
-//    Question.all = shuffle(Question.all);
-//}
-
 function showStartPage() {
-//    messagebox.setState('startpage');
-//    $("#messagebox").show();
     messagebox.setState('instructions');
 
     showInstructions();
@@ -129,7 +117,6 @@ function showStartPage() {
         gameTimer('start');
         messagebox.setState('default');
         $("#messagebox").fadeOut();
-//        parent.setGameAttempt(parent.currentIntegratedGame,parent.currentUid);
         playGame();
     });
 
@@ -198,7 +185,6 @@ function playGame() {
         Question.showQuizPanel(quiz, question);
         answered = false;
         $(".answer-block-back").attr('src', getImg("kbc-answer-back"));
-//        parent.setQuestionAttempt(question.id);
         answerHover();
     });
     $(question).unbind('answered').on('answered', function (e, data) {
@@ -208,7 +194,6 @@ function playGame() {
             if(player.location().name == "ladder3")
             gameOn = false;
             if (data.correct == "true") {
-//                parent.markQuestionAttemptCorrect();
                 $("#correctmessage").fadeIn(500).delay(2000).fadeOut(500);
                 $(data.$this).find('img').attr('src', getImg("kbc-answer-correct-back"));
                 setTimeout(function() {
@@ -391,7 +376,8 @@ function useHalf(question) {
 
 function endGame(message, question) {
     messagebox.setState('endgame');
-    if (message == "Good going! You may proceed now!") {
+    if (message == "I am very pleased. You did not make the wrong choice even though you needed my help. I am happy to" +
+    " direct you now. Go Forward!") {
         $("#playagain").css("visibility", "hidden");
         $("#backpack").css("visibility", "hidden");
         $("#messagebox").append("<input type='button' value='Continue' class='btn-ok'>");

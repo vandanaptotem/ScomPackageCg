@@ -382,7 +382,7 @@ function useHalf(question) {
 
 function endGame(message, question) {
     messagebox.setState('endgame');
-    if (message == "Good going! You may proceed now!") {
+    if (message == "Great! Go ahead and meet the Yeti! He knows the secret way to the top!") {
         $("#playagain").css("visibility", "hidden");
         $("#backpack").css("visibility", "hidden");
         $("#messagebox").append("<input type='button' value='Continue' class='btn-ok'>");
