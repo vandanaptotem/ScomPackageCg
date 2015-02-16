@@ -89,8 +89,12 @@ function startPagebtn(){
         $("#story-nodes").css("display","block");
 //        $("#score_node_name" ).html(storyConfig.nodes[parseInt(scormGetValue("cmi.objectives.0.id"))].name);
         $("#score_node_name" ).html(storyConfig.nodes[0].name);
-        if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "")
+        if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "") {
+            currentNode = parseInt(scormGetValue("cmi.objectives.0.id"));
+            if(isNaN(currentNode))
+                currentNode = 0;
             changeNodeState();
+        }
     });
 
     instruction_click();
@@ -350,7 +354,6 @@ function bindToNodes(str, nodecls) {
                 showStoryZone(seq);
                 $('#story-zone-close').on('click', function () {
                     $("#story-zone").fadeOut();
-                    changeNodeState();
             });
             }
         });
@@ -566,7 +569,6 @@ function showDeck(deckId) {
         $(this).on('click', function () {
             $("#story-zone").fadeOut();
         });
-        changeNodeState();
     });
     for (var j = 1; j < thisDeck.slides + 1; j++) {
         $projector.append('<div><img src="img/decks/' + deckId + '/Slide' + j + '.JPG"/></div>')
@@ -622,8 +624,7 @@ $("#btnSubmit").click(function (e){
     setSuspendData("");
     scormSetValue("cmi.objectives.0.id", 0);
     scormCommit();
-    var result =  window.location.href.substring(0,  window.location.href.length-1);
-    window.location.replace(result);
+    window.location.reload();
     e.preventDefault();
 });
 function ShowDialog(modal){
@@ -663,9 +664,8 @@ function showGame(gameId) {
 
         var $projector = $('<div class="projector projection" style="top:48px"></div>').appendTo($storyZone);
         $('#story-zone-close').unbind('click').on('click', function () {
-            if($('.projector iFrame').length>0) {
-                changeNodeState();
-            }
+//            if($('.projector iFrame').length>0) {
+//            }
 
             $('.projection').remove();
             $('#story-nameplate').fadeIn();
@@ -692,7 +692,6 @@ function showVideo(videoId) {
         $('#story-nameplate').fadeIn();
         $(this).on('click', function () {
             $("#story-zone").fadeOut();
-            changeNodeState();
         });
     });
     $projector.append('<video id="bgvid"><source src="' + thisVideo.file + '" poster="img/poster.jpg" type="video/mp4"></video><div id="buttonbar" class="video-nav projection"><button id="story-video-restart" class="btn btn-warning btn-lg" onclick="restart();">Restart</button><button id="story-video-play" class="btn btn-danger btn-lg pull-right" onclick="vidplay()">Play</button></div>');
@@ -756,13 +755,8 @@ function setNodeCompleted(n){
 }
 
 function changeNodeState(){
-//    currentNode++;
-    if(currentNode === 0)
-        var curCompleteNode = parseInt(scormGetValue("cmi.objectives.0.id"));
-    else
-        var curCompleteNode = currentNode;
 
-    for(var i=1;i<=curCompleteNode;i++){
+    for(var i=1;i<=currentNode;i++){
         var nodeData = storyConfig.nodes[i-1];
         $("#story-node-"+ i +" img").attr("src",'img/'+ nodeData.icon_complete);
         $("#story-node-"+ i).removeClass( "incomplete-node this-node").addClass("complete-node");
@@ -779,6 +773,8 @@ function changeNodeState(){
     currentNode++;
     addArrow();
     $("#score_node_name" ).html(storyConfig.nodes[currentNode-1].name);
+//    scormSetValue("cmi.objectives.0.id", currentNode);
+//    scormCommit();
 
     bindToNodes("click1", "click-active");
     bindToNodes("click2", "complete-node");

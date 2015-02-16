@@ -436,7 +436,7 @@ a.zone-button:visited{
 
 }
 .back_pack_content{
-    background: url(../img/backpack_box.png);
+    background: url(../img/backpack_box.png) repeat;
     width: 50%;
     display: table;
     text-align: center;
@@ -614,6 +614,7 @@ a.zone-button:visited{
     z-index: 102;
     font-size: 10pt;
 }
+
 .web_dialog_title
 {
     /*border-bottom: solid 2px #336699;*/
@@ -713,6 +714,7 @@ a.zone-button:visited{
     padding-left:14px;
     margin:0px;
 }
+
 #btnSubmit
 {
     background: url(../img/reset_button.png);
@@ -723,6 +725,7 @@ a.zone-button:visited{
     height:44px;
     color: #ffffff;
 }
+
 .close_instruction
 {
     width: 7%;
@@ -732,6 +735,7 @@ a.zone-button:visited{
     cursor: pointer;
     padding: 1%;
 }
+
 .header-modale{
     background-color: #4B72D5;
     width: 100%;

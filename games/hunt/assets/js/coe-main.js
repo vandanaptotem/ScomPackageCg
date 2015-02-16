@@ -152,7 +152,7 @@ function playQuiz() {
                 var timr=gameTimer('stop');
                 window.parent.appendScore(sendScore());
                 window.parent.appendTime(sendTime());
-
+                window.parent.changeNodeState();
                 window.parent.scormCommit();
             }
             else

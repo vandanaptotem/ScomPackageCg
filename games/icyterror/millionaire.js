@@ -216,7 +216,7 @@ function playGame() {
                         var timr=gameTimer('stop');
                         window.parent.appendScore(sendScore());
                         window.parent.appendTime(sendTime());
-
+                        window.parent.changeNodeState();
                         window.parent.scormCommit();
                     }
 
@@ -264,6 +264,7 @@ function playGame() {
 
             $("#close").unbind('click').on('click', function() {
                 lifelinepanel.setState('default');
+                $("#lifelinepanel").hide();
                 $("#lifelines .location").css({'pointer-events': "auto", 'cursor': "pointer"});
             });
         }
