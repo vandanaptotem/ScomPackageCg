@@ -773,8 +773,6 @@ function changeNodeState(){
     currentNode++;
     addArrow();
     $("#score_node_name" ).html(storyConfig.nodes[currentNode-1].name);
-//    scormSetValue("cmi.objectives.0.id", currentNode);
-//    scormCommit();
 
     bindToNodes("click1", "click-active");
     bindToNodes("click2", "complete-node");
