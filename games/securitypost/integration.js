@@ -58,6 +58,7 @@ defaultText["kbc-text-ladder10"] = "Question 10";
 
 defaultText["kbc-text-instruction-header"] = "HOW TO PLAY";
 defaultText["kbc-text-instructions"] = "<p>Select the correct answer from the options.You have 3 Lifelines.</p>" +
+
     "<p>1. Poll: Tells you what most people think is the correct answer.</p> " +
     "<p>2. 50-50: Removes two incorrect options.</p> " +
     "<p>3. Change Question: Replaces the existing question with a new one.</p> "+
