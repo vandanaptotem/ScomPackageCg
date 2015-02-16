@@ -425,8 +425,8 @@ a.zone-button:visited{
     /*border: 1px solid #000;*/
     padding: 3%;
     position: absolute;
-    top: 2.5%;
-    left: 8%;
+    top: 3.5%;
+    left: 7%;
     border-radius: 10px;
     cursor:pointer;
 }
@@ -436,29 +436,28 @@ a.zone-button:visited{
 
 }
 .back_pack_content{
-    background-color: rgb(255,255,255);
+    background: url(../img/backpack_box.png);
     width: 50%;
     display: table;
     text-align: center;
     height: auto;
     position: absolute;
-    top:18%;
-    left:12%;
+    top:14%;
+    left:8%;
     z-index: 1;
     padding: 5px 5px 15px 5px;
+    background-repeat: repeat;
+    /*background-size: 100%;*/
 }
 .top-content
 {
-    color:red;
     width: 90%;
     float: left;
     border-radius: 10px
 
 }
 .top-content-header{
-       color:red;
     width: 100%;
-    /*position: absolute;*/
     float: left;
     border-radius: 10px;
     /*height: 33px;*/
@@ -617,7 +616,7 @@ a.zone-button:visited{
 .web_dialog_title
 {
     /*border-bottom: solid 2px #336699;*/
-    background-color: #4B72D5;
+    background-color: #2b2246;
     padding: 4px;
     color: White;
     font-weight:bold;
@@ -693,17 +692,20 @@ a.zone-button:visited{
 
 }
 #instruction_table{
-    background-color: rgb(255,255,255);
-    width: 50%;
+    background: url(../img/how_to_play.png);
+    /*background-color: rgb(255,255,255);*/
+    width: 43%;
     display: table;
     text-align: left;
     height: auto;
     position: relative;
-    top: 27%;
+    top: 26%;
     left: 21%;
     z-index: 2;
-    padding: 5px 5px 15px 5px;
+    padding: 45px 5px 15px 5px;
     padding-left: 1%;
+    background-repeat: repeat;
+    /*background-size: 100%;*/
 }
 .inst_content ul{
     text-align: left;
@@ -712,10 +714,12 @@ a.zone-button:visited{
 }
 #btnSubmit
 {
-    background-color: #4B72D5;
+    background: url(../img/reset_button.png);
+    background-size: 100% 100%;
+    /* background-color: #4B72D5; */
     border: 0px;
-    width: 26%;
-    height: 83%;
+    width: 33%;
+    height:44px;
     color: #ffffff;
 }
 .close_instruction
