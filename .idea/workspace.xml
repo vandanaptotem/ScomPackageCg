@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/backpack_box.png" afterPath="$PROJECT_DIR$/img/backpack_box.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/how_to_play.png" afterPath="$PROJECT_DIR$/img/how_to_play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/reset.png" afterPath="$PROJECT_DIR$/img/reset.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/adaptor.js" afterPath="$PROJECT_DIR$/js/adaptor.js" />
     </list>
     <ignored path="CGStar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +17,7 @@
     <file path="/millionaire.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424076155003" ignored="false" />
     <file path="/millionaire-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1423835895310" ignored="false" />
     <file path="/millionaire.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424077117897" ignored="false" />
-    <file path="/adaptor.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424072227570" ignored="false" />
+    <file path="/adaptor.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424080901314" ignored="false" />
     <file path="/index.html" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424068755150" ignored="false" />
     <file path="/coe-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1423846938126" ignored="false" />
     <file path="/coe-style.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424075961307" ignored="false" />
@@ -56,11 +59,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/yeti/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <marker date="1424080344000" expanded="true" signature="31:1337" placeholder="..." />
+                <marker date="1424080344000" expanded="true" signature="38:483" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adaptor.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/adaptor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="798" column="32" selection-start="31183" selection-end="31183" vertical-scroll-proportion="0.72887325">
+              <folding>
+                <marker date="1424080905000" expanded="false" signature="4025:4055" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="4628:4641" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="9051:9064" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="10080:10093" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="23299:23311" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="23424:23436" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="23832:23844" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="24293:24305" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="24428:24440" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="25961:25973" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="26322:26330" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="26790:26801" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="28354:28366" placeholder="..." />
+                <marker date="1424080905000" expanded="false" signature="31808:31838" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/games/hunt/index.html" />
         <option value="$PROJECT_DIR$/games/cavemandilema/index.html" />
         <option value="$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css" />
         <option value="$PROJECT_DIR$/games/hunt/assets/css/coe-style.css" />
@@ -99,6 +128,7 @@
         <option value="$PROJECT_DIR$/css/story-page.css" />
         <option value="$PROJECT_DIR$/js/configuration.js" />
         <option value="$PROJECT_DIR$/games/yeti/index.html" />
+        <option value="$PROJECT_DIR$/js/adaptor.js" />
       </list>
     </option>
   </component>
@@ -106,7 +136,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1367" />
+    <option name="x" value="-1" />
     <option name="y" value="-4" />
     <option name="width" value="1368" />
     <option name="height" value="773" />
@@ -166,11 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="games" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yeti" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,14 +326,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1367" y="-4" width="1368" height="773" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2857143" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2857143" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -395,11 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/games/hunt/assets/js/coe-main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="45" selection-start="4996" selection-end="4998" vertical-scroll-proportion="0.3321859" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/games/hunt/assets/css/coe-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="164" column="16" selection-start="2566" selection-end="2566" vertical-scroll-proportion="0.51290876" />
@@ -422,7 +443,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/games/yeti/millionaire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="260" column="43" selection-start="8224" selection-end="8224" vertical-scroll-proportion="0.57042253" />
+        <state line="260" column="43" selection-start="8224" selection-end="8224" vertical-scroll-proportion="0.57042253">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/icyterror/millionaire.css">
@@ -491,7 +514,32 @@
     <entry file="file://$PROJECT_DIR$/games/yeti/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1424080344000" expanded="true" signature="31:1337" placeholder="..." />
+            <marker date="1424080344000" expanded="true" signature="38:483" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="798" column="32" selection-start="31183" selection-end="31183" vertical-scroll-proportion="0.72887325">
+          <folding>
+            <marker date="1424080905000" expanded="false" signature="4025:4055" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="4628:4641" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="9051:9064" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="10080:10093" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="23299:23311" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="23424:23436" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="23832:23844" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="24293:24305" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="24428:24440" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="25961:25973" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="26322:26330" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="26790:26801" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="28354:28366" placeholder="..." />
+            <marker date="1424080905000" expanded="false" signature="31808:31838" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
