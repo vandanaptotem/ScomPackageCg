@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/backpack_box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/how_to_play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/reset.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/adaptor.js" afterPath="$PROJECT_DIR$/js/adaptor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configuration.js" afterPath="$PROJECT_DIR$/js/configuration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/millionaire.css" afterPath="$PROJECT_DIR$/games/icyterror/millionaire.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/millionaire.css" afterPath="$PROJECT_DIR$/games/yeti/millionaire.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/story-page.css" afterPath="$PROJECT_DIR$/css/story-page.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CGStar.iws" />
@@ -92,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/adaptor.js" />
         <option value="$PROJECT_DIR$/games/hunt/index.html" />
         <option value="$PROJECT_DIR$/games/cavemandilema/index.html" />
         <option value="$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css" />
@@ -108,6 +98,7 @@
         <option value="$PROJECT_DIR$/games/icyterror/millionaire.css" />
         <option value="$PROJECT_DIR$/css/story-page.css" />
         <option value="$PROJECT_DIR$/js/configuration.js" />
+        <option value="$PROJECT_DIR$/games/yeti/index.html" />
       </list>
     </option>
   </component>
