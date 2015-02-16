@@ -216,26 +216,16 @@ function getSubSlide(sub_slide_id,slide_id){
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
 }
 
-
 function initInstructions(){
     $("#story-wrapper").append('<div class="instruction_content"  style="display: none" id="instruction_table">' +
-        '<div class="inst_content">' +
-            '<b>GAMEPLAY:</b>' +
-//        '<h4>'+You are in for an adventure! You start at the base of the Mount Everest and may your way up to the top.There would be obstacles to stop you or snowstorm to leave you stranded. But don't worry! You will have a backpack to help you throughout the journey. Use it well! +'</h4>
-                '<ul>' +
-                    '<li>You start at the base of the mountain.</li>' +
-                    '<li>Click on the checkpoints to play the mini-game</li>' +
-                    '<li>Complete the mini-game to move on to the next checkpoint</li>' +
-                    '<li>Click on "Backpack" if you need any help</li>' +
-                    '<li>Once you surpass the last checkpoint, you will get an acknowledgement.</li>' +
-                    '<li>Click "Ok" to register your score</li>' +
-                '</ul>' +
-            '<b>SCORING:</b>' +
-                '<ul>' +
-                '<li>Your score will be displayed on the bottom left corner along with the time</li>' +
-                '<li>The faster you play, The more you score!</li>' +
-                '<li>Earn bonus points by referring to the Backpack while playing a mini-game</li>' +
-                '</ul>' +
+            '<p>' +
+                 'You are in for an adventure! You start at the base of the Mount Everest and may your way up to the top.There would be obstacles to stop you or snowstorm to leave you stranded. But don worry! You will have a backpack to help you throughout the journey. Use it well!' +
+            '</p>' +
+        '<p>' +
+                 'Your score will be displayed on the bottom left corner along with the time taken. Remember, the faster you play, the more you score! Also, you can earn bonus points by referring to the Backpack.' +
+        '</p>' +
+
+
             '<div class="close_instruction">' +
                 '<img src="img/close_grey.png" width="60%" />' +
             '</div>' +

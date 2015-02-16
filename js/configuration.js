@@ -53,7 +53,7 @@ var storyConfig = {
             py: 78
         },
         {
-            name: "Caveman Dilemma",
+            name: "In or Out",
             icon_active: "2.png",
             icon_inactive: "2ii.png",
             icon_complete: "2cc.png",

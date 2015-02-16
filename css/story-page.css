@@ -425,8 +425,8 @@ a.zone-button:visited{
     /*border: 1px solid #000;*/
     padding: 3%;
     position: absolute;
-    top: 2.5%;
-    left: 8%;
+    top: 3.5%;
+    left: 7%;
     border-radius: 10px;
     cursor:pointer;
 }
@@ -436,29 +436,28 @@ a.zone-button:visited{
 
 }
 .back_pack_content{
-    background-color: rgb(255,255,255);
+    background: url(../img/backpack_box.png) repeat;
     width: 50%;
     display: table;
     text-align: center;
     height: auto;
     position: absolute;
-    top:18%;
-    left:12%;
+    top:14%;
+    left:8%;
     z-index: 1;
     padding: 5px 5px 15px 5px;
+    background-repeat: repeat;
+    /*background-size: 100%;*/
 }
 .top-content
 {
-    color:red;
     width: 90%;
     float: left;
     border-radius: 10px
 
 }
 .top-content-header{
-       color:red;
     width: 100%;
-    /*position: absolute;*/
     float: left;
     border-radius: 10px;
     /*height: 33px;*/
@@ -483,7 +482,7 @@ a.zone-button:visited{
     /*height: auto;*/
     width: 90%;
     text-align: left;
-    color:gray;
+    /*color:gray;*/
     font-family:'Arial', sans-serif;
     padding:3% ;
     /*overflow-y: auto;*/
@@ -591,7 +590,7 @@ a.zone-button:visited{
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #000000;
+    /*background: #000000;*/
     opacity: .15;
     filter: alpha(opacity=15);
     -moz-opacity: .15;
@@ -608,6 +607,7 @@ a.zone-button:visited{
     left: 50%;
     margin-left: -190px;
     margin-top: -100px;
+    /*background: url(../img/reset.png);*/
     background-color: #ffffff;
     /*border: 2px solid #336699;*/
     padding: 0px;
@@ -694,17 +694,20 @@ a.zone-button:visited{
 
 }
 #instruction_table{
-    background-color: rgb(255,255,255);
-    width: 50%;
+    background: url(../img/how_to_play.png);
+    /* background-color: rgb(255,255,255); */
+    width: 43%;
     display: table;
     text-align: left;
     height: auto;
     position: relative;
-    top: 27%;
-    left: 21%;
+    top: 23%;
+    left: 25%;
     z-index: 2;
-    padding: 5px 5px 15px 5px;
+    padding: 45px 5px 15px 5px;
     padding-left: 1%;
+    background-repeat: repeat;
+    /*background-size: 100%;*/
 }
 .inst_content ul{
     text-align: left;
