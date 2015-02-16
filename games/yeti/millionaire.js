@@ -227,7 +227,7 @@ function playGame() {
     });
 
     $(player.lives).unbind('min').on('min', function () {
-        endGame("Nah! You aren't ready. Please use the Carabiners in your backpack.", question);
+        endGame("You have made the wrong choices! Please refer to the backpack and try again!", question);
         var timr=gameTimer('stop');
     });
 

@@ -38,10 +38,10 @@ config.instruction= {
     ],
     locations: [
         {name: "inst-txt", states: [
-            {name: "inst-btn", representation: "<div id='inst-header'>HOW TO PLAY</div><div id='inst-content'><p>To save yourself, you will have to trap the beast.</p>" +
-                "<p>To save yourself, you will have to trap the beast.</p>" +
+            {name: "inst-btn", representation: "<div id='inst-header'>HOW TO PLAY</div>" +
+                "<div id='inst-content'><p>To save yourself, you will have to trap the beast.</p>" +
                 "<p>Turn off the 3 wrong options to bring down the trap.</p>" +
-                "<p '>You need to answer all the 3 questions correctly to get away safely.</div>"}
+                "<p>You need to answer all the 3 questions correctly to get away safely.</p></div>"}
         ]},
         {name: "inst-btn", states: [
             {name: "inst-btn", representation: "<img src='assets/img/start_button1.png'><span class='inst-btn-txt'>Start Game</span>"}
