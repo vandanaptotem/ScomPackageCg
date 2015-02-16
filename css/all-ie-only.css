@@ -176,8 +176,9 @@
 .story-zone-tale {
     position: absolute;
     padding: 20px;
-    top: 16%;
+    top: 38%;
     right: 44px;
+    left: 16%;
     font-size: 1.1em;
     background: white;
     border-top-left-radius: 10px;
