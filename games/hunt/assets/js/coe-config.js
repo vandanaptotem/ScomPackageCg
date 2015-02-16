@@ -44,7 +44,7 @@ config.instruction= {
                 "<p>You need to answer all the 3 questions correctly to get away safely.</p></div>"}
         ]},
         {name: "inst-btn", states: [
-            {name: "inst-btn", representation: "<img src='assets/img/start_button1.png'><span class='inst-btn-txt'>Start Game</span>"}
+            {name: "inst-btn", representation: "<img src='assets/img/start_button1.png' /><span class='inst-btn-txt'>Start Game</span>"}
         ]}
 
 
@@ -54,7 +54,7 @@ config.instruction= {
 config.correctmessage = {
     type: "environment",
     states: [
-        {name: "default", representation: "<img src='assets/img/correctmess.jpg'/>"}
+        {name: "default", representation: "<img src='assets/img/correctmess.jpg' />"}
     ]
 };
 config.leftPanel = {

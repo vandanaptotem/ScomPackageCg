@@ -227,9 +227,8 @@ function initInstructions(){
 
 
             '<div class="close_instruction">' +
-                '<img src="img/close_grey.png" width="60%" />' +
+                '<img src="img/close_grey.png" width="60%"/>' +
             '</div>' +
-        '</div>' +
         '</div>');
     $(".close_instruction").unbind('click').on('click', function() {
         $("#instruction_table").fadeOut(200);
