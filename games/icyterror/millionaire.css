@@ -178,7 +178,7 @@ img {
 }
 
 #endmessage span {
-    position: static !important;
+    position: static;
     display: table-cell !important;
     padding: 0% 2%;
 }

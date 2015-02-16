@@ -51,11 +51,10 @@ function initGame() {
     });
 
     $("#start").unbind('click').on("click", function() {
-		quesbank=[];
-		Question.all = shuffle(Question.all);
-		for(i in Question.all)
-			quesbank.push(Question.all[i]);
-		gcount = quesbank.length;
+        Question.all = shuffle(Question.all);
+        for(i in Question.all)
+            quesbank.push(Question.all[i]);
+		gcount = Question.all.length;
         $("#launchpad").fadeOut();
         $("#mainPage").fadeIn();
         paneldisplay();

@@ -24,3 +24,17 @@
     height: 20%;
 
 }
+#endmessage {
+    position: absolute;
+    display: table !important;
+    top: 11%;
+    font-size: 1.5em;
+    width: 90% !important;
+    text-align: center;
+    padding-left: 4%;
+}
+#endmessage span {
+position: absolute;
+display: table-cell !important;
+width: 80%;
+}

@@ -165,23 +165,23 @@ img {
 #options li{
     background: #99664f;
     border: 2px solid #ffffff;
+    color: #000000;
     cursor: pointer;
     display: table;
-    font-size: 0.9em;
-    height: 67px;
-    opacity: 0.8;
-    padding: 1%;
-    /*padding-left: 12%;*/
-    /* padding-top: 10%; */
-    position: static;
-    width: 96%;
+    font-size: 15px;
+    height: 63px;
+    list-style-type: none;
     margin-top: 2%;
+    padding: 2%;
+    position: static;
+    width: 94%;
     text-align: center;
+
 }
 #options span{
-    display: table-cell;
-    vertical-align:middle;
-}
+     display: table-cell;
+     vertical-align:middle;
+ }
 
 #switch1,
 #switch2,#switch3,#switch4,#switch5,#switch6
@@ -324,7 +324,7 @@ ul
     /*opacity: 0.8;*/
     display: none;
     z-index: 1;
-    text-align: center;
+    /*text-align: center;*/
 }
 .victory-txt
 {
@@ -339,7 +339,7 @@ ul
 
 }
 
-.btn-ok{
+.btn-ok {
     background-image: url("../img/start_button.png");
     background-repeat: no-repeat;
     border: medium none;
@@ -354,6 +354,7 @@ ul
     position: absolute;
     top: 66%;
     width: 24%;
+    text-align:center;
 }
 
 .won_txt_span{
@@ -454,4 +455,5 @@ ul
     position: absolute;
     top: 20%;
     width: 90%;
+    text-align:center;
 }
