@@ -590,7 +590,7 @@ a.zone-button:visited{
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #000000;
+    /*background: #000000;*/
     opacity: .15;
     filter: alpha(opacity=15);
     -moz-opacity: .15;
@@ -607,6 +607,7 @@ a.zone-button:visited{
     left: 50%;
     margin-left: -190px;
     margin-top: -100px;
+    /*background: url(../img/reset.png);*/
     background-color: #ffffff;
     /*border: 2px solid #336699;*/
     padding: 0px;
