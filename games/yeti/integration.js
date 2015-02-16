@@ -57,10 +57,11 @@ defaultText["kbc-text-ladder09"] = "Question 09";
 defaultText["kbc-text-ladder10"] = "Question 10";
 
 defaultText["kbc-text-instruction-header"] = "HOW TO PLAY";
-defaultText["kbc-text-instructions"] = "<p>The main objective of this game is to answer all questions correctly. To achieve this, you also have three lifelines to help you reach your goal.</p>" +
-    "<p>1. Poll: This lifeline shows you the audience's opinion for this question in a graph format.</p> " +
-    "<p>2. 50-50: This lifeline removes two 'Wrong' answers.</p> " +
-    "<p>3. Change Question: This lifeline changes this question for another.</p> "
+defaultText["kbc-text-instructions"] = "<p>Select the correct answer from the options.You have 3 Lifelines for this.</p>" +
+    "<p>1. Poll: This Lifeline shows you the audience's opinion for this question in a graph format.</p> " +
+    "<p>2. 50-50: This Lifeline deletes two 'wrong' answers.</p> " +
+    "<p>3. Change Question: This Lifeline replaces the existing question with a new one.</p> "+
+    "<p>So, go ahead and try to answer all correctly to move forward!</p> "
 
 
 

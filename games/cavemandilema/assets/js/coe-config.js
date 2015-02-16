@@ -29,9 +29,9 @@ config.instruction= {
         {name: "inst-txt", states: [
             {name: "inst-btn", representation: "<div id='inst-header'>HOW TO PLAY</div>" +
                 "<div id='inst-content' class='mCustomScrollbar'>" +
-                "<p class='content'>To save yourself, you will have to trap the beast.</p>" +
-                "<p class='content'>Turn off the 3 wrong options to bring down the trap.</p>" +
-                "<p class='content'>You need to answer all the 3 questions correctly to get away safely.</div>"}
+                "<p class='content'>The entrance of the cave is hidden behind the fog.</p>" +
+                "<p class='content'>Turn off the 3 wrong options to clear off the fog.</p>" +
+                "<p class='content'>You need to answer all the 3 questions correctly to enter the cave.</div>"}
         ]},
         {name: "inst-btn", states: [
             {name: "inst-btn", representation: "<img src='assets/img/start_button.png'><span class='inst-btn-txt'>Start Game</span>"}
