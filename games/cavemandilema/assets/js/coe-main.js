@@ -50,6 +50,12 @@ function initGame() {
         $("#mainPage").fadeIn();
         paneldisplay();
     });
+    $("#start").unbind('mouseover').on('mouseover', function() {
+        $(this).find('img').attr('src', 'assets/img/hover_button.png');
+    });
+    $("#start").unbind('mouseout').on('mouseout', function() {
+        $(this).find('img').attr('src', 'assets/img/start_button.png');
+    });
     $("#inst-btn").unbind('click').on("click", function() {
         gameTimer('start');
         $("#launchpad").fadeOut();
