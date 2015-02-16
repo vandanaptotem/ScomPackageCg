@@ -482,7 +482,7 @@ a.zone-button:visited{
     /*height: auto;*/
     width: 90%;
     text-align: left;
-    color:gray;
+    /*color:gray;*/
     font-family:'Arial', sans-serif;
     padding:3% ;
     /*overflow-y: auto;*/
@@ -694,14 +694,14 @@ a.zone-button:visited{
 }
 #instruction_table{
     background: url(../img/how_to_play.png);
-    /*background-color: rgb(255,255,255);*/
+    /* background-color: rgb(255,255,255); */
     width: 43%;
     display: table;
     text-align: left;
     height: auto;
     position: relative;
-    top: 26%;
-    left: 21%;
+    top: 23%;
+    left: 25%;
     z-index: 2;
     padding: 45px 5px 15px 5px;
     padding-left: 1%;
