@@ -4,12 +4,12 @@
     cursor: pointer;
     display: block;
     font-size: 1em;
-    height: 50px;
+    height: 67px;
     opacity: 0.8;
     /*padding: 5%;*/
     margin-top: 9%;
     padding-left: 2%;
-    overflow-y: auto;
+    overflow: hidden;
     padding-top: 2%;
     position: static;
     width: 100%;
@@ -21,6 +21,23 @@
     margin: 0;
     padding: 0;
 }
+
+#options {
+    width: 100%;
+}
+
+#statement-area {
+    width: 90%;
+}
+
+.header{
+    left: 0;
+    padding: 0 5%;
+    position: absolute;
+    top: 20%;
+    width: 90%;
+}
+
 #switch1,
 #switch2,#switch3,#switch4,#switch5,#switch6
 {
@@ -46,21 +63,24 @@
     /*top: 46%;*/
     /*left: 30%;*/
     position: absolute;
-    width: 60%;
+    width: 100%;
     height: 10%;
 
 }
 
 .btn-ok{
-    font-size: 21px;
-    background-image: url('../img/start_button.png');
-    background: #99664f;
-    height: auto;
-    padding: 7px;
-    border: none;
-    color: #ffffff;
+    background-image: url("../img/start_button.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    color: white;
     cursor: pointer;
     display: block;
-    margin-top: 7px;
-    width: 40%;
+    font-size: 21px;
+    height: auto;
+    left: 34%;
+    line-height: 21px;
+    padding: 7px;
+    position: absolute;
+    top: 66%;
+    width: 24%;
 }
