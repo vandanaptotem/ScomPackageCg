@@ -705,7 +705,7 @@ a.zone-button:visited{
     left: 25%;
     z-index: 2;
     padding: 45px 5px 15px 5px;
-    padding-left: 1%;
+    padding-left: 2%;
     background-repeat: repeat;
     /*background-size: 100%;*/
 }
