@@ -2,38 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CGStar.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/cavemandilema/assets/css/all-ie-only.css" afterPath="$PROJECT_DIR$/games/cavemandilema/assets/css/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hunt/assets/css/all-ie-only.css" afterPath="$PROJECT_DIR$/games/hunt/assets/css/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/all-ie-only.css" afterPath="$PROJECT_DIR$/games/icyterror/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/all-ie-only.css" afterPath="$PROJECT_DIR$/games/securitypost/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/all-ie-only.css" afterPath="$PROJECT_DIR$/games/yeti/all-ie-only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css" afterPath="$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hunt/assets/css/coe-style.css" afterPath="$PROJECT_DIR$/games/hunt/assets/css/coe-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1.png" afterPath="$PROJECT_DIR$/img/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1cc.png" afterPath="$PROJECT_DIR$/img/1cc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1ii.png" afterPath="$PROJECT_DIR$/img/1ii.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2.png" afterPath="$PROJECT_DIR$/img/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2cc.png" afterPath="$PROJECT_DIR$/img/2cc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3.png" afterPath="$PROJECT_DIR$/img/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3cc.png" afterPath="$PROJECT_DIR$/img/3cc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/4.png" afterPath="$PROJECT_DIR$/img/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/4cc.png" afterPath="$PROJECT_DIR$/img/4cc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/4ii.png" afterPath="$PROJECT_DIR$/img/4ii.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/5.png" afterPath="$PROJECT_DIR$/img/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/5cc.png" afterPath="$PROJECT_DIR$/img/5cc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/5ii.png" afterPath="$PROJECT_DIR$/img/5ii.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/6.png" afterPath="$PROJECT_DIR$/img/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/6cc.png" afterPath="$PROJECT_DIR$/img/6cc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/6ii.png" afterPath="$PROJECT_DIR$/img/6ii.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/adaptor.js" afterPath="$PROJECT_DIR$/js/adaptor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hangman/assets/css/coe-style.css" afterPath="$PROJECT_DIR$/games/hangman/assets/css/coe-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configuration.js" afterPath="$PROJECT_DIR$/js/configuration.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js" afterPath="$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/millionaire.css" afterPath="$PROJECT_DIR$/games/icyterror/millionaire.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/millionaire.css" afterPath="$PROJECT_DIR$/games/securitypost/millionaire.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/millionaire.css" afterPath="$PROJECT_DIR$/games/yeti/millionaire.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hangman/index.html" afterPath="$PROJECT_DIR$/games/hangman/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question-bank.js" afterPath="$PROJECT_DIR$/question-bank.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/story-page.css" afterPath="$PROJECT_DIR$/css/story-page.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CGStar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
-    <file path="/Dummy.txt" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424108376505" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424154568915" ignored="false" />
     <file path="/story-page.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424079104935" ignored="false" />
     <file path="/question-bank.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1423823672152" ignored="false" />
     <file path="/quiz.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424109198349" ignored="false" />
     <file path="/millionaire.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424076155003" ignored="false" />
     <file path="/millionaire-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1423835895310" ignored="false" />
     <file path="/millionaire.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424110517633" ignored="false" />
-    <file path="/adaptor.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424080901314" ignored="false" />
-    <file path="/index.html" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424068755150" ignored="false" />
+    <file path="/adaptor.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424162534904" ignored="false" />
+    <file path="/index.html" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424161331952" ignored="false" />
     <file path="/coe-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424086397175" ignored="false" />
-    <file path="/coe-style.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424110715465" ignored="false" />
+    <file path="/coe-style.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424161721210" ignored="false" />
     <file path="/a.dummy" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424077456834" ignored="false" />
     <file path="/all-ie-only.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424084709362" ignored="false" />
     <file path="$PROJECT_DIR$/games/yeti/millionaire.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424085527622" ignored="false" />
-    <file path="/hangman-main.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424110856497" ignored="false" />
+    <file path="/hangman-main.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424164379966" ignored="false" />
     <file path="/hangman-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424106656251" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,37 +65,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hangman-main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js">
+      <file leaf-file-name="adaptor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/adaptor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="43" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.41197184">
-              <folding />
+            <state line="836" column="35" selection-start="32281" selection-end="32281" vertical-scroll-proportion="-11.419354">
+              <folding>
+                <marker date="1424164492000" expanded="true" signature="4089:4119" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="4692:4705" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="9115:9128" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="10144:10157" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="23363:23375" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="23488:23500" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="23896:23908" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="24357:24369" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="24492:24504" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="26025:26037" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="26386:26394" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="26854:26865" placeholder="..." />
+                <marker date="1424164492000" expanded="true" signature="28418:28430" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coe-style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css">
+      <file leaf-file-name="configuration.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/configuration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="23" selection-start="2856" selection-end="2856" vertical-scroll-proportion="-12.5161295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/cavemandilema/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="61" selection-start="906" selection-end="906" vertical-scroll-proportion="-10.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coe-style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/hunt/assets/css/coe-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="25" selection-start="2634" selection-end="2634" vertical-scroll-proportion="-42.51613">
+            <state line="114" column="28" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.94991654">
               <folding />
             </state>
           </provider>
@@ -108,22 +115,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/configuration.js" />
-        <option value="$PROJECT_DIR$/games/yeti/index.html" />
-        <option value="$PROJECT_DIR$/js/adaptor.js" />
         <option value="$PROJECT_DIR$/games/cavemandilema/assets/css/all-ie-only.css" />
         <option value="$PROJECT_DIR$/games/hunt/assets/css/all-ie-only.css" />
         <option value="$PROJECT_DIR$/games/hunt/assets/js/coe-config.js" />
         <option value="$PROJECT_DIR$/games/hangman/assets/js/hangman-config.js" />
         <option value="$PROJECT_DIR$/games/hunt/assets/js/coe-main.js" />
-        <option value="$PROJECT_DIR$/games/hangman/assets/css/coe-style.css" />
         <option value="$PROJECT_DIR$/games/cavemandilema/assets/js/coe-main.js" />
         <option value="$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" />
-        <option value="$PROJECT_DIR$/js/testdata.js" />
         <option value="$PROJECT_DIR$/games/securitypost/millionaire.css" />
         <option value="$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css" />
         <option value="$PROJECT_DIR$/games/hunt/assets/css/coe-style.css" />
+        <option value="$PROJECT_DIR$/games/hangman/index.html" />
+        <option value="$PROJECT_DIR$/question-bank.js" />
+        <option value="$PROJECT_DIR$/games/hangman/assets/css/coe-style.css" />
         <option value="$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js" />
+        <option value="$PROJECT_DIR$/js/testdata.js" />
+        <option value="$PROJECT_DIR$/js/adaptor.js" />
       </list>
     </option>
   </component>
@@ -131,10 +138,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1366" />
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
+    <option name="width" value="1368" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -162,7 +169,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,6 +184,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGStar-vandana_ie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,6 +283,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,8 +292,8 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -373,14 +394,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1366" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30167174" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3069909" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -468,110 +489,119 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor/ptotemy-game-adaptor.js">
+    <entry file="file://$PROJECT_DIR$/games/hangman/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="784" selection-end="784" vertical-scroll-proportion="0.4006678" />
+        <state line="17" column="45" selection-start="878" selection-end="878" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/hunt/assets/js/coe-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="51" selection-start="5184" selection-end="5184" vertical-scroll-proportion="0.33560476">
+        <state line="88" column="26" selection-start="2373" selection-end="2378" vertical-scroll-proportion="0.3321859">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/hangman/assets/js/hangman-config.js">
+    <entry file="file://$PROJECT_DIR$/games/hunt/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="606" selection-end="606" vertical-scroll-proportion="-1.3503522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/hangman/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="72" selection-start="791" selection-end="791" vertical-scroll-proportion="0.35714287" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/cavemandilema/assets/js/coe-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="182" selection-start="4843" selection-end="4843" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/securitypost/millionaire.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="455" column="4" selection-start="14131" selection-end="14338" vertical-scroll-proportion="-6.096774">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/hangman/assets/css/coe-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="23" selection-start="4875" selection-end="4875" vertical-scroll-proportion="0.5392157">
+        <state line="158" column="35" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-0.88123924">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/cavemandilema/assets/js/coe-main.js">
+    <entry file="file://$PROJECT_DIR$/img/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/4ii.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/4cc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/1cc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/3cc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2cc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/backgroundsize.htc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="45" selection-start="4019" selection-end="4304" vertical-scroll-proportion="0.48856208">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/testdata.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="778" selection-end="778" vertical-scroll-proportion="0.52587646">
+        <state line="10" column="25" selection-start="358" selection-end="358" vertical-scroll-proportion="0.25041735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configuration.js">
+    <entry file="file://$PROJECT_DIR$/question-bank.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="556" selection-end="556" vertical-scroll-proportion="0.050083473">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor/modules/quiz/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="19" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.10016695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/securitypost/millionaire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="18" selection-start="3130" selection-end="3130" vertical-scroll-proportion="0.47332186">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="23" selection-start="2856" selection-end="2856" vertical-scroll-proportion="-12.5161295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/cavemandilema/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="61" selection-start="906" selection-end="906" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/hunt/assets/css/coe-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="25" selection-start="2634" selection-end="2634" vertical-scroll-proportion="-42.51613">
+        <state line="1087" column="40" selection-start="27666" selection-end="27666" vertical-scroll-proportion="0.94991654">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="43" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.41197184">
+        <state line="184" column="23" selection-start="5157" selection-end="5157" vertical-scroll-proportion="0.35915494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/adaptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="836" column="35" selection-start="32281" selection-end="32281" vertical-scroll-proportion="-11.419354">
+          <folding>
+            <marker date="1424164492000" expanded="true" signature="4089:4119" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="4692:4705" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="9115:9128" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="10144:10157" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="23363:23375" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="23488:23500" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="23896:23908" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="24357:24369" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="24492:24504" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="26025:26037" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="26386:26394" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="26854:26865" placeholder="..." />
+            <marker date="1424164492000" expanded="true" signature="28418:28430" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="28" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.94991654">
           <folding />
         </state>
       </provider>

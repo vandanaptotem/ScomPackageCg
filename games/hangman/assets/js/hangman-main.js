@@ -18,7 +18,7 @@ String.prototype.replaceAt=function(index, character) {
 }
 
 var node = 0, score= 0, time= 0, question;
-var launchpad, mainPage,leftPanel, messages, transitions, strcompare="",qcount=0, quesbank = [], gcount=0;
+var launchpad, mainPage,leftPanel, messages, transitions, strcompare="",qcount=0, quesbank = [], gcount=5;
 
 $(function(){
    initGame();
@@ -50,15 +50,14 @@ function initGame() {
         return false;
     });
 
+    quesbank = shuffle(Question.getAllByWeight(6));
+
     $("#start").unbind('click').on("click", function() {
-        Question.all = shuffle(Question.all);
-        for(i in Question.all)
-            quesbank.push(Question.all[i]);
-		gcount = Question.all.length;
         $("#launchpad").fadeOut();
         $("#mainPage").fadeIn();
         paneldisplay();
         playQuiz();
+        displayMessage("",1);
     });
 
 
@@ -72,9 +71,10 @@ function paneldisplay() {
     $("#answerPanel").show();
     $("#letterPanel").show();
     $("#quiz").show();
-	for(var i=0; i<$(".letter-block").length; i++) {
-			letterPanel[$(".letter-block").eq(i).attr("id")].setState("default");
-		}
+	setTimeout( function() {
+        for(var i=0; i<$(".letter-block").length; i++)
+            letterPanel[$(".letter-block").eq(i).attr("id")].setState("default");
+    }, 200);
 }
 
 function playQuiz() {
@@ -168,7 +168,9 @@ function checkAnswer(answer, alphabet, obj) {
         else {
             count++;
             leftPanel.statue.setState(count+"");
-            displayMessage("Aha! You have lost her! Try again to seek her blessings!", 2);
+            setTimeout(function() {
+                displayMessage("Aha! You have lost her! Try again to seek her blessings!", 2);
+            }, 1500);
         }
     }
 }
@@ -181,12 +183,14 @@ function displayMessage(str,n) {
     if(n==1) {
         $("#messageBox").append("<span id='continue'>Continue</span>");
         $("#continue").unbind('click').on('click', function() {
-
+            window.parent.modale_last();
+            parent.$("#story-zone-close").trigger('click').trigger('click');
         });
     }
     if(n==2) {
         $("#messageBox").append("<span id='try-again'>Try Again</span>");
         $("#try-again").unbind('click').on('click', function() {
+            quesbank = shuffle(Question.getAllByWeight(6));
             $("#start").trigger('click');
             $("#messages").fadeOut();
             $(".letter-block").removeClass("no-click");
@@ -201,6 +205,7 @@ function displayMessage(str,n) {
             parent.$("#story-zone-close").trigger('click').trigger('click');
         });
     }
+
     $("#messages").fadeIn();
 }
 

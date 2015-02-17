@@ -105,10 +105,10 @@ body.story-page {
 
 #story-zone-close {
     position: absolute;
-    left: 89%;
-    top: 3%;
+    left: 83%;
+    top: 11%;
     width: 10%;
-    z-index: 3;
+    z-index: 1;
 }
 
 #story-zone-close img {
@@ -318,6 +318,7 @@ a.zone-button:visited{
     width: 26%;
     /* height: 76px; */
     margin-left: 82%;
+    cursor:pointer;
     /* background: url(../img/start_button.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -331,6 +332,7 @@ a.zone-button:visited{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 7%;
+    cursor: pointer;
 
 }
 #mountain_first{
@@ -519,7 +521,6 @@ a.zone-button:visited{
 {
     top: 17%;
     width: 50%;
-    cursor: pointer;
     position: absolute;
     /* background: url(../img/start_button.png); */
     z-index: 1;
@@ -650,47 +651,46 @@ a.zone-button:visited{
 
 .modal-main
 {
-    background-color: white;
-    font-size: 0.9em;
-    left: 30%;
-    /*padding: 1%;*/
+    height: 480px;
+    width:640px;
+    top:10%;
+    left:25%;
     position: absolute;
-    top: 22%;
-    width: 38%;
+    z-index: 3;
+    display: table;
 }
-.modal-text
-{
-    text-align: left;
-    /*padding: 2%;*/
 
+.modal-main img {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
 }
-.ack-btn-box
+
+#ack-btn
 {
-    align-content: center;
-    padding-left: 35%;
-    padding-bottom: 2%;
-    color: white;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: 77%;
+    right: 16%;
+    cursor:pointer;
 }
-.ack-btn
-{
-    background-color: #4B72D5;
-    border: 0px;
-    width: 40%;
-    padding: 2%;
+
+#ack-date{
+    top: 80.75%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    left: 24%;;
 }
-.modal-text p
-{
-    text-align: left;
-    padding: 0 4%;
-}
+
 #left_slide_btn{
-    /*background-image: ;*/
-    /*background: url(../img/circle_next_arrow.png);*/
 
 }
 #right_slide_btn{
-    /*background-image: ;*/
-    /*background: url(../img/circle_next_arrow.png);*/
 
 }
 #instruction_table{

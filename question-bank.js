@@ -1006,7 +1006,7 @@ questionbank.questions = [
         subslide:2
     },
     {
-        name: "Under Star's business entertainment policy, what is the maximum amount per attendee per meal that a private commercial employee may spend?",
+        name: "Under Star's business entertainment policy, the maximum amount per attendee per meal that a private commercial employee may spend is _____ thousand.",
         weight: 5,
 
         opta: "Rs. 5,000",
@@ -1029,45 +1029,22 @@ questionbank.questions = [
         subslide:3
     },
     {
-        name: "Which of the following could be perceived as a bribe?",
+        name: "The act of giving or receiving anything of value with the intention of influencing the recipient in some way favourable to the party who is giving is termed as a ...",
         weight: 6,
 
-        opta: "A salesman hosting an agency executive for dinner to discuss business without intending to get business as quid pro quo",
-        optacorrect: "false",
-        optapoints: "0",
+        opta: "Bribe",
+        optacorrect: "true",
+        optapoints: "10",
 
-        optb: "Giving a gift of nominal value to a client on the occasion of his wedding",
+        optb: "Gift",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "An employee accompanying a client for a company sponsored event   ",
+        optc: "Donation",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "Jewellery from a vendor who has a project lined up for your approval",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide:2,
-        subslide:6
-    },
-    {
-        name: "Bribery, in the context of Star India may be completely defined as?",
-        weight: 6,
-
-        opta: "Bribery is the act of giving something with the intention of influencing the recipient in some way favourable to the party providing the bribe",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Bribery is the act of directly/indirectly giving, offering or promising to give - or accepting or soliciting - anything of value (including but not limited to cash payments) if the purpose is to improperly induce the recipient to take (or to refrain from taking) action that would bestow a commercial benefit or advantage on Star, its affiliates or any other party.",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "Bribery is the act of receiving something with the intention of influencing the recipient in some way favourable to the party providing the bribe",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Bribery is the act of gifting employees by the company to remain silent on the underhand actions of the company in its daily affairs.",
+        optd: "Exemption",
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -1075,68 +1052,45 @@ questionbank.questions = [
         subslide:6
     },
     {
-        name: "Which of the following is not a violation of the CG code?",
+        name: "Hosting a potential or actual client for a meal or drinks",
         weight: 6,
 
-        opta: "Accept a perfume worth Rs. 3,000 as a wedding gift from a third party after reporting it to the HOD as long as you do not involve yourself in any negotiations with the mentioned third party.",
+        opta: "Entertainment Expenses",
         optacorrect: "true",
         optapoints: "10",
 
-        optb: "Becoming a director in your brother's company without permission from the CGC",
+        optb: "",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Becoming a paid creative consultant for an agency",
+        optc: "",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "Participate in the evaluation of your spouse's father's company as a vendor",
+        optd: "",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:2
+        slide:4,
+        subslide:1
     },
     {
-        name: "When would a set of tickets be considered entertainment?",
+        name: "The cumulative value of gifts to a single person that can be given in a financial year is ________ thousand.",
         weight: 6,
 
-        opta: "An employee accompanies of equivalent designation from a third party for a concert with tickets provided by Star",
+        opta: "Fifteen",
         optacorrect: "true",
         optapoints: "10",
 
-        optb: "An employee giving concert tickets to a third party",
+        optb: "",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "An employee providing tickets for a third party and his family",
+        optc: "",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "An employee providing tickets to a play to a third party and his family",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:5,
-        subslide:5
-    },
-    {
-        name: "What is the cumulative value of gifts to a single person that can be given in a financial year?",
-        weight: 6,
-
-        opta: "15,000",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "50,000",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "20,000",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "25,000 ",
+        optd: "",
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -1144,270 +1098,49 @@ questionbank.questions = [
         subslide:4
     },
     {
-        name: "Whose approval is needed in the case of prizes, cash or its equivalents?",
+        name: "Under Star's business entertainment policy, the maximum amount per attendee per meal that a private commercial employee may spend is _____ thousand.",
         weight: 6,
 
-        opta: "No approval needed",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "The HOD",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "The CGC",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "The CGC, only if the value is above 25,000" ,
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:3,
-        subslide:4
-    },
-    {
-        name: "Star acquires a set of complimentary tickets as part of the broadcaster agreement which is being gifted to a third party. No value for these tickets have been provided. What is the value to be assigned?",
-        weight: 6,
-
-        opta: "The ticket priced the highest",
+        opta: "Five",
         optacorrect: "true",
         optapoints: "10",
 
-        optb: "The average ticket cost of the event",
+        optb: "Ten",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "The ticket priced the lowest",
+        optc: "Twenty",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "Zero",
+        optd: "No Limit",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:6
-    },
-    {
-        name: "Which of these is an instruction for Star provided tickets?",
-        weight: 6,
-
-        opta: "All tickets are non transferable without prior consent. Under no circumstances may recipients of our tickets transfer the tickets to anyone without consent of Star.",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Under no circumstances may the recipient sell or trade the tickets directly or indirectly.",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "If a recipient determines they cannot use the tickets prior to the event, they must return the tickets to Star",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "All of the above",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide:5,
-        subslide:2
-    },
-
-
-    {
-
-        name: "You may receive gifts of a non government entity...",
-        weight: 6,
-
-        opta: "After informing the HOD as long as the value of the gift is less than Rs. 6,000.",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "After informing the HOD as long as the value of the gift is less than Rs. 10,000.",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "As long as the value of the gift is less than Rs. 6,000.",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "As long as the value of the gift is less than Rs. 10,000.",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:3,
-        subslide:6
-    },
-
-
-    {
-
-        name: "You may receive gifts of a government entity...",
-        weight: 6,
-
-        opta: "With the approval of the CGC.",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "After informing the HOD as long as the value of the gift is less than Rs. 10,000.",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "After informing the HOD as long as the value of the gift is less than Rs. 6,000.",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "None of the above.",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:3,
-        subslide:6
-    },
-
-
-    {
-
-        name: "You may not give cash as a gift to a third party but it is okay to give ...",
-        weight: 6,
-
-        opta: "Cash gift certificates.",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Gift vouchers.",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Pre-paid cash cards.",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "None of the above.",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide:3,
+        slide:4,
         subslide:3
     },
-
     {
-
-        name: "In the case of tickets being used for gifting, you must ...",
+        name: "A High Court judge will be termed as a ...",
         weight: 6,
 
-        opta: "Send the tickets gift wrapped.",
+        opta: "",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Send the recipients instructions on how the tickets have to be used.",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "Accompany the recipient to the event.",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "None of the above.",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:5,
-        subslide:6
-    },
-
-    {
-        name: "What step is to be taken when Star directly acquires TV rights from Doordarshan?",
-        weight: 6,
-
-        opta: "Getting CGC approval",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Due diligence of Doordarshan",
+        optb: "",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "None of these steps",
+        optc: "Government Official",
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Clearance from Ministry of Social Affairs ",
+        optd: "",
         optdcorrect: "false",
         optdpoints: "0",
 
         slide:1,
-        subslide:7
+        subslide:5
     },
-
-    {
-        name: "What step is to be taken if the Indian Ministry of External Affairs wants to advertise on Star plus using an intermediary?",
-        weight: 6,
-
-        opta: "Get CGC approval",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Due diligence of Doordarshan",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Due diligence of the intermediary",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "Due diligence of the Ministry of External Affairs ",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:1,
-        subslide:7
-    },
-    {
-        name: "What action will Star India take if an employee reports a violation in good faith but it turns out to be false?",
-        weight: 6,
-
-        opta: "The employee will be fired on the spot",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "The employee will pay a hefty fine",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "No action will be taken",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "The employee will be blacklisted and publicly censured",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:1,
-        subslide:4
-    },
-    {
-        name: "Star has to sponsor the travel of a government official for an event. Which of these is a must?",
-        weight: 6,
-
-        opta: "Due diligence of the government official.",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: " Get clearance from the Ministry of Agriculture",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "CGC approval for the travel",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "Clearance from the Ministry of Corporate Affairs",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:1,
-        subslide:7
-    }
-
 ];

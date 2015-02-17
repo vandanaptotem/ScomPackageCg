@@ -14,6 +14,8 @@ function initPage() {
     if(isNaN(time))
         time  = 0;
 
+    $("body").append('<div class="modal-main"></div>');
+    $(".modal-main").hide();
     $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background + ')');
     $('#story-zone').css({
         backgroundImage: 'url(img/' + (platformData.formal ? storyConfig.zone.formalBack : storyConfig.zone.casualBack) + ')',
@@ -57,7 +59,6 @@ function addArrow(){
 }
 
 function startPagebtn(){
-//    modale_last();
 
     $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
     $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
@@ -765,9 +766,7 @@ function changeNodeState(){
             $("#story-node-" + (i + 1) + " img").attr("src", 'img/' + curnode.icon_active);
             $("#story-node-" + (i + 1)).removeClass("incomplete-node").addClass("click-active this-node");
         }
-        else {
-            modale_last();
-        }
+
     }
 
     currentNode++;
@@ -817,25 +816,38 @@ function appendTime(gametime){
 
 function modale_last()
 {
-    var  d=new Date();
-    var date= d.toLocaleDateString()
-    $("#story-wrapper").append('<div class="modal-main"></div>');
-    $(".modal-main").append('<div class="modal-text">'+
+    $(".modal-main").empty();
+    $("body").css("backgroundColor", "black");
+    $("#story-wrapper").css({opacity: 0.3, filter: "alpha(opacity=30)"});
+    $(".modal-main").fadeIn();
+    var  d = new Date();
+    d = d.toLocaleDateString();
+    $(".modal-main").empty().append("<img src='img/final.jpg' />");
 
-        '<div class="header-modale"><h4 style="margin: 0px;padding-left: 2px;">'+'Acknowledgement' +'</h4></div> '+'<p>'
-        +'"I have received a copy of STAR India BU’s Corporate Governance Policies and Procedures.'+
-        'These Policies and Procedures outline certain responsibilities that I have to STAR INDIA while performing ' +
-        'the services to them. These Policies and Procedures are not intended to cover every situation that may ' +
-        'arise during performance of my services to STAR INDIA; I will consult with the Corporate Governance ' +
-        'committee of STAR INDIA if any questions arise.' +'</p>'+'<p>'+
-        'I will familiarize myself with the contents of the policies and procedures and comply with them.”' +'</p><p>'+
-        date+'</p></div>'+'<div class="ack-btn-box">'+'<input type="button" class="ack-btn" value="OK">'+'</div>');
-
-    $(".ack-btn").unbind('click').on('click', function() {
+    setTimeout(function() {
         $(".modal-main").fadeOut(500);
-        setCompletionStatus("completed");
-        scormCommit();
-    });
+
+        setTimeout(function() {
+            $(".modal-main").empty();
+            $(".modal-main").append("<img src='img/acknowledgement.jpg'/>");
+            $(".modal-main").append("<div id='ack-btn'></div>");
+            $(".modal-main").append("<span id='ack-date'>" + d + "</span>");
+
+            $("#ack-btn").unbind('click').on('click', function() {
+                $("#story-wrapper").css({opacity: 1, filter: "alpha(opacity=100)"});
+                $('.modal-main').fadeOut(500);
+                setCompletionStatus("completed");
+                scormCommit();
+            });
+
+            $(".modal-main").fadeIn(500);
+        },500);
+    }, 2500);
+
+
+
+
+
 }
 
 function openbackPack(n,sub){
@@ -847,3 +859,4 @@ function openbackPack(n,sub){
 
 
 }
+

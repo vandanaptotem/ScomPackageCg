@@ -131,12 +131,12 @@ img {
 
 #leftPanel
 {
-    height: 62%;
+    height: 50%;
 	width: 35%;
 	display: none;
 	padding: 5%;
 	left: 6%;
-	top: 3%;
+	top: 10%;
 }
 
 #rightPanel
@@ -154,7 +154,8 @@ img {
     display: none;
     height: 20%;
     left: 54.5%;
-    top: 41%;
+    top: 49%;
+    line-height: 25px;
     width: 37%;
     text-align: center;
     letter-spacing: 3px;
@@ -211,7 +212,7 @@ img {
 {
     height: auto;
     left: 54.5%;
-    top: 20%;
+    top: 9%;
     width: 37%;
     display: none;
     background: none;
@@ -247,14 +248,14 @@ img {
     position: static;
 }
 
-.st-0 { opacity: 1.0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
-.st-1 { opacity: 0.8; filter:alpha(opacity=80)}
-.st-2 { opacity: 0.7; filter:alpha(opacity=70)}
-.st-3 { opacity: 0.6; filter:alpha(opacity=60)}
-.st-4 { opacity: 0.5; filter:alpha(opacity=50)}
-.st-5 { opacity: 0.4; filter:alpha(opacity=40)}
-.st-6 { opacity: 0.3; filter:alpha(opacity=30)}
-.st-7 { opacity: 0.2; filter:alpha(opacity=20)}
+.st-0 { opacity: 0.98; filter:alpha(opacity=98); }
+.st-1 { opacity: 0.84; filter:alpha(opacity=84); }
+.st-2 { opacity: 0.70; filter:alpha(opacity=70); }
+.st-3 { opacity: 0.56; filter:alpha(opacity=56); }
+.st-4 { opacity: 0.42; filter:alpha(opacity=42); }
+.st-5 { opacity: 0.28; filter:alpha(opacity=28); }
+.st-6 { opacity: 0.14; filter:alpha(opacity=14); }
+.st-7 { opacity: 0.00; filter:alpha(opacity=00); }
 
 #messages {
     display: none;
