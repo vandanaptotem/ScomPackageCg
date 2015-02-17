@@ -2,15 +2,20 @@
     background:#99664f;
     border: 3px solid #ffffff;
     cursor: pointer;
-    display: block;
+    display: table;
     font-size: 1em;
+<<<<<<< HEAD
     height: 67px;
+=======
+    height: 59px;
+>>>>>>> 6824b35122410ffbf9d4331ec1131593f2e34fd3
     opacity: 0.8;
     /*padding: 5%;*/
     margin-top: 1%;
     padding-left: 2%;
     overflow-y: auto;
     padding-top: 2%;
+	text-align: center;
     position: static;
     width: 100%;
     list-style-type: none;
@@ -22,11 +27,25 @@
     padding: 0;
 }
 #options {
+<<<<<<< HEAD
     width: 100%;
 }
 
 #statement-area {
     width: 100%;
+=======
+    width: 93%;
+}
+
+#options span {
+display: table-cell;
+vertical-align: middle;
+}
+
+
+#statement-area {
+    width: 90%;
+>>>>>>> 6824b35122410ffbf9d4331ec1131593f2e34fd3
 }
 #switch1,
 #switch2,#switch3,#switch4,#switch5,#switch6
@@ -62,7 +81,11 @@
     padding: 0 5%;
     position: absolute;
     top: 20%;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 90%;
+>>>>>>> 6824b35122410ffbf9d4331ec1131593f2e34fd3
     text-align: center;
 }
 
@@ -81,6 +104,10 @@
     position: absolute;
     top: 66%;
     width: 24%;
+<<<<<<< HEAD
     margin-top: 3%;
+=======
+    margin-top: 41%;
+>>>>>>> 6824b35122410ffbf9d4331ec1131593f2e34fd3
     text-align: center;
 }

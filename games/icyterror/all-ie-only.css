@@ -30,10 +30,17 @@
     display: table !important;
     top: 11%;
     font-size: 1.5em;
+<<<<<<< HEAD
     width: 60%;
     text-align: center;
     padding-right: 5%;
     padding-left: 5%;
+=======
+    width: 90% !important;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 4%;
+>>>>>>> 6824b35122410ffbf9d4331ec1131593f2e34fd3
 }
 #endmessage span {
     position: absolute;
