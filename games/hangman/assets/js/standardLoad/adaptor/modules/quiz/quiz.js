@@ -84,7 +84,6 @@ Question.getAllByWeight = function(weight) {
     var questions = $.grep(Question.all, function(a) {
         return (a.weight == weight);
     });
-    console.log(questions);
     return questions;
 }
 
@@ -93,6 +92,26 @@ Question.getAnswer = function(question) {
     for(var i=0; i<tmp.length; i++)
         if(tmp[i].correct==="true")
             return tmp[i].name;
+}
+
+Question.getBySubCat = function(weight, subcategory) {
+
+    var questions = $.grep(Question.all, function(a) {
+        if(a.weight==weight && a.subslide == subcategory)
+            return a;
+    });
+
+    return questions[randBetween(0, questions.length-1)];
+}
+
+Question.getByWeightExSubcat = function(weight, subcat) {
+
+    var questions = $.grep(Question.all, function(a) {
+        if(a.weight==weight && a.subslide != subcat)
+            return a;
+    });
+
+    return questions[randBetween(0, questions.length-1)];
 }
 
 Question.showQuizPanel = function (obj, question) {

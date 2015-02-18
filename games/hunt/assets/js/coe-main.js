@@ -70,7 +70,6 @@ function initGame() {
     $("#instructions").unbind('click').on("click", function() {
         $("#launchpad").fadeOut();
         $("#instruction").fadeIn();
-
     });
 
 //    $("#end_game").unbind('click').on("click", function() {

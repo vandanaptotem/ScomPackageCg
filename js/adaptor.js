@@ -793,7 +793,7 @@ function gameTimer(n){
 function appendScore(gamescore){
     score+=gamescore;
     $("#score_node").html(parseInt(score));
-    setScore(parseInt(score/100));
+    setScore(parseInt(Math.floor(score/100)));
     scormCommit();
 }
 

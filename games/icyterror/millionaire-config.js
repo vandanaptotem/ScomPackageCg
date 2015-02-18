@@ -160,7 +160,7 @@ config.lifelinepanel = {
                                                 "<div id='poll-text'  class='lifeline-text'>" +
                                                     "<span>This Lifeline shows you the Audience's opinion for this question in a graph format.</span>" +
                                                 "</div>" +
-                                                "<canvas id='poll-chart'></canvas>" +
+                                                "<div id='poll-chart'></div>" +
                                                 "<div id='ok' class='button'>OK</div>" +
                                                 "<div id='cancel' class='button'>Cancel</div>" +
                                                 "<div id='close' class='button'>Close</div>" +

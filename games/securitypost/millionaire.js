@@ -28,12 +28,14 @@ var time = 0;
 var pollSelected;
 var halfSelected;
 var changeSelected;
-var flag;
+var flag=0;
 var pointsEarned;
 var answered;
 var e;
 var quesbank=[];
 var correctmessage;
+var question;
+var gcount = 1;
 
 
 
@@ -108,26 +110,28 @@ function initGame() {
     pollSelected = false;
     halfSelected = false;
     changeSelected = false;
-    flag = 1;
     pointsEarned = 0;
     answered = false;
     gameOn = true;
-//    quizShuffle();
     showStartPage();
-    quesbank=Question.getAllByWeight(1, 4);
-
+    if(flag==0) {
+        quesbank = [];
+        quesbank=Question.getAllByWeight(1, 3);
+        quesbank = shuffle(quesbank);
+    }
+    else {
+        quesbank = [];
+        for(var i=flag; i<5; i++) {
+            if(i==flag) {
+                quesbank.push(Question.getBySubCat(1, question.subslide));
+            }
+            else
+                quesbank.unshift(Question.getByWeightExSubcat(1,question.subslide));
+        }
+    }
 }
 
-//function quizShuffle() {
-//    for(var i in Question.all)  {
-//        Question.all[i].options = shuffle(Question.all[i].options);
-//    }
-//    Question.all = shuffle(Question.all);
-//}
-
 function showStartPage() {
-//    messagebox.setState('startpage');
-//    $("#messagebox").show();
 
     messagebox.setState('instructions');
 
@@ -216,7 +220,7 @@ function playGame() {
     $("#player").find('img').attr('src', getImg("kbc-ladder-current"));
     lifelinepanel.setState('default');
     $("#lifelines .location").css({'pointer-events': "auto", 'cursor': "pointer"});
-    var  question=quesbank.pop();
+    question=quesbank.pop();
 
     $('#quiz').fadeIn(function () {
         Question.showQuizPanel(quiz, question);
@@ -226,23 +230,21 @@ function playGame() {
         answerHover();
     });
     $(question).unbind('answered').on('answered', function (e, data) {
+        flag++;
         if(answered == false) {
             answered = true;
-            flag++;
-            if(player.location().name == "ladder3")
-            gameOn = false;
+            if(gcount==3)
+                gameOn = false;
             if (data.correct == "true") {
+                gcount++;
                 $("#correctmessage").fadeIn(500).delay(2000).fadeOut(500);
-//                parent.markQuestionAttemptCorrect();
                 $(data.$this).find('img').attr('src', getImg("kbc-answer-correct-back"));
                 setTimeout(function() {
                     player.location(ladder.nextLocation(player.location()));
                     ladder[ladder.prevLocation(player.location()).name].setState('complete');
-                    var playerLocation = parseInt(player.location().name.split('ladder')[1]);
                     if (gameOn)
                         playGame();
                     else {
-
                         endGame("Good going! You may proceed now to the next checkpoint!", question);
                         window.parent.setNodeCompleted(node);
                         var timr=gameTimer('stop');
@@ -259,7 +261,7 @@ function playGame() {
                 setTimeout(function() {
                     player.lives.is(-1);
                 }, 500);
-
+                flag = gcount;
             }
         }
     });
@@ -328,7 +330,6 @@ function playGame() {
 
             $("#ok").unbind('click').on('click', function() {
                 changeSelected = true;
-                flag++;
                 playGame();
                 lifelines.lifeline3img.setState('complete');
                 lifelinepanel.setState('default');
@@ -341,31 +342,8 @@ function playGame() {
     });
 }
 
-function incFlag() {
-    flag++;
-    if(flag == Question.all.length){
-        flag = 0;
-    }
-
-}
-
 function usePoll(question) {
     var sum = 0;
-    var ctx = $("#poll-chart").get(0).getContext("2d");
-    var data = {
-        labels: ["A", "B", "C", "D"],
-        datasets: [
-            {
-                label: "Poll",
-                fillColor: "rgba(61, 37, 16,0.5)",
-                strokeColor: "rgba(61, 37, 16,0.8)",
-                highlightFill: "rgba(61, 37, 16,0.75)",
-                highlightStroke: "rgba(61, 37, 16,1)",
-                data: []
-            }
-        ]
-    };
-
     var pollData = [];
 
     for(var i = 0; i < question.options.length; i++) {
@@ -376,29 +354,47 @@ function usePoll(question) {
                 if((sum+random) > 100)
                     random -= ((sum+random)-100);
                 sum += random;
-                data.datasets[0].data.push(random);
                 pollData.push(random);
-//                data.labels[i] = data.labels[i]+" - "+random+"%";
             } else {
                 var random = randBetween(0, 25);
                 if((sum+random) > 100)
                     random -= ((sum+random)-100);
                 sum += random;
-                data.datasets[0].data.push(random);
                 pollData.push(random);
-//                data.labels[i] = data.labels[i]+" - "+random+"%";
             }
         } else {
             random = (100-sum);
-            data.datasets[0].data.push(random);
             pollData.push(random);
-//            data.labels[i] = data.labels[i]+" - "+random+"%";
         }
     }
 
-    var myBarChart = new Chart(ctx).Bar(data, {
+    var data = google.visualization.arrayToDataTable([
+        ['Option', 'Votes', { role: 'style' }],
+        ['A ', pollData[0], '#222'],            // RGB value
+        ['B ', pollData[1], '#222'],            // English color name
+        ['C ', pollData[2], '#222'],
+        ['D ', pollData[3], '#222']
+    ]);
 
-    });
+    var options = {
+        width: "100%",
+        height: "100%",
+        backgroundColor: "transparent",
+        legend: { position: "none" },
+        hAxis: {
+            title: 'Option'
+        },
+        vAxis: {
+            title: 'Votes (%)',
+            minValue: 0,
+            maxValue: 100
+        }
+    };
+
+    var chart = new google.visualization.ColumnChart(
+        document.getElementById('poll-chart'));
+
+    chart.draw(data, options);
 }
 
 function useHalf(question) {
@@ -433,7 +429,6 @@ function endGame(message, question) {
             cursor:"pointer",
             color:"white",
             "font-size":"20px"
-
         });
         $(".btn-ok").unbind('click').on('click', function () {
             parent.$("#story-zone-close").trigger('click').trigger('click');
@@ -455,7 +450,6 @@ function endGame(message, question) {
     });
     $("#backpack").unbind('click').on('click', function() {
         window.parent.openbackPack(question.slide, question.subslide);
-        parent.$("#story-zone-close").trigger('click').trigger('click');
     });
 }
 
@@ -487,4 +481,9 @@ function gameTimer(n){
         clearInterval(e);
         return time;
     }
+}
+
+function shuffle(o) {
+    for (var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
 }

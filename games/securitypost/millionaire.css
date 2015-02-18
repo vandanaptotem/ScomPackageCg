@@ -433,12 +433,12 @@ img {
 }
 
 #poll-chart {
-    height: 120px !important;
-    width: 130px !important;
+    height: 150px !important;
+    width: 160px !important;
     display: none;
-    margin-bottom: 5%;
-    pointer-events: none;
+    margin-bottom: 2%;
 }
+
 #correctmessage
 {
     /*background-color: red;*/

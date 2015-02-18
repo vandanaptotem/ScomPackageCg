@@ -62,7 +62,7 @@ defaultText["kbc-text-instructions"] = "<p>Select the correct answer from the op
     "<p>1. Poll: Tells you what most people think is the correct answer.</p> " +
     "<p>2. 50-50: Removes two incorrect options.</p> " +
     "<p>3. Change Question: Replaces the existing question with a new one.</p> "+
-    "<p>So, go ahead and try to answer all correctly to move forward!</p> "
+    "<p>So, go ahead and try to answer all correctly to move forward!</p> ";
 
 
 

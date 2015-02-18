@@ -18,7 +18,7 @@ String.prototype.replaceAt=function(index, character) {
 }
 
 var node = 0, score= 0, time= 0, question;
-var launchpad, mainPage,leftPanel, messages, transitions, strcompare="",qcount=0, quesbank = [], gcount=5;
+var launchpad, mainPage,leftPanel, messages, transitions, strcompare="",qcount=0, quesbank = [], flag=0;
 
 $(function(){
    initGame();
@@ -50,14 +50,17 @@ function initGame() {
         return false;
     });
 
-    quesbank = shuffle(Question.getAllByWeight(6));
+    if(flag==0) {
+        quesbank = [];
+        quesbank=Question.getAllByWeight(6, 4);
+        quesbank = shuffle(quesbank);
+    }
 
     $("#start").unbind('click').on("click", function() {
         $("#launchpad").fadeOut();
         $("#mainPage").fadeIn();
         paneldisplay();
         playQuiz();
-        displayMessage("",1);
     });
 
 
@@ -81,7 +84,7 @@ function playQuiz() {
 
     $("#options").remove();
 	
-    question= quesbank.pop();
+    question = quesbank.pop();
     var answer=Question.getAnswer(question);
     generateAnswerBlock(answer);
 
@@ -119,6 +122,7 @@ function generateAnswerBlock(answer)
 function checkAnswer(answer, alphabet, obj) {
 
     var count=0;
+    flag++;
 
     for(var i=0; i<answer.length; i++)
     {
@@ -144,7 +148,7 @@ function checkAnswer(answer, alphabet, obj) {
             	leftPanel.statue.setState(count+"");
         	}
 		
-        if(qcount==gcount) {
+        if(qcount==5) {
             displayMessage("Well done, Traveller! Only the righteous come this far! Go ahead and create history!", 1);
             window.parent.setNodeCompleted(node);
             var timr=gameTimer('stop');
@@ -171,6 +175,7 @@ function checkAnswer(answer, alphabet, obj) {
             setTimeout(function() {
                 displayMessage("Aha! You have lost her! Try again to seek her blessings!", 2);
             }, 1500);
+            flag=qcount;
         }
     }
 }
@@ -190,7 +195,16 @@ function displayMessage(str,n) {
     if(n==2) {
         $("#messageBox").append("<span id='try-again'>Try Again</span>");
         $("#try-again").unbind('click').on('click', function() {
-            quesbank = shuffle(Question.getAllByWeight(6));
+            if(flag!=0) {
+                quesbank = [];
+                for(var i=flag; i<5; i++) {
+                    if(i==flag) {
+                        quesbank.push(Question.getBySubCat(6, question.subslide));
+                    }
+                    else
+                        quesbank.unshift(Question.getByWeightExSubcat(6,question.subslide));
+                }
+            }
             $("#start").trigger('click');
             $("#messages").fadeOut();
             $(".letter-block").removeClass("no-click");
@@ -202,7 +216,6 @@ function displayMessage(str,n) {
         $("#messageBox").append("<span id='backpack'>Backpack</span>");
         $("#backpack").unbind('click').on('click', function() {
             window.parent.openbackPack(question.slide, question.subslide);
-            parent.$("#story-zone-close").trigger('click').trigger('click');
         });
     }
 

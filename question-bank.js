@@ -1142,5 +1142,5 @@ questionbank.questions = [
 
         slide:1,
         subslide:5
-    },
+    }
 ];

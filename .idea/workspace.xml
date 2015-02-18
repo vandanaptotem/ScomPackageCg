@@ -1,25 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="" />
+    <list default="true" id="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hangman/assets/img/spirit.png" afterPath="$PROJECT_DIR$/games/hangman/assets/img/spirit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/adaptor.js" afterPath="$PROJECT_DIR$/js/adaptor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hunt/assets/js/coe-main.js" afterPath="$PROJECT_DIR$/games/hunt/assets/js/coe-main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js" afterPath="$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/index.html" afterPath="$PROJECT_DIR$/games/icyterror/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/index.html" afterPath="$PROJECT_DIR$/games/securitypost/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/index.html" afterPath="$PROJECT_DIR$/games/yeti/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/integration.js" afterPath="$PROJECT_DIR$/games/icyterror/integration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/integration.js" afterPath="$PROJECT_DIR$/games/securitypost/integration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/integration.js" afterPath="$PROJECT_DIR$/games/yeti/integration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/millionaire-config.js" afterPath="$PROJECT_DIR$/games/icyterror/millionaire-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/millionaire-config.js" afterPath="$PROJECT_DIR$/games/securitypost/millionaire-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/millionaire-config.js" afterPath="$PROJECT_DIR$/games/yeti/millionaire-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/millionaire.css" afterPath="$PROJECT_DIR$/games/icyterror/millionaire.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/millionaire.css" afterPath="$PROJECT_DIR$/games/securitypost/millionaire.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/millionaire.css" afterPath="$PROJECT_DIR$/games/yeti/millionaire.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/millionaire.js" afterPath="$PROJECT_DIR$/games/icyterror/millionaire.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/millionaire.js" afterPath="$PROJECT_DIR$/games/securitypost/millionaire.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/millionaire.js" afterPath="$PROJECT_DIR$/games/yeti/millionaire.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question-bank.js" afterPath="$PROJECT_DIR$/question-bank.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" afterPath="$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/icyterror/modules/quiz/quiz.js" afterPath="$PROJECT_DIR$/games/icyterror/modules/quiz/quiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/securitypost/modules/quiz/quiz.js" afterPath="$PROJECT_DIR$/games/securitypost/modules/quiz/quiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/yeti/modules/quiz/quiz.js" afterPath="$PROJECT_DIR$/games/yeti/modules/quiz/quiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="CGStar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
-    <file path="/Dummy.txt" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424185075035" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424243174181" ignored="false" />
     <file path="/story-page.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424079104935" ignored="false" />
     <file path="/question-bank.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1423823672152" ignored="false" />
-    <file path="/quiz.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424109198349" ignored="false" />
-    <file path="/millionaire.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424076155003" ignored="false" />
-    <file path="/millionaire-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1423835895310" ignored="false" />
+    <file path="/quiz.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424187473168" ignored="false" />
+    <file path="/millionaire.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424242453094" ignored="false" />
+    <file path="/millionaire-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424212053547" ignored="false" />
     <file path="/millionaire.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424110517633" ignored="false" />
-    <file path="/adaptor.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424162534904" ignored="false" />
-    <file path="/index.html" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424161331952" ignored="false" />
+    <file path="/adaptor.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424204289837" ignored="false" />
+    <file path="/index.html" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424209411186" ignored="false" />
     <file path="/coe-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424086397175" ignored="false" />
     <file path="/coe-style.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424161721210" ignored="false" />
-    <file path="/a.dummy" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424077456834" ignored="false" />
+    <file path="/a.dummy" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424240680203" ignored="false" />
     <file path="/all-ie-only.css" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424084709362" ignored="false" />
-    <file path="$PROJECT_DIR$/games/yeti/millionaire.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424085527622" ignored="false" />
-    <file path="/hangman-main.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424164379966" ignored="false" />
+    <file path="/hangman-main.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424241117974" ignored="false" />
     <file path="/hangman-config.js" changelist="1a14bf7b-622a-43bf-bb9e-c734f368c6fa" time="1424106656251" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,30 +68,41 @@
       <file leaf-file-name="adaptor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/adaptor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="836" column="35" selection-start="32281" selection-end="32281" vertical-scroll-proportion="0.0">
+            <state line="809" column="49" selection-start="31404" selection-end="31404" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1424164492000" expanded="true" signature="4089:4119" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="4692:4705" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="9115:9128" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="10144:10157" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="23363:23375" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="23488:23500" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="23896:23908" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="24357:24369" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="24492:24504" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="26025:26037" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="26386:26394" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="26854:26865" placeholder="..." />
-                <marker date="1424164492000" expanded="true" signature="28418:28430" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="4089:4119" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="4692:4705" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="9115:9128" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="10144:10157" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="23363:23375" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="23488:23500" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="23896:23908" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="24357:24369" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="24492:24504" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="26025:26037" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="26386:26394" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="26854:26865" placeholder="..." />
+                <marker date="1424204292000" expanded="false" signature="28418:28430" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configuration.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/configuration.js">
+      <file leaf-file-name="millionaire.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/games/icyterror/millionaire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="28" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.8130217">
+            <state line="283" column="39" selection-start="8911" selection-end="8911" vertical-scroll-proportion="-0.079225354">
+              <folding>
+                <element signature="n#!!block;n#usePoll#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sco_api.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sco_api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="522" column="38" selection-start="13972" selection-end="13972" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,22 +126,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/games/cavemandilema/assets/css/all-ie-only.css" />
-        <option value="$PROJECT_DIR$/games/hunt/assets/css/all-ie-only.css" />
-        <option value="$PROJECT_DIR$/games/hunt/assets/js/coe-config.js" />
-        <option value="$PROJECT_DIR$/games/hangman/assets/js/hangman-config.js" />
-        <option value="$PROJECT_DIR$/games/hunt/assets/js/coe-main.js" />
-        <option value="$PROJECT_DIR$/games/cavemandilema/assets/js/coe-main.js" />
-        <option value="$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor/modules/quiz/quiz.js" />
+        <option value="$PROJECT_DIR$/games/securitypost/millionaire-config.js" />
+        <option value="$PROJECT_DIR$/games/securitypost/index.html" />
         <option value="$PROJECT_DIR$/games/securitypost/millionaire.css" />
-        <option value="$PROJECT_DIR$/games/cavemandilema/assets/css/coe-style.css" />
-        <option value="$PROJECT_DIR$/games/hunt/assets/css/coe-style.css" />
-        <option value="$PROJECT_DIR$/games/hangman/index.html" />
-        <option value="$PROJECT_DIR$/question-bank.js" />
-        <option value="$PROJECT_DIR$/games/hangman/assets/css/coe-style.css" />
+        <option value="$PROJECT_DIR$/games/yeti/millionaire.css" />
+        <option value="$PROJECT_DIR$/games/yeti/index.html" />
+        <option value="$PROJECT_DIR$/games/yeti/millionaire-config.js" />
+        <option value="$PROJECT_DIR$/games/icyterror/millionaire-config.js" />
+        <option value="$PROJECT_DIR$/games/icyterror/index.html" />
+        <option value="$PROJECT_DIR$/games/yeti/millionaire.js" />
+        <option value="$PROJECT_DIR$/games/securitypost/millionaire.js" />
         <option value="$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js" />
-        <option value="$PROJECT_DIR$/js/testdata.js" />
-        <option value="$PROJECT_DIR$/js/adaptor.js" />
+        <option value="$PROJECT_DIR$/games/icyterror/millionaire.js" />
+        <option value="$PROJECT_DIR$/games/securitypost/integration.js" />
+        <option value="$PROJECT_DIR$/games/icyterror/integration.js" />
+        <option value="$PROJECT_DIR$/games/yeti/integration.js" />
+        <option value="$PROJECT_DIR$/games/icyterror/millionaire.css" />
       </list>
     </option>
   </component>
@@ -113,7 +149,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-744" />
+    <option name="y" value="24" />
     <option name="width" value="1366" />
     <option name="height" value="744" />
   </component>
@@ -204,55 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hangman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGStar-vandana_ie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGStar-vandana_ie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="games" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hangman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGStar-vandana_ie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGStar-vandana_ie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="games" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hangman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="icyterror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,14 +254,14 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor" />
       <recent name="$PROJECT_DIR$/games/yeti/modules/quiz" />
       <recent name="$PROJECT_DIR$/games/icyterror/modules/quiz" />
+      <recent name="$PROJECT_DIR$/games/hangman/assets/js/standardLoad/adaptor" />
       <recent name="$PROJECT_DIR$/games/hunt/assets/js/standardLoad/adaptor/modules/quiz" />
       <recent name="$PROJECT_DIR$/CGCopies/CGStar_1/games/icyterror/img" />
     </key>
@@ -368,14 +356,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-744" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31231004" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3176292" sideWeight="0.6728972" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -463,104 +451,121 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/games/hangman/index.html">
+    <entry file="file://$PROJECT_DIR$/games/icyterror/millionaire-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="878" selection-end="878" vertical-scroll-proportion="-10.625" />
+        <state line="162" column="75" selection-start="8000" selection-end="8000" vertical-scroll-proportion="0.9137324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/yeti/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="9" selection-start="1283" selection-end="1446" vertical-scroll-proportion="0.84347826" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/yeti/millionaire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="433" column="0" selection-start="6387" selection-end="6503" vertical-scroll-proportion="0.3321859">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/icyterror/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.85565215" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/hunt/assets/js/coe-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="26" selection-start="2373" selection-end="2378" vertical-scroll-proportion="0.3321859" />
+        <state line="201" column="24" selection-start="5682" selection-end="5682" vertical-scroll-proportion="0.38235295">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/hunt/index.html">
+    <entry file="file://$PROJECT_DIR$/games/securitypost/millionaire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="452" column="27" selection-start="14056" selection-end="14056" vertical-scroll-proportion="0.38556337">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/hangman/assets/css/coe-style.css">
+    <entry file="file://$PROJECT_DIR$/games/yeti/millionaire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="35" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-0.88123924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/4ii.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/4cc.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/1cc.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/3cc.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/2cc.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/backgroundsize.htc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/testdata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="358" selection-end="358" vertical-scroll-proportion="0.25041735" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question-bank.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1087" column="40" selection-start="27666" selection-end="27666" vertical-scroll-proportion="0.94991654" />
+        <state line="432" column="28" selection-start="13655" selection-end="13655" vertical-scroll-proportion="0.38556337">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/hangman/assets/js/hangman-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="23" selection-start="5157" selection-end="5157" vertical-scroll-proportion="0.35915494" />
+        <state line="218" column="28" selection-start="6534" selection-end="6534" vertical-scroll-proportion="0.8609155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/icyterror/millionaire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="19" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.53872633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/yeti/integration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="76" selection-start="3059" selection-end="3059" vertical-scroll-proportion="0.6846405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/icyterror/integration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="52" selection-start="2940" selection-end="2940" vertical-scroll-proportion="0.66013074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/securitypost/integration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="2646" selection-end="3118" vertical-scroll-proportion="0.53431374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/securitypost/millionaire-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="69" selection-start="9652" selection-end="9657" vertical-scroll-proportion="0.33274648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sco_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="522" column="38" selection-start="13972" selection-end="13972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/adaptor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="836" column="35" selection-start="32281" selection-end="32281" vertical-scroll-proportion="0.0">
+        <state line="809" column="49" selection-start="31404" selection-end="31404" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1424164492000" expanded="true" signature="4089:4119" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="4692:4705" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="9115:9128" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="10144:10157" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="23363:23375" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="23488:23500" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="23896:23908" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="24357:24369" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="24492:24504" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="26025:26037" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="26386:26394" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="26854:26865" placeholder="..." />
-            <marker date="1424164492000" expanded="true" signature="28418:28430" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="4089:4119" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="4692:4705" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="9115:9128" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="10144:10157" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="23363:23375" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="23488:23500" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="23896:23908" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="24357:24369" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="24492:24504" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="26025:26037" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="26386:26394" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="26854:26865" placeholder="..." />
+            <marker date="1424204292000" expanded="false" signature="28418:28430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configuration.js">
+    <entry file="file://$PROJECT_DIR$/games/icyterror/millionaire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="28" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.8130217">
-          <folding />
+        <state line="283" column="39" selection-start="8911" selection-end="8911" vertical-scroll-proportion="-0.079225354">
+          <folding>
+            <element signature="n#!!block;n#usePoll#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
