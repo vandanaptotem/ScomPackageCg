@@ -255,7 +255,7 @@ function shuffle(o) {
 };
 
 function sendScore(){
-    return Math.floor(1050/time);
+    return 0.20;
 }
 
 function setNodeId(nodeId){

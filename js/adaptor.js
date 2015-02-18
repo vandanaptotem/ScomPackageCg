@@ -80,11 +80,11 @@ function startPagebtn(){
             scoredisp =score;
 
         if(time==0)
-            timedisp="00:00"
+            timedisp="00:00";
         else
             timedisp = formatTime(time)
 
-        $("#story-wrapper").append("<div id='story-scoreboard-container'><img src='img/scoreboard.png' /><span class='score_heading'>SCORE BOARD</span><span class='score_hurdle-name' id='score_node_name'></span><span class='score_hurdle-time' id='score_node_time'>" + timedisp + "</span><span class='score_hurdle-score' id='score_node'>"+scoredisp+"</span></div>");
+        $("#story-wrapper").append("<div id='story-scoreboard-container'><img src='img/scoreboard.png' /><span class='score_heading'>SCORE BOARD</span><span class='score_hurdle-name' id='score_node_name'></span><span class='score_hurdle-time' id='score_node_time'>" + timedisp + "</span><span class='score_hurdle-score' id='score_node'>"+scoredisp+" / 100</span></div>");
         $("#start_button").css("display","none");
         $("#story-compass").css("display","none");
         $("#story-nodes").css("display","block");
@@ -92,9 +92,10 @@ function startPagebtn(){
         $("#score_node_name" ).html(storyConfig.nodes[0].name);
         if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "") {
             currentNode = parseInt(scormGetValue("cmi.objectives.0.id"));
-            if(isNaN(currentNode))
+        if(isNaN(currentNode))
                 currentNode = 0;
-            changeNodeState();
+		
+		changeNodeState();
         }
     });
 
@@ -220,10 +221,10 @@ function getSubSlide(sub_slide_id,slide_id){
 function initInstructions(){
     $("#story-wrapper").append('<div class="instruction_content"  style="display: none" id="instruction_table">' +
             '<p>' +
-                 'You are in for an adventure! You start at the base of the Mount Everest and may your way up to the top.There would be obstacles to stop you or snowstorm to leave you stranded. But don worry! You will have a backpack to help you throughout the journey. Use it well!' +
+                 "You are in for an adventure! You start at the base of the Mount Everest and make your way up to the top. There would be obstacles to stop you or snowstorm to leave you stranded. But don't worry! You will have a backpack to help you throughout the journey. Use it well!" +
             '</p>' +
         '<p>' +
-                 'Your score will be displayed on the bottom left corner along with the time taken. Remember, the faster you play, the more you score! Also, you can earn bonus points by referring to the Backpack.' +
+                 'Your score will be displayed on the bottom left corner along with the time taken. Remember ... the faster you play, the more you score! Also, you can earn bonus points by referring to the Backpack.' +
         '</p>' +
 
 
@@ -445,7 +446,8 @@ function bindZoneSections(direction) {
         setTimeout(function () {
             var frm = $('.projector iFrame')[0].contentWindow;
             frm.setNodeId(nodeId);
-        }, 1000);
+			consoole.log ("nodeId: " + nodeId);
+        }, 2500);
     });
     zoneVideos.on('click', function () {
         showVideo($(this).attr("id").split("-")[2]);
@@ -757,24 +759,34 @@ function setNodeCompleted(n){
 
 function changeNodeState(){
 
-    for(var i=1;i<=currentNode;i++){
-        var nodeData = storyConfig.nodes[i-1];
-        $("#story-node-"+ i +" img").attr("src",'img/'+ nodeData.icon_complete);
-        $("#story-node-"+ i).removeClass( "incomplete-node this-node").addClass("complete-node");
-        if(i<6) {
-            var curnode = storyConfig.nodes[i];
-            $("#story-node-" + (i + 1) + " img").attr("src", 'img/' + curnode.icon_active);
-            $("#story-node-" + (i + 1)).removeClass("incomplete-node").addClass("click-active this-node");
-        }
+		for(var i=1;i<=currentNode;i++){
+			var nodeData = storyConfig.nodes[i-1];
+			$("#story-node-"+ i +" img").attr("src",'img/'+ nodeData.icon_complete);
+			$("#story-node-"+ i).removeClass( "incomplete-node this-node").addClass("complete-node");
+			if(i<6) {
+				var curnode = storyConfig.nodes[i];
+				$("#story-node-" + (i + 1) + " img").attr("src", 'img/' + curnode.icon_active);
+				$("#story-node-" + (i + 1)).removeClass("incomplete-node").addClass("click-active this-node");
+			}
 
-    }
+		}
 
     currentNode++;
-    addArrow();
-    $("#score_node_name" ).html(storyConfig.nodes[currentNode-1].name);
+
+    
+	if(currentNode<7) {
+		addArrow();
+		if($(".complete-node").length==6)
+			$("#arrow_pointer").hide();
+	}	
+		
+    
+	if(currentNode<7)
+		$("#score_node_name" ).html(storyConfig.nodes[currentNode-1].name);
 
     bindToNodes("click1", "click-active");
     bindToNodes("click2", "complete-node");
+	console.log(currentNode);
 }
 
 function gameTimer(n){
@@ -792,8 +804,8 @@ function gameTimer(n){
 
 function appendScore(gamescore){
     score+=gamescore;
-    $("#score_node").html(parseInt(score));
-    setScore(parseInt(Math.floor(score/100)));
+    $("#score_node").html((score*100) + " / 100");
+    setScore(score);
     scormCommit();
 }
 
@@ -835,6 +847,7 @@ function modale_last()
 
             $("#ack-btn").unbind('click').on('click', function() {
                 $("#story-wrapper").css({opacity: 1, filter: "alpha(opacity=100)"});
+                $("#arrow_pointer").fadeOut();
                 $('.modal-main').fadeOut(500);
                 setCompletionStatus("completed");
                 scormCommit();

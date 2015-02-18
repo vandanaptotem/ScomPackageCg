@@ -5,14 +5,14 @@ var platformData = {
         sequential: false,
         nodes: [
             {
-                description: "So, you're ready to climb the Everest? Let's see. Answer my questions and I'll let you pass.",
+                description: "So, you're ready to climb the Everest? Not so fast! You will have to go through a security check. Answer my questions and I'll let you pass.",
                 sequence: 1,
                 decks: [1],
                 games: [4],
                 videos: []
             },
             {
-                description: "Snowstorm? Can't see a thing ahead can you? I could help but I need your expert advice first. If you give me the correct advice, I will let you enter my cave.",
+                description: "Snowstorm! Can't see a thing ahead, Can you? I could help but I need your expert advice first. If you give me the correct advice, I will let you enter my cave.",
                 sequence: 2,
                 decks: [2],
                 games: [5],
@@ -40,7 +40,7 @@ var platformData = {
                 videos: []
             },
             {
-                description: "You've done well to come this far. Ready to plant your flag? Not so fast… I need to be sure that you deserve to be here. Answer my questions and I'll let you pass.",
+                description: "Welcome, Traveller! Many have come this far but only few could seek my blessings! Answer my questions and I shall bless you or else I shall disappear forever!",
                 sequence: 6,
                 decks: [6],
                 games: [1],
